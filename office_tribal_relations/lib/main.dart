@@ -313,33 +313,40 @@ ListView _buildSectionList(List<Sections> sections, context) {
     shrinkWrap: true,
     itemCount: sections.length,
     itemBuilder: (BuildContext context, int index) {
-      return new Column(
-        children: <Widget>[
-          new ListTile(
-            leading: Container(
-              transform: Matrix4.translationValues(-15.0, 0.0, 0.0),
-              padding: EdgeInsets.all(15),
-              color: Colors.green[900],
-              child: Text(
-                index.toString(),
-                style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
+      return Container(
+        child: ListTile(
+          //this makes the tile go edge to edge of the main container
+          contentPadding: EdgeInsets.symmetric(horizontal: 0.0),
+          title: Container(
+            child: Column(
+              children: <Widget>[
+                Container(
+                  //pull to the left
+                  alignment: Alignment(-1.0, 0.0),
+                  child: Container(
+                    //padding and color box around #
+                    padding: EdgeInsets.all(15),
+                    margin: EdgeInsets.fromLTRB(0, 15, 0, 15),
+                    color: Colors.green[900],
+                    child: Text(
+                      //the little # with green around it
+                      (index + 1).toString(),
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
                 ),
-              ),
-            ),
-            title: new Text(
-              (sections[index].content),
-              style: TextStyle(
-                  fontSize: 16,
-                  color: Colors.black),
+                Text(
+                  (sections[index].content),
+                  style:
+                      TextStyle(fontSize: 16, color: Colors.black, height: 1.5),
+                ),
+              ],
             ),
           ),
-          new Divider(
-            height: 2.0,
-            color: Colors.white,
-          ),
-        ],
+        ),
       );
     },
   );
@@ -353,6 +360,7 @@ class DetailScreen extends StatelessWidget {
     //setting vars
     var title = "No Title Available";
     var mainimage = "placeholder.png";
+    var highlight = "No Highlight Available";
     var landingpagecontent = "No Content Available";
     var weblink = "https://www.fs.usda.gov";
     var thiscategory = "No Category Available";
@@ -363,6 +371,7 @@ class DetailScreen extends StatelessWidget {
       //this is the Data
       final Data otrdata = ModalRoute.of(context).settings.arguments;
       title = otrdata.title;
+      highlight = otrdata.highlight;
       mainimage = otrdata.mainimage;
       landingpagecontent = otrdata.landpagecontent;
       weblink = otrdata.weblink;
@@ -372,6 +381,7 @@ class DetailScreen extends StatelessWidget {
       //this is the List<Data>
       final List<Data> otrdata = ModalRoute.of(context).settings.arguments;
       title = otrdata[0].title;
+      highlight = otrdata[0].highlight;
       mainimage = otrdata[0].mainimage;
       landingpagecontent = otrdata[0].landpagecontent;
       weblink = otrdata[0].weblink;
@@ -405,7 +415,7 @@ class DetailScreen extends StatelessWidget {
                     ],
                   ),
                   Container(
-                    transform: Matrix4.translationValues(0.0, -100.0, 0.0),
+                    //transform: Matrix4.translationValues(0.0, -100.0, 0.0),
                     alignment: Alignment(-1.0, -1.0),
                     child: Column(children: <Widget>[
                       Container(
@@ -431,22 +441,35 @@ class DetailScreen extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Padding(
-                        padding: EdgeInsets.only(top: 0.0, bottom: 15.0),
+                        padding: EdgeInsets.only(top: 15.0, bottom: 0),
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
                             title.toUpperCase(),
                             style: TextStyle(
-                                fontSize: 24,
+                                fontSize: 22,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black54),
                             textAlign: TextAlign.left,
                           ),
                         ),
                       ),
-                      Text(landingpagecontent, style: TextStyle(fontSize: 18)),
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          highlight,
+                          style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.green[900],
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
+                        child: Text(landingpagecontent,
+                            style: TextStyle(fontSize: 18, height: 1.5)),
+                      ),
                       Container(
-                        margin: EdgeInsets.fromLTRB(0, 30, 0, 15),
                         child: _buildSectionList(sections, context),
                       ),
                       Row(
