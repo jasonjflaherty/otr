@@ -308,22 +308,35 @@ class SubCategoryList extends StatelessWidget {
 ListView _buildSectionList(List<Sections> sections, context) {
   print(sections.length);
   return ListView.builder(
+    //need these two for the list to scroll in the whole screen
+    physics: NeverScrollableScrollPhysics(),
+    shrinkWrap: true,
     itemCount: sections.length,
     itemBuilder: (BuildContext context, int index) {
       return new Column(
         children: <Widget>[
           new ListTile(
-            leading: Text(index.toString()),
+            leading: Container(
+              transform: Matrix4.translationValues(-15.0, 0.0, 0.0),
+              padding: EdgeInsets.all(15),
+              color: Colors.green[900],
+              child: Text(
+                index.toString(),
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
             title: new Text(
               (sections[index].content),
               style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white),
+                  fontSize: 16,
+                  color: Colors.black),
             ),
           ),
           new Divider(
-            height: 12.0,
+            height: 2.0,
             color: Colors.white,
           ),
         ],
@@ -335,17 +348,6 @@ ListView _buildSectionList(List<Sections> sections, context) {
 //this has a white background
 class DetailScreen extends StatelessWidget {
   //static const routeName = '/detailsScreen';
-  List<String> notes = [
-    "fluttermaster.com",
-    "Update Android Studio to 3.3",
-    "Implement ListView widget",
-    "Demo ListView simplenote app",
-    "Fixing app color",
-    "Create new note screen",
-    "Persist notes data",
-    "Add screen transition animation",
-    "Something long Something long Something long Something long Something long Something long",
-  ];
   @override
   Widget build(BuildContext context) {
     //setting vars
@@ -443,7 +445,10 @@ class DetailScreen extends StatelessWidget {
                         ),
                       ),
                       Text(landingpagecontent, style: TextStyle(fontSize: 18)),
-                      //_buildSectionList(sections, context),
+                      Container(
+                        margin: EdgeInsets.fromLTRB(0, 30, 0, 15),
+                        child: _buildSectionList(sections, context),
+                      ),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         textDirection: TextDirection.rtl,
