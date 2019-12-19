@@ -51,6 +51,7 @@ class _OtrHomePageState extends State<OtrHomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
       body: FullScreenPage(),
+      backgroundColor: Colors.green[900],
     );
   }
 }
@@ -131,8 +132,9 @@ class CategoryList extends StatelessWidget {
             case ConnectionState.waiting:
               return Center(
                 child: CircularProgressIndicator(
-                  valueColor: new AlwaysStoppedAnimation<Color>(Colors.brown),
-                  backgroundColor: Colors.deepOrange,
+                  valueColor:
+                      new AlwaysStoppedAnimation<Color>(Colors.brown[100]),
+                  backgroundColor: Colors.white,
                   strokeWidth: 5,
                   semanticsLabel: "Progress Indicator",
                   semanticsValue: "Loading...",
@@ -146,12 +148,13 @@ class CategoryList extends StatelessWidget {
           }
         });
     return new Scaffold(
-      appBar: otrAppBar("Main Menu", appLogo, context),
+      appBar: otrAppBar("", Colors.green[900], Colors.white, appLogo, context),
       body: futureBuilder,
       backgroundColor: Colors.green[900],
     );
   }
 
+//this has a green background ^^^^
   Widget createListView(BuildContext context, AsyncSnapshot snapshot) {
     List<OtrPages> values = snapshot.data;
     //sorting the categories...
@@ -161,13 +164,15 @@ class CategoryList extends StatelessWidget {
       itemCount: values.length,
       itemBuilder: (BuildContext context, int index) {
         return new Container(
-          
           child: Column(
             children: <Widget>[
               new ListTile(
                 title: new Text(
                   (values[index].category).toUpperCase(),
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold,color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white),
                 ),
                 onTap: () {
                   //need to check if this category has one or more than one child...
@@ -204,16 +209,21 @@ class CategoryList extends StatelessWidget {
   }
 }
 
+//adding image to the left of the appbar title
 Image appLogo = new Image(
-  image: new ExactAssetImage("assets/images/USForestService.png"),
-  height: 28.0,
-  width: 20.0,
-  alignment: FractionalOffset.center
+  image: new ExactAssetImage("assets/images/usfs-favicon.png"),
+  alignment: FractionalOffset.center,
+  semanticLabel: "USFS Icon",
 );
-
-Widget otrAppBar(String title, Image img, BuildContext context) {
+//appbar in it's own widget
+Widget otrAppBar(String title, Color bgColor, Color iconColor, Image img,
+    BuildContext context) {
   return AppBar(
-    title: Text(title.toUpperCase()),
+    backgroundColor: bgColor,
+    title: Text(
+      title.toUpperCase(),
+      style: TextStyle(color: iconColor),
+    ),
     leading: img,
     elevation: 0,
     actions: <Widget>[
@@ -221,7 +231,8 @@ Widget otrAppBar(String title, Image img, BuildContext context) {
       IconButton(
         icon: Icon(
           Icons.search,
-          color: Colors.white,
+          color: iconColor,
+          semanticLabel: "Search",
         ),
         onPressed: () {
           //Go to another screen;
@@ -230,7 +241,8 @@ Widget otrAppBar(String title, Image img, BuildContext context) {
       IconButton(
         icon: Icon(
           Icons.menu,
-          color: Colors.white,
+          color: iconColor,
+          semanticLabel: "Main Menu",
         ),
         onPressed: () {
           //_settingModalBottomSheet(context);
@@ -246,6 +258,7 @@ Widget otrAppBar(String title, Image img, BuildContext context) {
   );
 }
 
+//this has a green background
 class SubCategoryList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -253,7 +266,8 @@ class SubCategoryList extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: Colors.green[900],
-      appBar: otrAppBar(otrdata.category, "USForestSerivce.png", context),
+      appBar: otrAppBar(
+          otrdata.category, Colors.green[900], Colors.white, appLogo, context),
       body: ListView.builder(
         itemCount: otrdata.data.length,
         itemBuilder: (BuildContext context, int index) {
@@ -262,7 +276,10 @@ class SubCategoryList extends StatelessWidget {
               new ListTile(
                 title: new Text(
                   (otrdata.data[index].title).toUpperCase(),
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white),
                 ),
                 onTap: () {
                   Navigator.push(
@@ -288,9 +305,47 @@ class SubCategoryList extends StatelessWidget {
   }
 }
 
+ListView _buildSectionList(List<Sections> sections, context) {
+  print(sections.length);
+  return ListView.builder(
+    itemCount: sections.length,
+    itemBuilder: (BuildContext context, int index) {
+      return new Column(
+        children: <Widget>[
+          new ListTile(
+            leading: Text(index.toString()),
+            title: new Text(
+              (sections[index].content),
+              style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+            ),
+          ),
+          new Divider(
+            height: 12.0,
+            color: Colors.white,
+          ),
+        ],
+      );
+    },
+  );
+}
+
+//this has a white background
 class DetailScreen extends StatelessWidget {
   //static const routeName = '/detailsScreen';
-
+  List<String> notes = [
+    "fluttermaster.com",
+    "Update Android Studio to 3.3",
+    "Implement ListView widget",
+    "Demo ListView simplenote app",
+    "Fixing app color",
+    "Create new note screen",
+    "Persist notes data",
+    "Add screen transition animation",
+    "Something long Something long Something long Something long Something long Something long",
+  ];
   @override
   Widget build(BuildContext context) {
     //setting vars
@@ -298,7 +353,8 @@ class DetailScreen extends StatelessWidget {
     var mainimage = "placeholder.png";
     var landingpagecontent = "No Content Available";
     var weblink = "https://www.fs.usda.gov";
-
+    var thiscategory = "No Category Available";
+    List<Sections> sections = [];
     //print(ModalRoute.of(context).settings.arguments.runtimeType);
     //Check which type of data is coming from the different screens into this detailscreen and then display the values
     if (ModalRoute.of(context).settings.arguments.runtimeType == Data) {
@@ -308,6 +364,8 @@ class DetailScreen extends StatelessWidget {
       mainimage = otrdata.mainimage;
       landingpagecontent = otrdata.landpagecontent;
       weblink = otrdata.weblink;
+      thiscategory = otrdata.thiscategory;
+      sections = otrdata.sections;
     } else {
       //this is the List<Data>
       final List<Data> otrdata = ModalRoute.of(context).settings.arguments;
@@ -315,64 +373,105 @@ class DetailScreen extends StatelessWidget {
       mainimage = otrdata[0].mainimage;
       landingpagecontent = otrdata[0].landpagecontent;
       weblink = otrdata[0].weblink;
+      thiscategory = otrdata[0].thiscategory;
+      sections = otrdata[0].sections;
     }
-
-    return Scaffold(
-      appBar: otrAppBar(title, "USForestSerivce.png", context),
-      body: Container(
-        child: SingleChildScrollView(
-          padding: EdgeInsets.all(15),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            mainAxisSize: MainAxisSize.min,
-            children: <Widget>[
-              Container(
-                constraints: BoxConstraints.expand(height: 200),
-                child: Image.asset(
-                  "assets/images/$mainimage",
-                  fit: BoxFit.fitWidth,
-                ),
+    return LayoutBuilder(
+        builder: (BuildContext context, BoxConstraints viewportConstraints) {
+      return Scaffold(
+        appBar: otrAppBar(title, Color.fromRGBO(255, 255, 255, 1), Colors.black,
+            appLogo, context),
+        body: Container(
+          color: Colors.white,
+          child: SingleChildScrollView(
+            padding: EdgeInsets.all(15),
+            child: ConstrainedBox(
+              constraints: BoxConstraints(
+                minHeight: viewportConstraints.maxHeight,
               ),
-              Padding(
-                padding: EdgeInsets.only(top: 15.0, bottom: 15.0),
-                child: Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    title.toUpperCase(),
-                    style: TextStyle(
-                        fontSize: 34,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black54),
-                    textAlign: TextAlign.left,
-                  ),
-                ),
-              ),
-              Text(landingpagecontent, style: TextStyle(fontSize: 16)),
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                textDirection: TextDirection.rtl,
+              child: Column(
                 children: <Widget>[
-                  Padding(
-                    padding: EdgeInsets.only(top: 15, bottom: 15),
-                    child: InkWell(
-                        child: Text("Learn More >",
-                            style: TextStyle(fontSize: 18)),
-                        onTap: () async {
-                          var url = weblink;
-                          if (await canLaunch(url)) {
-                            await launch(url, forceWebView: false);
-                          } else {
-                            throw 'Could not launch $url';
-                          }
-                        }),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: <Widget>[
+                      Image.asset(
+                        "assets/images/$mainimage",
+                        fit: BoxFit.fitWidth,
+                        height: 200,
+                        semanticLabel: "background image for decoration",
+                      ),
+                    ],
+                  ),
+                  Container(
+                    transform: Matrix4.translationValues(0.0, -100.0, 0.0),
+                    alignment: Alignment(-1.0, -1.0),
+                    child: Column(children: <Widget>[
+                      Container(
+                        color: Color.fromRGBO(0, 0, 0, .5),
+                        padding: EdgeInsets.all(5),
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text(
+                            thiscategory.toUpperCase(),
+                            style: TextStyle(
+                                fontSize: 28,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white),
+                            textAlign: TextAlign.left,
+                          ),
+                        ),
+                      ),
+                    ]),
+                  ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.only(top: 0.0, bottom: 15.0),
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text(
+                            title.toUpperCase(),
+                            style: TextStyle(
+                                fontSize: 24,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black54),
+                            textAlign: TextAlign.left,
+                          ),
+                        ),
+                      ),
+                      Text(landingpagecontent, style: TextStyle(fontSize: 18)),
+                      //_buildSectionList(sections, context),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        textDirection: TextDirection.rtl,
+                        children: <Widget>[
+                          Padding(
+                            padding: EdgeInsets.only(top: 15, bottom: 15),
+                            child: InkWell(
+                                child: Text("Learn More >",
+                                    style: TextStyle(fontSize: 18)),
+                                onTap: () async {
+                                  var url = weblink;
+                                  if (await canLaunch(url)) {
+                                    await launch(url, forceWebView: false);
+                                  } else {
+                                    throw 'Could not launch $url';
+                                  }
+                                }),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ],
               ),
-            ],
+            ),
           ),
         ),
-      ),
-    );
+      );
+    });
   }
 }

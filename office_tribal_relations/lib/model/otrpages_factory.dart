@@ -32,6 +32,7 @@ class Data {
   String mainimage;
   String landpagecontent;
   String weblink;
+  String thiscategory;
   List<Sections> sections;
 
   Data(
@@ -41,6 +42,7 @@ class Data {
       this.mainimage,
       this.landpagecontent,
       this.weblink,
+      this.thiscategory,
       this.sections});
 
   factory Data.fromJson(Map<String, dynamic> parsedJson) {
@@ -55,6 +57,7 @@ class Data {
         mainimage: parsedJson['mainimage'],
         landpagecontent: parsedJson['landingpagecontent'],
         weblink: parsedJson['weblink'],
+        thiscategory: parsedJson['thiscategory'],
         sections: sectionList);
   }
   Map<String, dynamic> toJson() {
@@ -65,6 +68,7 @@ class Data {
     data['mainimage'] = this.mainimage;
     data['landingpagecontent'] = this.landpagecontent;
     data['weblink'] = this.weblink;
+    data['thiscategory'] = this.thiscategory;
     if (this.sections != null) {
       data['sections'] = this.sections.map((v) => v.toJson()).toList();
     }
