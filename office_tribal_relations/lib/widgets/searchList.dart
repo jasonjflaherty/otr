@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/services/loadOTRJsonData.dart';
+import 'package:office_tribal_relations/widgets/details_screen.dart';
 
 class SearchFilter extends StatefulWidget {
   SearchFilter() : super();
@@ -111,6 +112,17 @@ class SearchFilterState extends State<SearchFilter> {
                           ),
                         ),
                       ),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DetailScreen(),
+                            settings: RouteSettings(
+                              arguments: fData[index],
+                            ),
+                          ),
+                        );
+                      },
                     ),
                     Divider(
                       height: 12.0,
