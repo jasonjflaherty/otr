@@ -40,20 +40,18 @@ class SearchFilterState extends State<SearchFilter> {
   void initState() {
     super.initState();
     LoadData().loadOtrPage().then((dataFromJson) {
+      //otrPage = dataFromJson;
+      otrPage = dataFromJson;
+      for (var i = 0; i < otrPage.length; i++) {
+        for (var k = 0; k < otrPage[i].data.length; k++) {
+          tData.add(otrPage[i].data[k]);
+        }
+      }
+      //print(tData.length);
       setState(() {
         otrPage = dataFromJson;
-        // filteredData = otrPage;
-        print("INIT");
-        for (var i = 0; i < otrPage.length; i++) {
-          //print(otrPage.length);
-          for (var k = 0; k < otrPage[i].data.length; i++) {
-            tData.add(otrPage[i].data[k]);
-          }
-        }
+        filteredData = otrPage;
         fData = tData;
-        // print("INIT");
-        // print(tData.length);
-        // print(fData.length);
       });
     });
   }
@@ -88,36 +86,37 @@ class SearchFilterState extends State<SearchFilter> {
           ),
           Expanded(
             child: ListView.builder(
-              padding: EdgeInsets.all(10.0),
+              padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
               itemCount: fData.length,
               itemBuilder: (BuildContext context, int index) {
-                return Card(
-                  child: Padding(
-                    padding: EdgeInsets.all(10.0),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
-                        Text(
-                          fData[index].title,
-                          style: TextStyle(
-                            fontSize: 16.0,
-                            color: Colors.black,
-                          ),
+                return Column(
+                  children: <Widget>[
+                    ListTile(
+                      title: Text(
+                        fData[index].title,
+                        style: TextStyle(
+                          fontSize: 16.0,
+                          color: Colors.black,
                         ),
-                        SizedBox(
-                          height: 5.0,
-                        ),
-                        Text(
-                          fData[index].landpagecontent.toLowerCase(),
+                      ),
+                      subtitle: Container(
+                        child: Text(
+                          fData[index].landpagecontent,
+                          overflow: TextOverflow.fade,
+                          softWrap: true,
+                          maxLines: 3,
                           style: TextStyle(
                             fontSize: 14.0,
                             color: Colors.grey,
                           ),
                         ),
-                      ],
+                      ),
                     ),
-                  ),
+                    Divider(
+                      height: 12.0,
+                      color: Colors.white,
+                    ),
+                  ],
                 );
               },
             ),
