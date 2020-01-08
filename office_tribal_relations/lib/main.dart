@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/widgets/categoryList.dart';
@@ -47,76 +48,95 @@ class OtrHomePage extends StatefulWidget {
 }
 
 class _OtrHomePageState extends State<OtrHomePage> {
-  TextEditingController controller = new TextEditingController();
+  //TextEditingController controller = new TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      body: FullScreenPage(),
-      backgroundColor: Colors.green[900],
+      body: FullScreenImage(),
+      backgroundColor: Colors.black,
     );
   }
 }
 
-//homescreen
-class FullScreenPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return DecoratedBox(
-      decoration: BoxDecoration(
-        image: DecorationImage(
-            image: AssetImage("assets/images/woods.jpg"), fit: BoxFit.cover),
-      ),
-      child: Center(
-        child: InkWell(
-          child: Padding(
-            padding: EdgeInsets.all(30),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Image.asset(
+//split out the overlay text
+Widget _HomepageWords(BuildContext context) {
+  return Column(
+    mainAxisAlignment: MainAxisAlignment.start,
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: <Widget>[
+      InkWell(
+        child: Padding(
+          padding: EdgeInsets.all(30),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Padding(
+                padding: EdgeInsets.fromLTRB(0, 40, 0, 0),
+                child: Image.asset(
                   "assets/images/USForestService.png",
-                  height: 120,
+                  height: 90,
                   semanticLabel: "USDA Forest Service Sheild",
                 ),
-                Text(
-                  "FOREST SERVICE",
-                  style: TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                ),
-                Text(
-                  "TRIBAL RELATIONS",
-                  style: TextStyle(
-                      fontSize: 36,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                ),
-                Text(
-                  "This is an official USDA Forest Service Application",
-                  style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                ),
-              ],
-            ),
+              ),
+              Text(
+                "FOREST SERVICE",
+                style: TextStyle(
+                    fontSize: 24,
+                    height:1.8,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              ),
+              Text(
+                "TRIBAL RELATIONS",
+                style: TextStyle(
+                    fontSize: 50,
+                    height:1,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              ),
+              Text(
+                "This is an official USDA Forest Service Application",
+                style: TextStyle(
+                    fontSize: 12,
+                    height:1.5,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              ),
+            ],
           ),
-          onTap: () {
-            Navigator.push(
-                context,
-                PageTransition(
-                    type: PageTransitionType.upToDown, child: CategoryList()));
-          },
         ),
+        onTap: () {
+          Navigator.push(
+              context,
+              PageTransition(
+                  type: PageTransitionType.upToDown, child: CategoryList()));
+        },
       ),
+    ],
+  );
+}
+
+//fade in image
+class FullScreenImage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Stack(children: <Widget>[
+        FadeInImage(
+          placeholder: AssetImage("assets/images/blackdot.png"),
+          image: AssetImage("assets/images/woods_lr_50.jpg"),
+          fit: BoxFit.cover,
+          height: double.infinity,
+          width: double.infinity,
+          alignment: Alignment.topLeft,
+        ),
+        _HomepageWords(context),
+      ],
     );
   }
 }
-
-//this has a green background
 
 class Debouncer {
   final int milliseconds;

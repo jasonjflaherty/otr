@@ -20,7 +20,7 @@ Widget otrAppBar(String title, Color bgColor, Color iconColor, Image img,
       title.toUpperCase(),
       style: TextStyle(color: iconColor),
     ),
-    leading: img,
+    //leading: img,
     elevation: 0,
     actions: <Widget>[
       // action button

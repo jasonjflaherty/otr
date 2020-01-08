@@ -61,7 +61,7 @@ class CategoryList extends StatelessWidget {
                 title: new Text(
                   (values[index].category).toUpperCase(),
                   style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 24,
                       fontWeight: FontWeight.bold,
                       color: Colors.white),
                 ),
@@ -90,7 +90,7 @@ class CategoryList extends StatelessWidget {
               ),
               new Divider(
                 height: 12.0,
-                color: Colors.white,
+                color: Colors.transparent,
               ),
             ],
           ),

@@ -5,11 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/services/loadOTRJsonData.dart';
 import 'package:office_tribal_relations/widgets/details_screen.dart';
+import 'package:office_tribal_relations/widgets/otrAppBar.dart';
 
 class SearchFilter extends StatefulWidget {
   SearchFilter() : super();
 
-  final String title = "Search App Data";
+  final String title = "Search App";
 
   @override
   SearchFilterState createState() => SearchFilterState();
@@ -60,9 +61,8 @@ class SearchFilterState extends State<SearchFilter> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      appBar: otrAppBar(
+          widget.title, Colors.green[900], Colors.white, appLogo, context),
       body: Column(
         children: <Widget>[
           TextField(

@@ -21,7 +21,7 @@ class SubCategoryList extends StatelessWidget {
                 title: new Text(
                   (otrdata.data[index].title).toUpperCase(),
                   style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 24,
                       fontWeight: FontWeight.bold,
                       color: Colors.white),
                 ),
@@ -39,7 +39,7 @@ class SubCategoryList extends StatelessWidget {
               ),
               new Divider(
                 height: 12.0,
-                color: Colors.white,
+                color: Colors.transparent,
               ),
             ],
           );
