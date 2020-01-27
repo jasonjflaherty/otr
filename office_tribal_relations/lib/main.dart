@@ -131,6 +131,7 @@ class FullScreenImage extends StatelessWidget {
           height: double.infinity,
           width: double.infinity,
           alignment: Alignment.topLeft,
+          imageSemanticLabel: "darker forest background",
         ),
         _HomepageWords(context),
       ],

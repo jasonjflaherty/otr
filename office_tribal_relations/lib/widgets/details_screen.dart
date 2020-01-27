@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_html/flutter_html.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/widgets/otrAppBar.dart';
 import 'package:url_launcher/url_launcher.dart';
+
 //this has a white background
 class DetailScreen extends StatelessWidget {
   //static const routeName = '/detailsScreen';
@@ -79,7 +81,7 @@ class DetailScreen extends StatelessWidget {
                     child: Column(children: <Widget>[
                       Container(
                         //color: Color.fromRGBO(0, 0, 0, .5),
-                        padding: EdgeInsets.fromLTRB(0,15,0,0),
+                        padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
@@ -132,8 +134,26 @@ class DetailScreen extends StatelessWidget {
                       ),
                       Padding(
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                        child: Text(landingpagecontent,
-                            style: TextStyle(fontSize: 18, height: 1.5)),
+                        child: Html(
+                          data: """
+                            <ul class="oli">
+                              <li><div>1</div>Fulfill, within the Forest  Service&rsquo;s mission areas, the Government&rsquo;s trust responsibilities and treaty  obligations. </li>
+                              <li>Coordinate and collaborate with  Tribes in the early development of policies and decisions that may have tribal  implications. </li>
+                              <li>Establish and implement  effective Tribal Relations Programs for their Units </li>
+                              <li>Develop effective, timely  communication between the Forest Serivice Office of Tribal Relations in  Washington, D.C., Regional Tribal Relations Program Managers, Research and  Development (R&amp;D) Tribal Liaisons, and Forest Grassland and Prairie Tribal  Liaisons</li>
+                              <li>Designate employees to serve as  a focal point for the Unit&rsquo;s contact between Tribes at the Regional, Station,  or the Area level. </li>
+                              <li>Ensure that Tribes with rights  and interests that cross more than one Region, Forest, Station, the Area or  other Units have one primary point of contact between the Forest Service and  the Tribe.</li>
+                              <li> Ensure tribal program management  interests are represented in the decision making process of the National and  Regional Leadership teams.</li>
+                              <li> Ensure that consultation is conducted with Tribes for Regional, Station  and the Area decisions and actions that may affect Tribes.</li>
+                              <li>Ensure that the recommendations  from the Report to the Secretary of Agriculture, USDA Policy and Procedures  Review and Recommendations: Indian Sacred Sites and similar recommendations are  implemented efficiently, effectively, and thoroughly throughout their Region,  Station, and the Area. </li>
+                              <li>Ensure appropriate repatriation  of human remains, associated funerary objects, unassociated funerary objects,  sacred objects, and objects of cultural patrimony from National Forests under  their jurisdiction. </li>
+                              <li>Support reburial of repatriated  human remains and cultural items on National Forest System lands consistent  with uses on the national Forest System land as determined necessary for  management of the National Forest System.</li>
+                              <li>Provide funding and training to  Units in support of Tribal Relations work. </li>
+                            </ul>
+                          """,
+                        ),
+                        // child: Text(landingpagecontent,
+                        //     style: TextStyle(fontSize: 18, height: 1.5)),
                       ),
                       //check if section has data
                       Visibility(

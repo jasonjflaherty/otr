@@ -1,40 +1,48 @@
-[
-    {
+[{
         "category": "consultation responsibilities",
-        "data": [
-            {
+        "data": [{
                 "title": "Regional Foresters",
                 "subtitle": "Regional Foresters, Stations Directors, and the Area Director - Roles and Responsibilities",
                 "highlight": "(FSM 1563.04(H))",
                 "mainimage": "pattern.png",
-                "weblink":"https://www.fs.usda.gov",
+                "weblink": "https://www.fs.usda.gov",
                 "thiscategory": "consultation responsibilities",
-                "landingpagecontent":"A company that can streamline elegantly will (at some undefined point of time in the future) be able to orchestrate correctly. Have you ever needed to matrix your cutting-edge feature set? Free? Think B2C2B. What do we integrate? Anything and everything, regardless of humbleness! What does the industry jargon '60/24/7/365' really mean? Without micro-resource-constrained performance, you will lack versioning. Our infinitely reconfigurable feature set is unparalleled in the industry, but our granular integrated, value-added convergence and easy operation is invariably considered a remarkable achievement taking into account this month's financial state of things! If all of this sounds astonishing to you, that's because it is! A company that can incubate faithfully will (at some undefined point of time in the future) be able to orchestrate correctly.",
-                "sections": [
-                    {
-                        "content": "Fulfill, within the Forest Service’s mission areas, the Government's trust responsibilities and treaty obligations.",
-                        "image": ""
-                    },
-                    {
-                        "content": "Coordinate and collaborate with Tribes in the early development of policies and decisions that may have tribal implications.",
-                        "image": ""
-                    },
-                    {
-                        "content": "Establish and implement effective Tribal Relations Programs for their Units",
-                        "image": ""
-                    }
-                ]
+                "landingpagecontent": "",
+                "sections": [{
+                    "content": "Fulfill, within the Forest Service’s mission areas, the Government’s trust responsibilities and treaty obligations."
+                }, {
+                    "content": "Coordinate and collaborate with Tribes in the early development of policies and decisions that may have tribal implications."
+                }, {
+                    "content": "Establish and implement effective Tribal Relations Programs for their Units"
+                }, {
+                    "content": "Develop effective, timely communication between the Forest Serivice Office of Tribal Relations in Washington, D.C., Regional Tribal Relations Program Managers, Research and Development (R&D) Tribal Liaisons, and Forest Grassland and Prairie Tribal Liaisons"
+                }, {
+                    "content": "Designate employees to serve as a focal point for the Unit’s contact between Tribes at the Regional, Station, or the Area level."
+                }, {
+                    "content": "Ensure that Tribes with rights and interests that cross more than one Region, Forest, Station, the Area or other Units have one primary point of contact between the Forest Service and the Tribe."
+                }, {
+                    "content": "Ensure tribal program management interests are represented in the decision making process of the National and Regional Leadership teams."
+                }, {
+                    "content": "Ensure that consultation is conducted with Tribes for Regional, Station and the Area decisions and actions that may affect Tribes."
+                }, {
+                    "content": "Ensure that the recommendations from the Report to the Secretary of Agriculture, USDA Policy and Procedures Review and Recommendations: Indian Sacred Sites and similar recommendations are implemented efficiently, effectively, and thoroughly throughout their Region, Station, and the Area."
+                }, {
+                    "content": "Ensure appropriate repatriation of human remains, associated funerary objects, unassociated funerary objects, sacred objects, and objects of cultural patrimony from National Forests under their jurisdiction."
+                }, {
+                    "content": "Support reburial of repatriated human remains and cultural items on National Forest System lands consistent with uses on the national Forest System land as determined necessary for management of the National Forest System."
+                }, {
+                    "content": "Provide funding and training to Units in support of Tribal Relations work."
+                }]
             },
             {
                 "title": "Regional Tribal Relations Program Managers",
                 "subtitle": "",
                 "highlight": "(1563.04(I))",
                 "mainimage": "pattern.png",
-                "weblink":"https://www.fs.usda.gov",
+                "weblink": "https://www.fs.usda.gov",
                 "thiscategory": "consultation responsibilities",
-                "landingpagecontent":"A company that can streamline elegantly will (at some undefined point of time in the future) be able to orchestrate correctly. Have you ever needed to matrix your cutting-edge feature set? Free? Think B2C2B. What do we integrate? Anything and everything, regardless of humbleness! What does the industry jargon '60/24/7/365' really mean? Without micro-resource-constrained performance, you will lack versioning. Our infinitely reconfigurable feature set is unparalleled in the industry, but our granular integrated, value-added convergence and easy operation is invariably considered a remarkable achievement taking into account this month's financial state of things! If all of this sounds astonishing to you, that's because it is! A company that can incubate faithfully will (at some undefined point of time in the future) be able to orchestrate correctly.",
-                "sections": [
-                    {
+                "landingpagecontent": "A company that can streamline elegantly will (at some undefined point of time in the future) be able to orchestrate correctly. Have you ever needed to matrix your cutting-edge feature set? Free? Think B2C2B. What do we integrate? Anything and everything, regardless of humbleness! What does the industry jargon '60/24/7/365' really mean? Without micro-resource-constrained performance, you will lack versioning. Our infinitely reconfigurable feature set is unparalleled in the industry, but our granular integrated, value-added convergence and easy operation is invariably considered a remarkable achievement taking into account this month's financial state of things! If all of this sounds astonishing to you, that's because it is! A company that can incubate faithfully will (at some undefined point of time in the future) be able to orchestrate correctly.",
+                "sections": [{
                         "content": "Ensure that tribal interests and rights are considered and integrated across program areas and that governmentto- government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Agency policy.",
                         "image": ""
                     },
@@ -52,187 +60,157 @@
     },
     {
         "category": "culture and heritage cooperation authority",
-        "data": [
-            {
-                "title": "Culture and Heritage Cooperation Authority",
-                "subtitle": "",
-                "highlight": "(1563.04(I))",
-                "mainimage": "pattern.png",
-                "weblink":"https://www.fs.usda.gov",
-                "thiscategory": "culture and heritage cooperation authority",
-                "landingpagecontent":"A company that can streamline elegantly will (at some undefined point of time in the future) be able to orchestrate correctly. Have you ever needed to matrix your cutting-edge feature set? Free? Think B2C2B. What do we integrate? Anything and everything, regardless of humbleness! What does the industry jargon '60/24/7/365' really mean? Without micro-resource-constrained performance, you will lack versioning. Our infinitely reconfigurable feature set is unparalleled in the industry, but our granular integrated, value-added convergence and easy operation is invariably considered a remarkable achievement taking into account this month's financial state of things! If all of this sounds astonishing to you, that's because it is! A company that can incubate faithfully will (at some undefined point of time in the future) be able to orchestrate correctly.",
-                "sections": [
-                    {
-                        "content": "Ensure that tribal interests and rights are considered and integrated across program areas and that governmentto- government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Agency policy.",
-                        "image": ""
-                    },
-                    {
-                        "content": "Collaborate with other Federal agencies, Tribes, and American Indian advocacy organizations to implement programs and projects and seek mutually beneficial opportunities.",
-                        "image": ""
-                    },
-                    {
-                        "content": "Serve as the Region’s primary source of advice and assistance on matters involving tribal relations; including advising line and staff on responses to tribal requests for use of National Forest System lands and resources.",
-                        "image": ""
-                    }
-                ]
-            }
-        ]
+        "data": [{
+            "title": "Culture and Heritage Cooperation Authority",
+            "subtitle": "",
+            "highlight": "(1563.04(I))",
+            "mainimage": "pattern.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "culture and heritage cooperation authority",
+            "landingpagecontent": "A company that can streamline elegantly will (at some undefined point of time in the future) be able to orchestrate correctly. Have you ever needed to matrix your cutting-edge feature set? Free? Think B2C2B. What do we integrate? Anything and everything, regardless of humbleness! What does the industry jargon '60/24/7/365' really mean? Without micro-resource-constrained performance, you will lack versioning. Our infinitely reconfigurable feature set is unparalleled in the industry, but our granular integrated, value-added convergence and easy operation is invariably considered a remarkable achievement taking into account this month's financial state of things! If all of this sounds astonishing to you, that's because it is! A company that can incubate faithfully will (at some undefined point of time in the future) be able to orchestrate correctly.",
+            "sections": [{
+                    "content": "Ensure that tribal interests and rights are considered and integrated across program areas and that governmentto- government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Agency policy.",
+                    "image": ""
+                },
+                {
+                    "content": "Collaborate with other Federal agencies, Tribes, and American Indian advocacy organizations to implement programs and projects and seek mutually beneficial opportunities.",
+                    "image": ""
+                },
+                {
+                    "content": "Serve as the Region’s primary source of advice and assistance on matters involving tribal relations; including advising line and staff on responses to tribal requests for use of National Forest System lands and resources.",
+                    "image": ""
+                }
+            ]
+        }]
     },
     {
         "category": "laws policy",
-        "data": [
-            {
-                "title": "Laws and Policy",
-                "subtitle": "",
-                "highlight": "(1563.04(I))",
-                "mainimage": "pattern.png",
-                "weblink":"https://www.fs.usda.gov",
-                "thiscategory": "laws policy",
-                "landingpagecontent":"If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
-                "sections": [
-                    {
-                        "content": "Ensure that tribal interests and rights are considered and integrated across program areas and that governmentto- government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Agency policy.",
-                        "image": ""
-                    },
-                    {
-                        "content": "Collaborate with other Federal agencies, Tribes, and American Indian advocacy organizations to implement programs and projects and seek mutually beneficial opportunities.",
-                        "image": ""
-                    },
-                    {
-                        "content": "Serve as the Region’s primary source of advice and assistance on matters involving tribal relations; including advising line and staff on responses to tribal requests for use of National Forest System lands and resources.",
-                        "image": ""
-                    }
-                ]
-            }
-        ]
+        "data": [{
+            "title": "Laws and Policy",
+            "subtitle": "",
+            "highlight": "(1563.04(I))",
+            "mainimage": "pattern.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "laws policy",
+            "landingpagecontent": "If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
+            "sections": [{
+                    "content": "Ensure that tribal interests and rights are considered and integrated across program areas and that governmentto- government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Agency policy.",
+                    "image": ""
+                },
+                {
+                    "content": "Collaborate with other Federal agencies, Tribes, and American Indian advocacy organizations to implement programs and projects and seek mutually beneficial opportunities.",
+                    "image": ""
+                },
+                {
+                    "content": "Serve as the Region’s primary source of advice and assistance on matters involving tribal relations; including advising line and staff on responses to tribal requests for use of National Forest System lands and resources.",
+                    "image": ""
+                }
+            ]
+        }]
     },
     {
         "category": "faq",
-        "data": [
-            {
-                "title": "FAQ",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "faq.png",
-                "weblink":"https://www.fs.usda.gov",
-                "thiscategory": "faq",
-                "landingpagecontent":"Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
-                "sections": [
-                    {
-                        "content": "Ensure that tribal interests and rights are considered and integrated across program areas and that governmentto- government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Agency policy.",
-                        "image": ""
-                    },
-                    {
-                        "content": "Collaborate with other Federal agencies, Tribes, and American Indian advocacy organizations to implement programs and projects and seek mutually beneficial opportunities.",
-                        "image": ""
-                    },
-                    {
-                        "content": "Serve as the Region’s primary source of advice and assistance on matters involving tribal relations; including advising line and staff on responses to tribal requests for use of National Forest System lands and resources.",
-                        "image": ""
-                    }
-                ]
-            }
-        ]
+        "data": [{
+            "title": "FAQ",
+            "subtitle": "",
+            "highlight": "",
+            "mainimage": "faq.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "faq",
+            "landingpagecontent": "Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
+            "sections": [{
+                    "content": "Ensure that tribal interests and rights are considered and integrated across program areas and that governmentto- government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Agency policy.",
+                    "image": ""
+                },
+                {
+                    "content": "Collaborate with other Federal agencies, Tribes, and American Indian advocacy organizations to implement programs and projects and seek mutually beneficial opportunities.",
+                    "image": ""
+                },
+                {
+                    "content": "Serve as the Region’s primary source of advice and assistance on matters involving tribal relations; including advising line and staff on responses to tribal requests for use of National Forest System lands and resources.",
+                    "image": ""
+                }
+            ]
+        }]
     },
     {
         "category": "concepts",
-        "data": [
-            {
-                "title": "Concepts",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "faq.png",
-                "weblink":"https://www.fs.usda.gov",
-                "thiscategory": "concepts",
-                "landingpagecontent":"Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
-                "sections": [
-                    {
-                        "content": "",
-                        "image": ""
-                    }
-                ]
-            }
-        ]
+        "data": [{
+            "title": "Concepts",
+            "subtitle": "",
+            "highlight": "",
+            "mainimage": "faq.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "concepts",
+            "landingpagecontent": "Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
+            "sections": [{
+                "content": "",
+                "image": ""
+            }]
+        }]
     },
     {
         "category": "sacred sites",
-        "data": [
-            {
-                "title": "Sacred Sites",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "pattern.png",
-                "weblink":"https://www.fs.usda.gov",
-                "thiscategory": "sacred sites",
-                "landingpagecontent":"Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
-                "sections": [
-                    {
-                        "content": "",
-                        "image": ""
-                    }
-                ]
-            }
-        ]
-    }, 
+        "data": [{
+            "title": "Sacred Sites",
+            "subtitle": "",
+            "highlight": "",
+            "mainimage": "pattern.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "sacred sites",
+            "landingpagecontent": "Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
+            "sections": [{
+                "content": "",
+                "image": ""
+            }]
+        }]
+    },
     {
         "category": "regional tribal relations",
-        "data": [
-            {
-                "title": "Regional Tribal Relations",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "pattern.png",
-                "weblink":"https://www.fs.usda.gov",
-                "thiscategory": "regional tribal relations",
-                "landingpagecontent":"Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
-                "sections": [
-                    {
-                        "content": "",
-                        "image": ""
-                    }
-                ]
-            }
-        ]
+        "data": [{
+            "title": "Regional Tribal Relations",
+            "subtitle": "",
+            "highlight": "",
+            "mainimage": "pattern.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "regional tribal relations",
+            "landingpagecontent": "Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
+            "sections": [{
+                "content": "",
+                "image": ""
+            }]
+        }]
     },
     {
         "category": "tribal relations strategic plans",
-        "data": [
-            {
-                "title": "Tribal Relations Strategic Plans",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "pattern.png",
-                "weblink":"https://www.fs.usda.gov",
-                "thiscategory": "tribal relations strategic plans",
-                "landingpagecontent":"Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
-                "sections": [
-                    {
-                        "content": "",
-                        "image": ""
-                    }
-                ]
-            }
-        ]
-    }
-    ,
+        "data": [{
+            "title": "Tribal Relations Strategic Plans",
+            "subtitle": "",
+            "highlight": "",
+            "mainimage": "pattern.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "tribal relations strategic plans",
+            "landingpagecontent": "Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
+            "sections": [{
+                "content": "",
+                "image": ""
+            }]
+        }]
+    },
     {
         "category": "agency",
-        "data": [
-            {
-                "title": "Agency",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "pattern.png",
-                "weblink":"https://www.fs.usda.gov",
-                "thiscategory": "agency",
-                "landingpagecontent":"Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
-                "sections": [
-                    {
-                        "content": "",
-                        "image": ""
-                    }
-                ]
-            }
-        ]
+        "data": [{
+            "title": "Agency",
+            "subtitle": "",
+            "highlight": "",
+            "mainimage": "pattern.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "agency",
+            "landingpagecontent": "Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
+            "sections": [{
+                "content": "",
+                "image": ""
+            }]
+        }]
     }
 ]
