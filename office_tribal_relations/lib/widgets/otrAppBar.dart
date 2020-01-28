@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/widgets/categoryList.dart';
 import 'package:office_tribal_relations/widgets/searchList.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 //adding image to the left of the appbar title
 Image appLogo = new Image(
@@ -20,10 +21,25 @@ Widget otrAppBar(String title, Color bgColor, Color iconColor, Image img,
       title.toUpperCase(),
       style: TextStyle(color: iconColor),
     ),
-    //leading: img,
+    //leading:
     elevation: 0,
     actions: <Widget>[
       // action button
+      IconButton(
+          icon: Icon(
+            Icons.map,
+            color: iconColor,
+            semanticLabel: "Tribal Connections Map",
+          ),
+          onPressed: () async {
+            var url =
+                "https://www.arcgis.com/home/webmap/viewer.html?webmap=91a950377c264b7e84415ef2e91c3a49";
+            if (await canLaunch(url)) {
+              await launch(url, forceWebView: true, enableJavaScript: true);
+            } else {
+              throw 'Could not launch $url';
+            }
+          }),
       IconButton(
         icon: Icon(
           Icons.search,

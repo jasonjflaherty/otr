@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
-import 'package:office_tribal_relations/widgets/otrAppBar.dart';
+import 'package:office_tribal_relations/widgets/categoryList.dart';
+import 'package:office_tribal_relations/widgets/otrAppBar-details.dart';
+import 'package:office_tribal_relations/widgets/searchList.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 //this has a white background
-class DetailScreen extends StatelessWidget {
+class DetailPageinatedScreen extends StatelessWidget {
   //static const routeName = '/detailsScreen';
   @override
   Widget build(BuildContext context) {
@@ -17,31 +19,21 @@ class DetailScreen extends StatelessWidget {
     var thiscategory = "No Category Available";
     var issectionvisible = false;
     var ishighlightvisible = false;
+    int totalpages = 2;
+    int currentpage = 0;
     List<Sections> sections = [];
-    //print(ModalRoute.of(context).settings.arguments.runtimeType);
-    //Check which type of data is coming from the different screens into this detailscreen and then display the values
-    if (ModalRoute.of(context).settings.arguments.runtimeType == Data) {
-      //this is the Data
-      final Data otrdata = ModalRoute.of(context).settings.arguments;
-      title = "";
-      highlight = otrdata.highlight;
-      mainimage = otrdata.mainimage;
-      landingpagecontent = otrdata.landpagecontent;
-      weblink = otrdata.weblink;
-      thiscategory = otrdata.thiscategory;
-      sections = otrdata.sections;
-    } else {
-      //this is the List<Data>
-      final List<Data> otrdata = ModalRoute.of(context).settings.arguments;
-      title = "";
-      highlight = otrdata[0].highlight;
-      mainimage = otrdata[0].mainimage;
-      landingpagecontent = otrdata[0].landpagecontent;
-      weblink = otrdata[0].weblink;
-      thiscategory = otrdata[0].thiscategory;
-      sections = otrdata[0].sections;
-    }
-    //show or hide the sections and highlight block... from json file. There may or may not be data. Highlight is teh FSM#
+    final OtrPages op = ModalRoute.of(context).settings.arguments;
+    print(op.data.length);
+    totalpages = op.data.length;
+    title = "";
+    highlight = op.data[currentpage].highlight;
+    mainimage = op.data[currentpage].mainimage;
+    landingpagecontent = op.data[currentpage].landpagecontent;
+    weblink = op.data[currentpage].weblink;
+    thiscategory = op.data[currentpage].thiscategory;
+    sections = op.data[currentpage].sections;
+
+    //show or hide the sections and highlight block... from json file. There may or may not be data. Highlight is the FSM#
     if (sections.length > 0 && sections[0].content != "") {
       issectionvisible = true;
     }
@@ -51,8 +43,85 @@ class DetailScreen extends StatelessWidget {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints viewportConstraints) {
       return Scaffold(
-        appBar: otrAppBar(title, Color.fromRGBO(255, 255, 255, 1), Colors.black,
-            appLogo, context),
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          titleSpacing: 0.0,
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              IconButton(
+                color: Colors.black54,
+                icon: Icon(Icons.arrow_back_ios),
+                onPressed: () => print(currentpage - 1),
+              ),
+              IconButton(
+                color: Colors.black54,
+                icon: Icon(Icons.arrow_forward_ios),
+                onPressed: () => print(currentpage + 1),
+              ),
+              Expanded(
+                child: Center(child: Text(title)),
+              )
+            ],
+          ),
+          automaticallyImplyLeading: false,
+          centerTitle: true,
+          elevation: 0,
+          actions: <Widget>[
+            Row(
+              children: <Widget>[
+                IconButton(
+                    icon: Icon(
+                      Icons.map,
+                      color: Colors.black54,
+                      semanticLabel: "Tribal Connections Map",
+                    ),
+                    onPressed: () async {
+                      var url =
+                          "https://www.arcgis.com/home/webmap/viewer.html?webmap=91a950377c264b7e84415ef2e91c3a49";
+                      if (await canLaunch(url)) {
+                        await launch(url,
+                            forceWebView: true, enableJavaScript: true);
+                      } else {
+                        throw 'Could not launch $url';
+                      }
+                    }),
+                IconButton(
+                  icon: Icon(
+                    Icons.search,
+                    color: Colors.black54,
+                    semanticLabel: "Search",
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SearchFilter(),
+                      ),
+                    );
+                  },
+                ),
+                IconButton(
+                  icon: Icon(
+                    Icons.menu,
+                    color: Colors.black54,
+                    semanticLabel: "Main Menu",
+                  ),
+                  onPressed: () {
+                    //_settingModalBottomSheet(context);
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => CategoryList(),
+                      ),
+                    );
+                  },
+                ),
+              ],
+            )
+          ],
+        ),
         body: Container(
           color: Colors.white,
           child: SingleChildScrollView(
@@ -67,7 +136,7 @@ class DetailScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: <Widget>[
                       Image.asset(
-                        "assets/images/$mainimage",
+                        "assets/images/${op.data[currentpage].mainimage}",
                         fit: BoxFit.fitWidth,
                         height: 200,
                         semanticLabel: "background image for decoration",
@@ -84,7 +153,7 @@ class DetailScreen extends StatelessWidget {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            thiscategory.toUpperCase(),
+                            op.data[currentpage].thiscategory.toUpperCase(),
                             style: TextStyle(
                                 fontSize: 28,
                                 fontWeight: FontWeight.bold,
@@ -105,7 +174,7 @@ class DetailScreen extends StatelessWidget {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            title.toUpperCase(),
+                            op.data[currentpage].title.toUpperCase(),
                             style: TextStyle(
                                 fontSize: 22,
                                 fontWeight: FontWeight.bold,
@@ -122,7 +191,7 @@ class DetailScreen extends StatelessWidget {
                           child: Align(
                             alignment: Alignment.centerLeft,
                             child: Text(
-                              highlight,
+                              op.data[currentpage].highlight,
                               style: TextStyle(
                                   fontSize: 20,
                                   color: Colors.green[900],
@@ -132,15 +201,16 @@ class DetailScreen extends StatelessWidget {
                         ),
                       ),
                       Padding(
-                        padding: EdgeInsets.fromLTRB(0, 0, 0, 0),                        
-                        child: Text(landingpagecontent,
+                        padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                        child: Text(op.data[currentpage].landpagecontent,
                             style: TextStyle(fontSize: 18, height: 1.5)),
                       ),
                       //check if section has data
                       Visibility(
                         visible: issectionvisible,
                         child: Container(
-                          child: _buildSectionList(sections, context),
+                          child: _buildSectionList(
+                              op.data[currentpage].sections, context),
                         ),
                       ),
                       Row(
@@ -153,7 +223,7 @@ class DetailScreen extends StatelessWidget {
                                 child: Text("Learn More >",
                                     style: TextStyle(fontSize: 18)),
                                 onTap: () async {
-                                  var url = weblink;
+                                  var url = op.data[currentpage].weblink;
                                   if (await canLaunch(url)) {
                                     await launch(url, forceWebView: false);
                                   } else {
@@ -165,6 +235,14 @@ class DetailScreen extends StatelessWidget {
                       ),
                     ],
                   ),
+                  Column(
+                    children: <Widget>[
+                      //createListView(context, op.data[0]) /// create list from titles down here????)
+                      ListTile(
+                        title: Text("SUB MENU DOWN HERE?"),
+                      )
+                    ],
+                  )
                 ],
               ),
             ),
@@ -172,6 +250,52 @@ class DetailScreen extends StatelessWidget {
         ),
       );
     });
+  }
+  
+  //this has a green background ^^^^
+  Widget createListView(BuildContext context, AsyncSnapshot snapshot) {
+    List<OtrPages> values = snapshot.data;
+    //sorting the categories alphabetically...
+    values.sort((a, b) => a.category.compareTo(b.category));
+
+    return new ListView.builder(
+      itemCount: values.length,
+      itemBuilder: (BuildContext context, int index) {
+        return new Container(
+          child: Column(
+            children: <Widget>[
+              new ListTile(
+                title: new Text(
+                  (values[index].category).toUpperCase(),
+                  style: TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white),
+                ),
+                onTap: () {
+                  //need to check if this category has one or more than one child...
+                  if (values[index].data.length > 1) {
+                    print(values[index]);
+                    //more than one so send to subcategories screen to allow user to select secondary selection
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => DetailPageinatedScreen(),
+                        settings: RouteSettings(arguments: values[index]),
+                      ),
+                    );
+                  }
+                },
+              ),
+              new Divider(
+                height: 12.0,
+                color: Colors.transparent,
+              ),
+            ],
+          ),
+        );
+      },
+    );
   }
 }
 

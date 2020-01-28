@@ -41,7 +41,7 @@
                 "mainimage": "pattern.png",
                 "weblink": "https://www.fs.usda.gov",
                 "thiscategory": "consultation responsibilities",
-                "landingpagecontent": "A company that can streamline elegantly will (at some undefined point of time in the future) be able to orchestrate correctly. Have you ever needed to matrix your cutting-edge feature set? Free? Think B2C2B. What do we integrate? Anything and everything, regardless of humbleness! What does the industry jargon '60/24/7/365' really mean? Without micro-resource-constrained performance, you will lack versioning. Our infinitely reconfigurable feature set is unparalleled in the industry, but our granular integrated, value-added convergence and easy operation is invariably considered a remarkable achievement taking into account this month's financial state of things! If all of this sounds astonishing to you, that's because it is! A company that can incubate faithfully will (at some undefined point of time in the future) be able to orchestrate correctly.",
+                "landingpagecontent": "",
                 "sections": [{
                         "content": "Ensure that tribal interests and rights are considered and integrated across program areas and that governmentto- government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Agency policy.",
                         "image": ""
@@ -53,6 +53,75 @@
                     {
                         "content": "Serve as the Region’s primary source of advice and assistance on matters involving tribal relations; including advising line and staff on responses to tribal requests for use of National Forest System lands and resources.",
                         "image": ""
+                    }
+                ]
+            },
+            {
+                "title": "Forest, Grassland, and Prairie Supervisors Responsibilities",
+                "subtitle": "",
+                "highlight": "",
+                "mainimage": "pattern.png",
+                "weblink": "https://www.fs.usda.gov",
+                "thiscategory": "consultation responsibilities",
+                "landingpagecontent": "",
+                "sections": [{
+                        "content": "Fulfill, within the Forest  Service&rsquo;s mission areas, the Government&rsquo;s responsibilities and treaty  obligations."
+                    },
+                    {
+                        "content": "Coordinate and collaborate with  Tribes in the early development of policies and decisions that may have tribal  implications."
+                    },
+                    {
+                        "content": "Serve as the Consultation  Official on the Unit. This requires being personally engaged in the  consultation process with Tribes"
+                    },
+                    {
+                        "content": "Identify a Forest, Grassland, or  Prairie Tribal Liaison to serve as the first point of contact with tribal  leaders and as the person who will generally initiate Agency contact with  Tribes"
+                    },
+                    {
+                        "content": "In partnership with tribal  officials, develop agreed-upon protocols for consultation on issues and  decisions that may have a direct, substantial effect on tribal lands,  subsistence uses, treaty rights, sacred sites, or cultural resources or  practices on and off reservations."
+                    },
+                    {
+                        "content": "Ensure that activities relating to Tribes are reported to the Regional Office,  through the Regional Tribal Relations Program Manager, for inclusion in an  annual end-of-year report to be delivered to the Forest Service Office of  Tribal Relations in Washington, DC. "
+                    }
+                ]
+            },
+            {
+                "title": "District Rangers",
+                "subtitle": "",
+                "highlight": "",
+                "mainimage": "pattern.png",
+                "weblink": "https://www.fs.usda.gov",
+                "thiscategory": "consultation responsibilities",
+                "landingpagecontent": "",
+                "sections": [{
+                        "content": "Implement and maintain the Tribal Relations Program within their area of authority, including staffing. "
+                    },
+                    {
+                        "content": "Serve as the consultation official on the Unit when delegated that authority by the Forest Supervisor. This requires being personally engaged in the consultation process with Tribes. "
+                    }
+                ]
+            },
+            {
+                "title": "National Forest, Grassland and Prairies Tribal Liaisons",
+                "subtitle": "",
+                "highlight": "",
+                "mainimage": "pattern.png",
+                "weblink": "https://www.fs.usda.gov",
+                "thiscategory": "consultation responsibilities",
+                "landingpagecontent": "",
+                "sections": [{
+                        "content": "Support their Unit and especially their Line Officer’s efforts regarding tribal consultation, coordination, and collaboration."
+                    },
+                    {
+                        "content": "Serve as the Unit primary staff point of contact for developing and maintaining relationships with Tribes."
+                    },
+                    {
+                        "content": "Maintain the Unit’s input to the USDA Tribal Consultation Database. "
+                    },
+                    {
+                        "content": "Serve as the Unit subject matter expert in providing information, training, and assistance to personnel across the Unit regarding working with American Indian and/or Alaska Native tribes and Alaska Native Corporations "
+                    },
+                    {
+                        "content": "Assist the Regional Tribal Relations Program Manager in their responsibilities and activities, including end-of-year reporting. "
                     }
                 ]
             }
@@ -81,6 +150,110 @@
                     "image": ""
                 }
             ]
+        }]
+    },
+    {
+        "category": "dispute resolution",
+        "data": [{
+            "title": "Dispute Resolution",
+            "subtitle": "USDA Departmental Regulation",
+            "highlight": "",
+            "mainimage": "faq.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "dispute resolution",
+            "landingpagecontent": "Pursuant to and consistent with DR §1350-002 An Indian tribe may seek conflict resolution through the U.S. Department of Agriculture’s Office of Tribal Relations when: ",
+            "sections": [{
+                "content": " An Indian tribe engaged in consultation believes that the Forest Service has  not appropriately or adequately considered  the  needs, desires, or requests of the Tribe, or ",
+                "image": ""
+            }, {
+                "content": "An Indian tribe believes the Forest Service should engage with them in consultation and the Forest Service has not done so.",
+                "image": ""
+            }]
+        }]
+    },
+    {
+        "category": "consultation and delegation",
+        "data": [{
+                "title": "Delegation",
+                "subtitle": "",
+                "highlight": "(FSM §1230.6)",
+                "mainimage": "faq.png",
+                "weblink": "https://www.fs.usda.gov",
+                "thiscategory": "consultation and delegation",
+                "landingpagecontent": "",
+                "sections": [{
+                    "content": "Line Officers should engage personally with tribal leaders.",
+                    "image": ""
+                }, {
+                    "content": "This direction is not intended to minimize the importance of staff-to-staff communication and collaboration. On the contrary, staff interactions are essential to set the stage for effective consultation and should be maintained and enhanced.",
+                    "image": ""
+                }, {
+                    "content": "The staff or unit responsible for planning the consultation may request technical assistance from the Forest Service Office of Tribal Relations in Washington, DC or from Tribal Relations Specialists.",
+                    "image": ""
+                }]
+            },
+            {
+                "title": "Consultation",
+                "subtitle": "",
+                "highlight": "(FSM §1563.1)",
+                "mainimage": "faq.png",
+                "weblink": "https://www.fs.usda.gov",
+                "thiscategory": "consultation and delegation",
+                "landingpagecontent": "The Forest Service, like other Federal agencies, has a duty to consult and coordinate  with  Indian  tribes  on  a  government-to-government  basis,  as directed in Executive Order 13175, Consultation and Coordination with Indian Tribal Governments ",
+                "sections": [{
+                    "content": "When there is a “substantial direct effect” to one of more Tribes or ANCs from the proposed decision or action, consultation must be initiated. ",
+                    "image": ""
+                }, {
+                    "content": "When there are possible effects, consider the geographical extent of those effects. For instance, if an action or activity is confined to National Forest System lands, evaluate which Tribes or ANCs have connections to, or benefit from, those lands. Or, if a decision or action has a State-wide effect, but primarily on forested lands typically within the jurisdiction of State and Private Forestry, evaluate which Tribes or ANCs have cultural or historic connections to those lands.",
+                    "image": ""
+                }, {
+                    "content": "When determining which Tribes or ANCs to consult with, check with intertribal organizations or other agencies which may have conducted consultation on similar actions or activities in the past. The National Park Service NAGPRA database may give an indication of which Tribes have an interest in a specific location.",
+                    "image": ""
+                }, {
+                    "content": "Line Officers should engage personally with Tribal leaders.",
+                    "image": ""
+                }, {
+                    "content": "Staff interactions are essential to set the stage for effective consultation and should be maintained and enhances and should be maintained and enhanced.",
+                    "image": ""
+                }, {
+                    "content": "The staff or unit responsible for planning the consultation may request technical assistance from the forest service Office of Tribal Relations in Washington, D.C. or from Tribal Relations Specialist.",
+                    "image": ""
+                }, {
+                    "content": "Government-to-government consultation may only occur between Forest Service Line Officers and Tribal leaders who have authority to consult on behalf of their Tribe. \n - This direction is not intended to minimize the importance of staff-to-staff  communication and  collaboration.  This  section  only indicates that staff may not serve as the Forest Service Consulting Official in government-to-government consultations.",
+                    "image": ""
+                }, {
+                    "content": "Minimum Consultation Period. Widely applicable national issues must provide a consultation period of at least 120 daysfrom the date the Indian tribe or Alaska Native Corporation likely received the information on which they are being invited to consult. Allow an additional 14 days for delivery time if the notification is by postal service. ",
+                    "image": ""
+                }, {
+                    "content": "Other actions (such as consultation on national issues that may affect only one or a few Indian tribes or ANCs, or on regional or more local decisions) may require less time for consultation.",
+                    "image": ""
+                }]
+            }
+        ]
+    },
+    {
+        "category": "consultation and delegation",
+        "data": [{
+            "title": "Documentation Consultation",
+            "subtitle": "",
+            "highlight": "",
+            "mainimage": "faq.png",
+            "weblink": "https://www.gsa.gov/node/79654",
+            "thiscategory": "consultation and delegation",
+            "landingpagecontent": "",
+            "sections": [{
+                "content": "Database entry. All consultation events must be entered into the USDA Tribal Consultation Database. ",
+                "image": ""
+            }, {
+                "content": "Record Maintenance. Each staff or Unit conducting consultations shall maintain a consultation record for each consultation. ",
+                "image": ""
+            }, {
+                "content": "Program Reviews. Consultation monitoring and evaluationof effectiveness must be incorporated, as appropriate, in program reviews. During program reviews, monitor and evaluate the results and effectiveness of consultation.",
+                "image": ""
+            }, {
+                "content": "Consultation database link here: https://www.gsa.gov/node/79654",
+                "image": ""
+            }]
         }]
     },
     {

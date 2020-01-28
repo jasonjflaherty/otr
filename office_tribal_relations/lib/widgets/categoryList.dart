@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/services/loadOTRJsonData.dart';
+import 'package:office_tribal_relations/widgets/details_paginated_screen.dart';
 import 'package:office_tribal_relations/widgets/details_screen.dart';
 import 'package:office_tribal_relations/widgets/otrAppBar.dart';
 import 'package:office_tribal_relations/widgets/subCategoryList.dart';
@@ -48,7 +49,7 @@ class CategoryList extends StatelessWidget {
 //this has a green background ^^^^
   Widget createListView(BuildContext context, AsyncSnapshot snapshot) {
     List<OtrPages> values = snapshot.data;
-    //sorting the categories...
+    //sorting the categories alphabetically...
     values.sort((a, b) => a.category.compareTo(b.category));
 
     return new ListView.builder(
@@ -68,11 +69,13 @@ class CategoryList extends StatelessWidget {
                 onTap: () {
                   //need to check if this category has one or more than one child...
                   if (values[index].data.length > 1) {
+                    print("SUBCAT LIST CLICKED");
+                    print(values[index]);
                     //more than one so send to subcategories screen to allow user to select secondary selection
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => SubCategoryList(),
+                        builder: (context) => DetailPageinatedScreen(),
                         settings: RouteSettings(arguments: values[index]),
                       ),
                     );
@@ -99,4 +102,3 @@ class CategoryList extends StatelessWidget {
     );
   }
 }
-
