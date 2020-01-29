@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/widgets/otrAppBar.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -207,8 +208,15 @@ ListView _buildSectionList(List<Sections> sections, context) {
                     ),
                   ),
                 ),
-                Text(
-                  (sections[index].content),
+                Linkify(
+                  onOpen: (link) async {
+                      if (await canLaunch(link.url)) {
+                          await launch(link.url);
+                        } else {
+                          throw 'Could not launch $link';
+                        }
+                    },
+                  text: sections[index].content,
                   style:
                       TextStyle(fontSize: 16, color: Colors.black, height: 1.5),
                 ),

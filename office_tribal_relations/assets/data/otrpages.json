@@ -155,6 +155,40 @@
     {
         "category": "dispute resolution",
         "data": [{
+            "title": "USDA Departmental Regulation",
+            "subtitle": "",
+            "highlight": "",
+            "mainimage": "faq.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "dispute resolution",
+            "landingpagecontent": "Pursuant to and consistent with DR §1350-002 An Indian tribe may seek conflict resolution through the U.S. Department of Agriculture’s Office of Tribal Relations when: ",
+            "sections": [{
+                "content": " An Indian tribe engaged in consultation believes that the Forest Service has  not appropriately or adequately considered  the  needs, desires, or requests of the Tribe, or ",
+                "image": ""
+            }, {
+                "content": "An Indian tribe believes the Forest Service should engage with them in consultation and the Forest Service has not done so.",
+                "image": ""
+            }]
+        },
+        {
+            "title": "Administrative Review",
+            "subtitle": "USDA Departmental Regulation",
+            "highlight": "",
+            "mainimage": "faq.png",
+            "weblink": "https://www.fs.usda.gov",
+            "thiscategory": "dispute resolution",
+            "landingpagecontent": "Pursuant to and consistent with DR §1350-002 An Indian tribe may seek conflict resolution through the U.S. Department of Agriculture’s Office of Tribal Relations when: ",
+            "sections": [{
+                "content": "Several Forest Service administrative review procedures are available to individual tribal members and Tribal governments who have met the eligibility requirements of the applicable procedure",
+                "image": ""
+            }, {
+                "content": "Eligibility is established by submitting specific comments during a public comment opportunity for a Forest Service proposed project or land management plan.",
+                "image": ""
+            }, {
+                "content": "Under the administrative review procedures for project and activity decisions implementing a land management plan (36 CFR 218), Federally-recognized Indian tribes and Alaska Native Corporations can also meet the eligibility requirements when specific written comments as defined in 36 CFR 218.2 are provided during Federal-Tribal consultations.",
+                "image": ""
+            }]
+        },{
             "title": "Dispute Resolution",
             "subtitle": "USDA Departmental Regulation",
             "highlight": "",
@@ -228,12 +262,8 @@
                     "content": "Other actions (such as consultation on national issues that may affect only one or a few Indian tribes or ANCs, or on regional or more local decisions) may require less time for consultation.",
                     "image": ""
                 }]
-            }
-        ]
-    },
-    {
-        "category": "consultation and delegation",
-        "data": [{
+            },
+            {
             "title": "Documentation Consultation",
             "subtitle": "",
             "highlight": "",
@@ -259,15 +289,15 @@
     {
         "category": "laws policy",
         "data": [{
-            "title": "Laws and Policy",
+            "title": "Forest Service Tribal Policy Background",
             "subtitle": "",
-            "highlight": "(1563.04(I))",
+            "highlight": "(FSM 1563 and FSH 1509.13)",
             "mainimage": "pattern.png",
             "weblink": "https://www.fs.usda.gov",
             "thiscategory": "laws policy",
-            "landingpagecontent": "If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
+            "landingpagecontent": "The Forest Service and federally recognized American Indian and Alaska Native entities share the value of restoring, sustaining, and enhancing the nation’s forests and grasslands, providing, and sustaining benefits to the American people. In many cases, Indian tribes continue their traditional uses of the nation’s forests and grasslands to sustain their cultural identity and continuity, and for economic development. The Government’s trust responsibilities and treaty obligations make it essential that the Forest Service engages with Indian tribes in timely and meaningful consultation on policies that may affect Indian tribes. In addition to consultation, coordination and collaboration lead to information exchange, mutual understanding, informed decision-making, and mutual benefit. The value of collaboration is fully recognized within the Forest Service for all of its constituents, including Indian tribes as a support process for government-to-government consultation. \n Forest Service and USDA Authorities and Rules",
             "sections": [{
-                    "content": "Ensure that tribal interests and rights are considered and integrated across program areas and that governmentto- government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Agency policy.",
+                    "content": "Forest Service Tribal Relations Directives (FSH 1509.13 and FSM 1500). The Forest Service Manual and Handbook for tribal relations were published on March 9, 2016. These directives institutionalize and tailor the agency-wide practices of tribal consultation and engagement.  Perhaps the most significant aspect of the new directives is the clear emphasis that every part of the Forest Service involves Tribal relations, and working with Tribes is part of every employee’s job. https://www.fs.fed.us/spf/tribalrelations/authorities.shtml",
                     "image": ""
                 },
                 {
@@ -307,15 +337,15 @@
         }]
     },
     {
-        "category": "concepts",
+        "category": "mediation",
         "data": [{
-            "title": "Concepts",
+            "title": "Mediation",
             "subtitle": "",
             "highlight": "",
             "mainimage": "faq.png",
             "weblink": "https://www.fs.usda.gov",
-            "thiscategory": "concepts",
-            "landingpagecontent": "Clicking on this link which refers to B2B Marketing awards shortlist will take you to the ability to whiteboard without lessening our aptitude to evolve without decreasing our power to aggregate. If you incentivize dynamically, you may also mesh iteravely. The capability to implement wirelessly leads to the ability to whiteboard without lessening our aptitude to incubate without reducing our capability to implement wirelessly leads to the capacity to synthesize interactively.",
+            "thiscategory": "mediation",
+            "landingpagecontent": "The Forest Service Line Officer with responsibilities for a particular decision and the Tribe’s representative are encouraged to use Alternative Dispute Resolution processes, including mediation, where a neutral third-party facilitates a mutually-agreeablesolution. ",
             "sections": [{
                 "content": "",
                 "image": ""

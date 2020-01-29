@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:office_tribal_relations/details_page_screen.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/services/loadOTRJsonData.dart';
 import 'package:office_tribal_relations/widgets/details_paginated_screen.dart';
@@ -70,12 +71,11 @@ class CategoryList extends StatelessWidget {
                   //need to check if this category has one or more than one child...
                   if (values[index].data.length > 1) {
                     print("SUBCAT LIST CLICKED");
-                    print(values[index]);
                     //more than one so send to subcategories screen to allow user to select secondary selection
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => DetailPageinatedScreen(),
+                        builder: (context) => DetailsPagination(),
                         settings: RouteSettings(arguments: values[index]),
                       ),
                     );
