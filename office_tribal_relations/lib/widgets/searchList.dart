@@ -102,7 +102,7 @@ class SearchFilterState extends State<SearchFilter> {
                       ),
                       subtitle: Container(
                         child: Text(
-                          fData[index].landpagecontent,
+                          removeAllHtmlTags(fData[index].landpagecontent),
                           overflow: TextOverflow.fade,
                           softWrap: true,
                           maxLines: 3,
@@ -137,4 +137,10 @@ class SearchFilterState extends State<SearchFilter> {
       ),
     );
   }
+}
+
+String removeAllHtmlTags(String htmlText) {
+  RegExp exp = RegExp(r"<[^>]*>", multiLine: true, caseSensitive: true);
+
+  return htmlText.replaceAll(exp, '');
 }

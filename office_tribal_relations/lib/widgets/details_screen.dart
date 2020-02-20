@@ -25,7 +25,7 @@ class DetailScreen extends StatelessWidget {
     if (ModalRoute.of(context).settings.arguments.runtimeType == Data) {
       //this is the Data
       final Data otrdata = ModalRoute.of(context).settings.arguments;
-      title = "";
+      title = otrdata.title;
       highlight = otrdata.highlight;
       mainimage = otrdata.mainimage;
       landingpagecontent = otrdata.landpagecontent;
@@ -35,7 +35,7 @@ class DetailScreen extends StatelessWidget {
     } else {
       //this is the List<Data>
       final List<Data> otrdata = ModalRoute.of(context).settings.arguments;
-      title = "";
+      title = otrdata[0].title;
       highlight = otrdata[0].highlight;
       mainimage = otrdata[0].mainimage;
       landingpagecontent = otrdata[0].landpagecontent;
@@ -53,7 +53,7 @@ class DetailScreen extends StatelessWidget {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints viewportConstraints) {
       return Scaffold(
-        appBar: otrAppBar(title, Color.fromRGBO(255, 255, 255, 1), Colors.black,
+        appBar: otrAppBar("", Color.fromRGBO(255, 255, 255, 1), Colors.black,
             appLogo, context),
         body: Container(
           color: Colors.white,
@@ -136,14 +136,14 @@ class DetailScreen extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                         child: Html(
-                        data: """ ${landingpagecontent} """,
-                        onLinkTap: (url) async {
-                          if (await canLaunch(url)) {
-                            await launch(url);
-                          } else {
-                            throw 'Could not launch $url';
-                          }
-                        },
+                          data: """ ${landingpagecontent} """,
+                          onLinkTap: (url) async {
+                            if (await canLaunch(url)) {
+                              await launch(url);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
                         ),
                         // child: Text(landingpagecontent,
                         //     style: TextStyle(fontSize: 18, height: 1.5)),
@@ -188,7 +188,6 @@ class DetailScreen extends StatelessWidget {
 }
 
 ListView _buildSectionList(List<Sections> sections, context) {
-
   return ListView.builder(
     //need these two for the list to scroll in the whole screen
     physics: NeverScrollableScrollPhysics(),
