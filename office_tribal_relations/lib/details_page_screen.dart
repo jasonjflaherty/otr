@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_html/flutter_html.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/widgets/otrAppBar.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -52,7 +53,7 @@ class _DetailsPaginationState extends State<DetailsPagination> {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints viewportConstraints) {
       return Scaffold(
-        appBar: otrAppBar("", Color.fromRGBO(255, 255, 255, 1), Colors.black,
+        appBar: otrAppBar("DPS", Color.fromRGBO(255, 255, 255, 1), Colors.black,
             appLogo, context),
         body: Container(
             color: Colors.white,
@@ -146,8 +147,18 @@ Widget _detailsView(PageController controller, OtrPages op, int index,
                     ),
                     Padding(
                       padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                      child: Text(i.landpagecontent,
-                          style: TextStyle(fontSize: 18, height: 1.5)),
+                      child: Html(
+                        data: """ ${i.landpagecontent} """,
+                        onLinkTap: (url) async {
+                          if (await canLaunch(url)) {
+                            await launch(url);
+                          } else {
+                            throw 'Could not launch $url';
+                          }
+                        },
+                        ),
+                      // child: Text(i.landpagecontent,
+                      //     style: TextStyle(fontSize: 18, height: 1.5)),
                     ),
                     //check if section has data
                     Visibility(
@@ -221,10 +232,15 @@ ListView _buildSectionList(List<Sections> sections, context) {
                     ),
                   ),
                 ),
-                Text(
-                  (sections[index].content),
-                  style:
-                      TextStyle(fontSize: 16, color: Colors.black, height: 1.5),
+                Html(
+                  data: """ ${sections[index].content} """,
+                  onLinkTap: (url) async {
+                    if (await canLaunch(url)) {
+                      await launch(url);
+                    } else {
+                      throw 'Could not launch $url';
+                    }
+                  },
                 ),
               ],
             ),

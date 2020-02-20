@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/widgets/categoryList.dart';
-import 'package:office_tribal_relations/widgets/otrAppBar-details.dart';
 import 'package:office_tribal_relations/widgets/searchList.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -323,7 +323,7 @@ ListView _buildSectionList(List<Sections> sections, context) {
                     color: Colors.green[900],
                     child: Text(
                       //the little # with green around it
-                      (index + 1).toString(),
+                      (index + 2).toString(),
                       style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
@@ -331,11 +331,14 @@ ListView _buildSectionList(List<Sections> sections, context) {
                     ),
                   ),
                 ),
-                Text(
-                  (sections[index].content),
-                  style:
-                      TextStyle(fontSize: 16, color: Colors.black, height: 1.5),
-                ),
+                Markdown(
+                  data: sections[index].content
+                )
+                // Text(
+                //   (sections[index].content),
+                //   style:
+                //       TextStyle(fontSize: 16, color: Colors.black, height: 1.5),
+                // ),
               ],
             ),
           ),
