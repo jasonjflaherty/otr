@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/widgets/otrAppBar.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DetailsPagination extends StatefulWidget {
   DetailsPagination({Key key}) : super(key: key);
@@ -10,6 +11,8 @@ class DetailsPagination extends StatefulWidget {
 
 class _DetailsPaginationState extends State<DetailsPagination> {
   PageController controller = PageController();
+  var issectionvisible = false;
+  var ishighlightvisible = false;
 
   @override
   Widget build(BuildContext context) {
@@ -20,14 +23,17 @@ class _DetailsPaginationState extends State<DetailsPagination> {
     var landingpagecontent = "No Content Available";
     var weblink = "https://www.fs.usda.gov";
     var thiscategory = "No Category Available";
-    var issectionvisible = false;
-    var ishighlightvisible = false;
+
     int totalpages = 2;
     int currentpage = 0;
     List<Sections> sections = [];
+    List<Data> oplist = [];
     final OtrPages op = ModalRoute.of(context).settings.arguments;
+    for (final d in op.data) {
+      oplist.add(d);
+    }
     print(op.data.length);
-    totalpages = op.data.length-1;
+    totalpages = op.data.length - 1;
     title = op.data[currentpage].title;
     highlight = op.data[currentpage].highlight;
     mainimage = op.data[currentpage].mainimage;
@@ -43,53 +49,188 @@ class _DetailsPaginationState extends State<DetailsPagination> {
     if (highlight != "") {
       ishighlightvisible = true;
     }
-    return MaterialApp(
-      home: Scaffold(
-        appBar: otrAppBar(title, Color.fromRGBO(255, 255, 255, 1), Colors.black,
+    return LayoutBuilder(
+        builder: (BuildContext context, BoxConstraints viewportConstraints) {
+      return Scaffold(
+        appBar: otrAppBar("", Color.fromRGBO(255, 255, 255, 1), Colors.black,
             appLogo, context),
-        body: FutureBuilder<Data>(
-          future: op.data,
-        )
-
-        ) 
-        //SingleChildScrollView(child: _detailsView(controller, op, totalpages)
-        ),
-      ),
-    );
+        body: Container(
+            color: Colors.white,
+            child: _detailsView(
+                controller, op, totalpages, viewportConstraints, context)),
+      );
+    });
   }
 }
 
-Widget _detailsView(PageController controller, OtrPages op, int index) {
-  return Container(
-    child: Text(op.data[index].title),
-  );
+Widget _detailsView(PageController controller, OtrPages op, int index,
+    BoxConstraints viewportConstraints, BuildContext context) {
+  return PageView(children: <Widget>[
+    for (final i in op.data)
+      SingleChildScrollView(
+        child: SingleChildScrollView(
+          padding: EdgeInsets.all(15),
+          child: ConstrainedBox(
+            constraints: BoxConstraints(
+              minHeight: viewportConstraints.maxHeight,
+            ),
+            child: Column(
+              children: <Widget>[
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: <Widget>[
+                    Image.asset(
+                      "assets/images/" + i.mainimage,
+                      fit: BoxFit.fitWidth,
+                      height: 200,
+                      semanticLabel: "background image for decoration",
+                    ),
+                  ],
+                ),
+                Container(
+                  //transform: Matrix4.translationValues(0.0, -100.0, 0.0),
+                  alignment: Alignment(-1.0, -1.0),
+                  child: Column(children: <Widget>[
+                    Container(
+                      //color: Color.fromRGBO(0, 0, 0, .5),
+                      padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          i.thiscategory.toUpperCase(),
+                          style: TextStyle(
+                              fontSize: 28,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black),
+                          textAlign: TextAlign.left,
+                        ),
+                      ),
+                    ),
+                  ]),
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.only(top: 0.0, bottom: 0),
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          i.title.toUpperCase(),
+                          style: TextStyle(
+                              fontSize: 22,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black54),
+                          textAlign: TextAlign.left,
+                        ),
+                      ),
+                    ),
+                    //check if highlight has text.
+                    Visibility(
+                      visible: _DetailsPaginationState().ishighlightvisible,
+                      child: Padding(
+                        padding: EdgeInsets.fromLTRB(0, 0, 0, 15),
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text(
+                            i.highlight,
+                            style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.green[900],
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                      child: Text(i.landpagecontent,
+                          style: TextStyle(fontSize: 18, height: 1.5)),
+                    ),
+                    //check if section has data
+                    Visibility(
+                      visible: _DetailsPaginationState().issectionvisible,
+                      child: Container(
+                        child: _buildSectionList(i.sections, context),
+                      ),
+                    ),
+                    Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      textDirection: TextDirection.rtl,
+                      children: <Widget>[
+                        Padding(
+                          padding: EdgeInsets.only(top: 15, bottom: 15),
+                          child: InkWell(
+                              child: Text("Learn More >",
+                                  style: TextStyle(fontSize: 18)),
+                              onTap: () async {
+                                var url = i.weblink;
+                                if (await canLaunch(url)) {
+                                  await launch(url, forceWebView: false);
+                                } else {
+                                  throw 'Could not launch $url';
+                                }
+                              }),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+  ]);
+  // return Container(
+  //   child: Text(op.data[index].title),
+  // );
 }
 
-Widget _pageView(PageController controller) {
-  return PageView(
-    children: <Widget>[
-      Container(
-        child: Center(child: Text("Page 1")),
-        color: Colors.red,
-      ),
-      Container(
-        child: Center(child: Text("Page 2")),
-        color: Colors.blueAccent,
-      ),
-      Container(
-        child: Center(child: Text("Page 3")),
-        color: Colors.redAccent,
-      ),
-      Container(
-        child: Center(child: Text("Page 4")),
-        color: Colors.blueAccent,
-      )
-    ],
-    controller: controller,
-    onPageChanged: (num) {
-      // controller.jumpToPage(2);
-      // print("Change:" + controller.position.toString());
+ListView _buildSectionList(List<Sections> sections, context) {
+  return ListView.builder(
+    //need these two for the list to scroll in the whole screen
+    physics: NeverScrollableScrollPhysics(),
+    shrinkWrap: true,
+    itemCount: sections.length,
+    itemBuilder: (BuildContext context, int index) {
+      return Container(
+        child: ListTile(
+          //this makes the tile go edge to edge of the main container
+          contentPadding: EdgeInsets.symmetric(horizontal: 0.0),
+          title: Container(
+            child: Column(
+              children: <Widget>[
+                Container(
+                  //pull to the left
+                  alignment: Alignment(-1.0, 0.0),
+                  child: Container(
+                    //padding and color box around #
+                    padding: EdgeInsets.all(15),
+                    margin: EdgeInsets.fromLTRB(0, 15, 0, 15),
+                    color: Colors.green[900],
+                    child: Text(
+                      //the little # with green around it
+                      (index + 1).toString(),
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ),
+                Text(
+                  (sections[index].content),
+                  style:
+                      TextStyle(fontSize: 16, color: Colors.black, height: 1.5),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
     },
-    scrollDirection: Axis.horizontal,
   );
 }

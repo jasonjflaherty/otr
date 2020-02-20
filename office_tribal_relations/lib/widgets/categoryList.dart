@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/details_page_screen.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/services/loadOTRJsonData.dart';
-import 'package:office_tribal_relations/widgets/details_paginated_screen.dart';
 import 'package:office_tribal_relations/widgets/details_screen.dart';
 import 'package:office_tribal_relations/widgets/otrAppBar.dart';
-import 'package:office_tribal_relations/widgets/subCategoryList.dart';
 
 class CategoryList extends StatelessWidget {
   //final List<OtrPages> categories;
