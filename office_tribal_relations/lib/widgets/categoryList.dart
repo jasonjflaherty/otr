@@ -57,68 +57,74 @@ class CategoryList extends StatelessWidget {
       gridDelegate:
           SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
       itemBuilder: (BuildContext context, int index) {
-          return GestureDetector(
+        return GestureDetector(
+          child: Container(
+            padding: EdgeInsets.all(10),
             child: Container(
               padding: EdgeInsets.all(10),
-              child: Container(
-                padding: EdgeInsets.all(10),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.end,
-
-                  children: <Widget>[
-                    Text(
-                      '${(values[index].category).toUpperCase()}',
-                      style: GoogleFonts.workSans(
-                        textStyle: Theme.of(context).textTheme.display1,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w500,
-                        color: Colors.black,
-                        backgroundColor: Colors.white,
-                      ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: <Widget>[
+                  Text(
+                    '${(values[index].category).toUpperCase()}',
+                    style: GoogleFonts.workSans(
+                      textStyle: Theme.of(context).textTheme.display1,
+                      fontSize: 15,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.black,
+                      backgroundColor: Colors.white,
                     ),
-                    // Html(
-                    //   data:
-                    //       '''<strong>${(values[index].category).toUpperCase()} </strong>''',
-                    //   backgroundColor: Colors.white,
-                    //   defaultTextStyle: TextStyle(fontSize: 12),
-                    // ),
-                  ],
-                ),
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(5),
-                    color: Colors.white,
-                    image: DecorationImage(
-                        image: new AssetImage(
-                            'assets/images/${values[index].categoryimage}'),
-                        fit: BoxFit.cover)),
+                  ),
+                  // Html(
+                  //   data:
+                  //       '''<strong>${(values[index].category).toUpperCase()} </strong>''',
+                  //   backgroundColor: Colors.white,
+                  //   defaultTextStyle: TextStyle(fontSize: 12),
+                  // ),
+                ],
               ),
+              decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                        color: Colors.black38,
+                        blurRadius: 2,
+                        spreadRadius: 1,
+                        offset: Offset(0.0, 0.0))
+                  ],
+                  borderRadius: BorderRadius.circular(5),
+                  color: Colors.white,
+                  image: DecorationImage(
+                      image: new AssetImage(
+                          'assets/images/${values[index].categoryimage}'),
+                      fit: BoxFit.cover)),
             ),
-            onTap: () {
-              //need to check if this category has one or more than one child...
-              if (values[index].data.length > 1) {
-                print("SUBCAT LIST CLICKED");
-                //more than one so send to subcategories screen to allow user to select secondary selection
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => SubCategoryList(),
-                    settings: RouteSettings(arguments: values[index]),
-                  ),
-                );
-              } else {
-                //there are less than 1 titles here, so just send it to the detailscreen
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailScreen(),
-                    settings: RouteSettings(arguments: values[index].data),
-                  ),
-                );
-              }
-            },
-          );
+          ),
+          onTap: () {
+            //need to check if this category has one or more than one child...
+            if (values[index].data.length > 1) {
+              print("SUBCAT LIST CLICKED");
+              //more than one so send to subcategories screen to allow user to select secondary selection
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => SubCategoryList(),
+                  settings: RouteSettings(arguments: values[index]),
+                ),
+              );
+            } else {
+              //there are less than 1 titles here, so just send it to the detailscreen
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => DetailScreen(),
+                  settings: RouteSettings(arguments: values[index].data),
+                ),
+              );
+            }
+          },
+        );
         // return Container(
         //   padding: EdgeInsets.all(15),
         //   child: GridTile(
@@ -210,7 +216,10 @@ class _GridTitleText extends StatelessWidget {
     return FittedBox(
       fit: BoxFit.none,
       alignment: Alignment.centerLeft,
-      child: Text(text, style: TextStyle(fontSize: 15),),
+      child: Text(
+        text,
+        style: TextStyle(fontSize: 15),
+      ),
     );
   }
 }
