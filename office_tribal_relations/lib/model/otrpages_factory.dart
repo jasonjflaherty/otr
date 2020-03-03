@@ -1,8 +1,9 @@
 class OtrPages {
   String category;
+  String categoryimage;
   List<Data> data;
 
-  OtrPages({this.category, this.data});
+  OtrPages({this.category, this.categoryimage, this.data});
 
   factory OtrPages.fromJson(Map<String, dynamic> parsedJson) {
     var list = parsedJson['data'] as List;
@@ -11,6 +12,7 @@ class OtrPages {
     
     return OtrPages(
       category: parsedJson['category'],
+      categoryimage: parsedJson['categoryimage'],
       data: dataList
     );
   }

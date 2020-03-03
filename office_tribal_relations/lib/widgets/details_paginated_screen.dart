@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:office_tribal_relations/model/otrpages_factory.dart';
 import 'package:office_tribal_relations/widgets/categoryList.dart';
 import 'package:office_tribal_relations/widgets/searchList.dart';
@@ -331,9 +330,9 @@ ListView _buildSectionList(List<Sections> sections, context) {
                     ),
                   ),
                 ),
-                Markdown(
-                  data: sections[index].content
-                )
+//                Markdown(
+//                  data: sections[index].content
+//                )
                 // Text(
                 //   (sections[index].content),
                 //   style:

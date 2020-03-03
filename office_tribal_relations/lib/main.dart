@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:office_tribal_relations/widgets/categoryList.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -11,6 +12,7 @@ void main() => runApp(new OTRApp());
 class OTRApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
     return new MaterialApp(
       title: 'Office of Tribal Relations',
       theme: new ThemeData(
@@ -24,7 +26,7 @@ class OTRApp extends StatelessWidget {
 
         // Define the default TextTheme. Use this to specify the default
         // text styling for headlines, titles, bodies of text, and more.
-        textTheme: TextTheme(
+        textTheme: GoogleFonts.workSansTextTheme(textTheme).copyWith(
           headline: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
           title: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
           body1: TextStyle(fontSize: 16.0, fontFamily: 'Hind'),
@@ -82,7 +84,8 @@ Widget _HomepageWords(BuildContext context) {
               ),
               Text(
                 "FOREST SERVICE",
-                style: TextStyle(
+                style: GoogleFonts.workSans(
+                    textStyle: Theme.of(context).textTheme.display1,
                     fontSize: 24,
                     height:1.8,
                     fontWeight: FontWeight.bold,
@@ -90,7 +93,8 @@ Widget _HomepageWords(BuildContext context) {
               ),
               Text(
                 "TRIBAL RELATIONS",
-                style: TextStyle(
+                style: GoogleFonts.workSans(
+                    textStyle: Theme.of(context).textTheme.display1,
                     fontSize: 50,
                     height:1,
                     fontWeight: FontWeight.bold,
@@ -98,7 +102,8 @@ Widget _HomepageWords(BuildContext context) {
               ),
               Text(
                 "This is an official USDA Forest Service Application",
-                style: TextStyle(
+                style: GoogleFonts.workSans(
+                    textStyle: Theme.of(context).textTheme.display1,
                     fontSize: 12,
                     height:1.5,
                     fontWeight: FontWeight.bold,

@@ -1,6 +1,7 @@
 [
     {
         "category": "consultation responsibilities",
+        "categoryimage" : "drum.jpg",
         "data": [
             {
                 "title": "Regional Foresters",
@@ -56,6 +57,7 @@
     },
     {
         "category": "culture and heritage cooperation authority",
+        "categoryimage" : "monitoring-stream.jpg",
         "data": [
             {
                 "title": "Culture and Heritage Cooperation Authority",
@@ -71,6 +73,7 @@
     },
     {
         "category": "dispute resolution",
+        "categoryimage" : "pictographs.jpg",
         "data": [
             {
                 "title": "USDA Departmental Regulation",
@@ -115,6 +118,7 @@
     },
     {
         "category": "consultation and delegation",
+        "categoryimage" : "teepees.jpg",
         "data": [
             {
                 "title": "Delegation",
@@ -140,6 +144,7 @@
     },
     {
         "category": "laws & policy",
+        "categoryimage" : "tribal-archaeological-crew.jpg",
         "data": [
             {
                 "title": "Forest Service Tribal Policy Background",
@@ -155,6 +160,7 @@
     },
     {
         "category": "faq",
+        "categoryimage" : "faq.png",
         "data": [
             {
                 "title": "FAQ",
@@ -170,6 +176,7 @@
     },
     {
         "category": "compensation",
+        "categoryimage" : "tribal-fire-crew.jpg",
         "data": [
             {
                 "title": "Compensation",
@@ -185,6 +192,7 @@
     },
     {
         "category": "mediation",
+        "categoryimage" : "untitled.jpg",
         "data": [
             {
                 "title": "Mediation",
@@ -200,6 +208,7 @@
     },
     {
         "category": "sacred sites",
+        "categoryimage" : "USDAForest_AgassizPeak_750x400.jpg",
         "data": [
             {
                 "title": "Sacred Sites",
@@ -220,6 +229,7 @@
     },
     {
         "category": "regional tribal relations",
+        "categoryimage" : "teepees.jpg",
         "data": [
             {
                 "title": "Regional Tribal Relations",
@@ -240,6 +250,7 @@
     },
     {
         "category": "tribal relations strategic plans",
+        "categoryimage" : "USDAForest_AgassizPeak_750x400.jpg",
         "data": [
             {
                 "title": "Tribal Relations Strategic Plans",
@@ -260,6 +271,7 @@
     },
     {
         "category": "agency",
+        "categoryimage" : "USDAForest_AgassizPeak_750x400.jpg",
         "data": [
             {
                 "title": "Agency",
@@ -280,6 +292,7 @@
     },
     {
         "category": "training",
+        "categoryimage" : "Los-Padres-NF.jpg",
         "data": [
             {
                 "title": "Training",
