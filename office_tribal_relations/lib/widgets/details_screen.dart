@@ -155,26 +155,26 @@ class DetailScreen extends StatelessWidget {
                           child: _buildSectionList(sections, context),
                         ),
                       ),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        textDirection: TextDirection.rtl,
-                        children: <Widget>[
-                          Padding(
-                            padding: EdgeInsets.only(top: 15, bottom: 15),
-                            child: InkWell(
-                                child: Text("Learn More >",
-                                    style: TextStyle(fontSize: 18)),
-                                onTap: () async {
-                                  var url = weblink;
-                                  if (await canLaunch(url)) {
-                                    await launch(url, forceWebView: false);
-                                  } else {
-                                    throw 'Could not launch $url';
-                                  }
-                                }),
-                          ),
-                        ],
-                      ),
+//                      Row(
+//                        crossAxisAlignment: CrossAxisAlignment.center,
+//                        textDirection: TextDirection.rtl,
+//                        children: <Widget>[
+//                          Padding(
+//                            padding: EdgeInsets.only(top: 15, bottom: 15),
+//                            child: InkWell(
+//                                child: Text("Learn More >",
+//                                    style: TextStyle(fontSize: 18)),
+//                                onTap: () async {
+//                                  var url = weblink;
+//                                  if (await canLaunch(url)) {
+//                                    await launch(url, forceWebView: false);
+//                                  } else {
+//                                    throw 'Could not launch $url';
+//                                  }
+//                                }),
+//                          ),
+//                        ],
+//                      ),
                     ],
                   ),
                 ],
