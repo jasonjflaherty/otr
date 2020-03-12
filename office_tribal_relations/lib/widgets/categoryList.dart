@@ -104,7 +104,6 @@ class CategoryList extends StatelessWidget {
           onTap: () {
             //need to check if this category has one or more than one child...
             if (values[index].data.length > 1) {
-              print("SUBCAT LIST CLICKED");
               //more than one so send to subcategories screen to allow user to select secondary selection
               Navigator.push(
                 context,

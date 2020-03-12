@@ -7,7 +7,8 @@ class SubCategoryList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final OtrPages otrdata = ModalRoute.of(context).settings.arguments;
-
+    //sort data a-z
+    otrdata.data.sort((a,b) => a.title.compareTo(b.title));
     return Scaffold(
       backgroundColor: Colors.green[900],
       appBar: otrAppBar(
