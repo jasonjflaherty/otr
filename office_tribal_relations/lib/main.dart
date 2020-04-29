@@ -148,12 +148,12 @@ class FullScreenImage extends StatelessWidget {
     return Stack(children: <Widget>[
         FadeInImage(
           placeholder: AssetImage("assets/images/blackdot.png"),
-          image: AssetImage("assets/images/woods_lr_50.jpg"),
+          image: AssetImage("assets/images/good-for-front-page-dark.jpg"),
           fit: BoxFit.cover,
           height: double.infinity,
           width: double.infinity,
           alignment: Alignment.topLeft,
-          imageSemanticLabel: "darker forest background",
+          imageSemanticLabel: "darker weaved background",
         ),
         _HomepageWords(context),
       ],
