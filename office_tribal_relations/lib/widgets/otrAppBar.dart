@@ -16,6 +16,9 @@ Image appLogo = new Image(
 Widget otrAppBar(String title, Color bgColor, Color iconColor, Image img,
     BuildContext context) {
   return AppBar(
+    leading: BackButton(
+     color: iconColor
+   ), 
     backgroundColor: bgColor,
     title: Text(
       title.toUpperCase(),
