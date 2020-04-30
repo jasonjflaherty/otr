@@ -73,7 +73,7 @@ class CategoryList extends StatelessWidget {
                       textStyle: Theme.of(context).textTheme.display1,
                       fontSize: 15,
                       fontWeight: FontWeight.w500,
-                      color: Colors.black,
+                      color: Colors.green[900],
                       backgroundColor: Colors.white,
                     ),
                   ),
