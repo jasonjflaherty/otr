@@ -11,7 +11,7 @@ description: Office of Tribal Relations App for the Field.
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0+2
+version: 1.0.0+3
 
 environment:
   sdk: ">=2.3.0 <3.0.0"
@@ -54,6 +54,7 @@ flutter:
     - assets/
     - assets/images/
     - assets/data/
+    - assets/icons/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
@@ -82,4 +83,4 @@ flutter:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/USForestService.png"
+  image_path: "assets/icons/167.png"
