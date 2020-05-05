@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:office_tribal_relations/model/otrpages_factory.dart';
-import 'package:office_tribal_relations/widgets/otrAppBar.dart';
+import 'model/otrpages_factory.dart';
+import 'widgets/otrAppBar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class DetailsPagination extends StatefulWidget {
@@ -33,7 +33,7 @@ class _DetailsPaginationState extends State<DetailsPagination> {
     for (final d in op.data) {
       oplist.add(d);
     }
-    print(op.data.length);
+    //print(op.data.length);
     totalpages = op.data.length - 1;
     title = op.data[currentpage].title;
     highlight = op.data[currentpage].highlight;
@@ -53,8 +53,8 @@ class _DetailsPaginationState extends State<DetailsPagination> {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints viewportConstraints) {
       return Scaffold(
-        appBar: otrAppBar("DPS", Color.fromRGBO(255, 255, 255, 1), Colors.black,
-            appLogo, context),
+        appBar: otrAppBar(
+            "DPS", Color.fromRGBO(0, 0, 0, 1), Colors.black, appLogo, context),
         body: Container(
             color: Colors.white,
             child: _detailsView(
@@ -156,7 +156,7 @@ Widget _detailsView(PageController controller, OtrPages op, int index,
                             throw 'Could not launch $url';
                           }
                         },
-                        ),
+                      ),
                       // child: Text(i.landpagecontent,
                       //     style: TextStyle(fontSize: 18, height: 1.5)),
                     ),

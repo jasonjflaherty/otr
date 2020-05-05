@@ -1,11 +1,12 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:office_tribal_relations/model/otrpages_factory.dart';
-import 'package:office_tribal_relations/services/loadOTRJsonData.dart';
-import 'package:office_tribal_relations/widgets/details_screen.dart';
-import 'package:office_tribal_relations/widgets/otrAppBar.dart';
-import 'package:office_tribal_relations/widgets/subCategoryList.dart';
+import '../model/otrpages_factory.dart';
+import '../services/loadOTRJsonData.dart';
+import '../widgets/details_screen.dart';
+import '../widgets/otrAppBar.dart';
+import '../widgets/subCategoryList.dart';
 
 class CategoryList extends StatelessWidget {
   //final List<OtrPages> categories;
@@ -42,7 +43,7 @@ class CategoryList extends StatelessWidget {
         });
     return new Scaffold(
       appBar: otrAppBar("", Colors.green[900], Colors.white, appLogo, context),
-      body: futureBuilder,
+      body: SafeArea(child: futureBuilder),
       backgroundColor: Colors.green[900],
     );
   }
@@ -51,38 +52,52 @@ class CategoryList extends StatelessWidget {
     List<OtrPages> values = snapshot.data;
     //sorting the categories alphabetically...
     values.sort((a, b) => a.category.compareTo(b.category));
-
+    //how many grid items
+    int gridCnt = 2;
+    double swidth = MediaQuery.of(context).size.width;
+    if (swidth < 320) {
+      gridCnt = 1;
+    }
+    if (swidth > 480) {
+      gridCnt = 3;
+    }
+    if (swidth > 768) {
+      gridCnt = 6;
+    }
+    if (swidth > 1200) {
+      gridCnt = 9;
+    }
     return new GridView.builder(
       itemCount: values.length,
       gridDelegate:
-          SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+          SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: gridCnt),
       itemBuilder: (BuildContext context, int index) {
         return GestureDetector(
-          child: Container(
-            padding: EdgeInsets.all(10),
+          child: Card(
+            elevation: 3,
+            margin: EdgeInsets.all(7.5),
             child: Container(
-              padding: EdgeInsets.all(10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: <Widget>[
-                  Text(
-                    '${(values[index].category).toUpperCase()}',
-                    style: GoogleFonts.workSans(
-                      textStyle: Theme.of(context).textTheme.display1,
-                      fontSize: 15,
-                      fontWeight: FontWeight.w500,
-                      color: Colors.green[900],
-                      backgroundColor: Colors.white,
+                  Container(
+                    color: Colors.white,
+                    padding: EdgeInsets.all(5),
+                    child: AutoSizeText(
+                      '${(values[index].category).toUpperCase()}',
+                      maxLines: 2,
+                      minFontSize: 14,
+                      maxFontSize: 18,
+                      style: GoogleFonts.workSans(
+                        textStyle: Theme.of(context).textTheme.display1,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500,
+                        color: Colors.green[900],
+                      ),
                     ),
                   ),
-                  // Html(
-                  //   data:
-                  //       '''<strong>${(values[index].category).toUpperCase()} </strong>''',
-                  //   backgroundColor: Colors.white,
-                  //   defaultTextStyle: TextStyle(fontSize: 12),
-                  // ),
                 ],
               ),
               decoration: BoxDecoration(
@@ -124,27 +139,6 @@ class CategoryList extends StatelessWidget {
             }
           },
         );
-        // return Container(
-        //   padding: EdgeInsets.all(15),
-        //   child: GridTile(
-        //     footer: GestureDetector(
-        //       //onTap: () { onBannerTap(photo); },
-        //       child: GridTileBar(
-        //         backgroundColor: Colors.black54,
-        //         title: _GridTitleText(values[index].category),
-        //       ),
-        //     ),
-        //     child: Container(
-        //       decoration: BoxDecoration(
-        //           borderRadius: BorderRadius.circular(5),
-        //           color: Colors.white,
-        //           image: DecorationImage(
-        //               image: new AssetImage(
-        //                   'assets/images/${values[index].categoryimage}'),
-        //               fit: BoxFit.cover)),
-        //     ),
-        //   ),
-        // );
       },
     );
   }
@@ -172,7 +166,7 @@ class CategoryList extends StatelessWidget {
                 onTap: () {
                   //need to check if this category has one or more than one child...
                   if (values[index].data.length > 1) {
-                    print("SUBCAT LIST CLICKED");
+                    //print("SUBCAT LIST CLICKED");
                     //more than one so send to subcategories screen to allow user to select secondary selection
                     Navigator.push(
                       context,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
-import 'package:office_tribal_relations/model/otrpages_factory.dart';
-import 'package:office_tribal_relations/widgets/otrAppBar.dart';
+import '../model/otrpages_factory.dart';
+import '../widgets/otrAppBar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 //this has a white background
@@ -52,109 +52,110 @@ class DetailScreen extends StatelessWidget {
     }
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints viewportConstraints) {
-      return Scaffold(
-        appBar: otrAppBar("", Color.fromRGBO(255, 255, 255, 1), Colors.black,
-            appLogo, context),
-        body: Container(
-          color: Colors.white,
-          child: SingleChildScrollView(
-            padding: EdgeInsets.all(15),
-            child: ConstrainedBox(
-              constraints: BoxConstraints(
-                minHeight: viewportConstraints.maxHeight,
-              ),
-              child: Column(
-                children: <Widget>[
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: <Widget>[
-                      Image.asset(
-                        "assets/images/$mainimage",
-                        fit: BoxFit.fitWidth,
-                        height: 200,
-                        semanticLabel: "background image for decoration",
-                      ),
-                    ],
-                  ),
-                  Container(
-                    //transform: Matrix4.translationValues(0.0, -100.0, 0.0),
-                    alignment: Alignment(-1.0, -1.0),
-                    child: Column(children: <Widget>[
-                      Container(
-                        //color: Color.fromRGBO(0, 0, 0, .5),
-                        padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Text(
-                            thiscategory.toUpperCase(),
-                            style: TextStyle(
-                                fontSize: 28,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.black),
-                            textAlign: TextAlign.left,
-                          ),
+      return SafeArea(
+        child: Scaffold(
+          appBar: otrAppBar("", Color.fromRGBO(255, 255, 255, 1), Colors.black,
+              appLogo, context),
+          body: Container(
+            color: Colors.white,
+            child: SingleChildScrollView(
+              padding: EdgeInsets.all(15),
+              child: ConstrainedBox(
+                constraints: BoxConstraints(
+                  minHeight: viewportConstraints.maxHeight,
+                ),
+                child: Column(
+                  children: <Widget>[
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: <Widget>[
+                        Image.asset(
+                          "assets/images/$mainimage",
+                          fit: BoxFit.fitWidth,
+                          height: 200,
+                          semanticLabel: "background image for decoration",
                         ),
-                      ),
-                    ]),
-                  ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.only(top: 0.0, bottom: 0),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Text(
-                            title.toUpperCase(),
-                            style: TextStyle(
-                                fontSize: 22,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.black54),
-                            textAlign: TextAlign.left,
-                          ),
-                        ),
-                      ),
-                      //check if highlight has text.
-                      Visibility(
-                        visible: ishighlightvisible,
-                        child: Padding(
-                          padding: EdgeInsets.fromLTRB(0, 0, 0, 15),
+                      ],
+                    ),
+                    Container(
+                      //transform: Matrix4.translationValues(0.0, -100.0, 0.0),
+                      alignment: Alignment(-1.0, -1.0),
+                      child: Column(children: <Widget>[
+                        Container(
+                          //color: Color.fromRGBO(0, 0, 0, .5),
+                          padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
                           child: Align(
                             alignment: Alignment.centerLeft,
                             child: Text(
-                              highlight,
+                              thiscategory.toUpperCase(),
                               style: TextStyle(
-                                  fontSize: 20,
-                                  color: Colors.green[900],
-                                  fontWeight: FontWeight.bold),
+                                  fontSize: 28,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black),
+                              textAlign: TextAlign.left,
                             ),
                           ),
                         ),
-                      ),
-                      Padding(
-                        padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                        child: Html(
-                          data: """ ${landingpagecontent} """,
-                          onLinkTap: (url) async {
-                            if (await canLaunch(url)) {
-                              await launch(url);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
+                      ]),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        Padding(
+                          padding: EdgeInsets.only(top: 0.0, bottom: 0),
+                          child: Align(
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              title.toUpperCase(),
+                              style: TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black54),
+                              textAlign: TextAlign.left,
+                            ),
+                          ),
                         ),
-                        // child: Text(landingpagecontent,
-                        //     style: TextStyle(fontSize: 18, height: 1.5)),
-                      ),
-                      //check if section has data
-                      Visibility(
-                        visible: issectionvisible,
-                        child: Container(
-                          child: _buildSectionList(sections, context),
+                        //check if highlight has text.
+                        Visibility(
+                          visible: ishighlightvisible,
+                          child: Padding(
+                            padding: EdgeInsets.fromLTRB(0, 0, 0, 15),
+                            child: Align(
+                              alignment: Alignment.centerLeft,
+                              child: Text(
+                                highlight,
+                                style: TextStyle(
+                                    fontSize: 20,
+                                    color: Colors.green[900],
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
+                          ),
                         ),
-                      ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                          child: Html(
+                            data: """ ${landingpagecontent} """,
+                            onLinkTap: (url) async {
+                              if (await canLaunch(url)) {
+                                await launch(url);
+                              } else {
+                                throw 'Could not launch $url';
+                              }
+                            },
+                          ),
+                          // child: Text(landingpagecontent,
+                          //     style: TextStyle(fontSize: 18, height: 1.5)),
+                        ),
+                        //check if section has data
+                        Visibility(
+                          visible: issectionvisible,
+                          child: Container(
+                            child: _buildSectionList(sections, context),
+                          ),
+                        ),
 //                      Row(
 //                        crossAxisAlignment: CrossAxisAlignment.center,
 //                        textDirection: TextDirection.rtl,
@@ -175,9 +176,10 @@ class DetailScreen extends StatelessWidget {
 //                          ),
 //                        ],
 //                      ),
-                    ],
-                  ),
-                ],
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ),

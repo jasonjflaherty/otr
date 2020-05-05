@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:office_tribal_relations/model/otrpages_factory.dart';
+import 'model/otrpages_factory.dart';
 
 void main() => runApp(new SubPage());
 
 class SubPage extends StatelessWidget {
-  
   @override
   Widget build(BuildContext context) {
-    
     return new MaterialApp(
       title: 'Office of Tribal Relations',
       theme: new ThemeData(
@@ -27,7 +25,6 @@ class MySubPage extends StatefulWidget {
 }
 
 class _MySubPageState extends State<MySubPage> {
-  
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -62,15 +59,12 @@ class _MySubPageState extends State<MySubPage> {
   }
 }
 
-
 //subpages
 class SubPageScreen extends StatelessWidget {
-  
-  
   @override
   Widget build(BuildContext context) {
     final OtrPages otrdata = ModalRoute.of(context).settings.arguments;
-    
+
     return SingleChildScrollView(
       padding: EdgeInsets.all(15),
       child: Column(

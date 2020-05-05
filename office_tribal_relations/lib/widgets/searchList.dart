@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:office_tribal_relations/model/otrpages_factory.dart';
-import 'package:office_tribal_relations/services/loadOTRJsonData.dart';
-import 'package:office_tribal_relations/widgets/details_screen.dart';
-import 'package:office_tribal_relations/widgets/otrAppBar.dart';
+import '../model/otrpages_factory.dart';
+import '../services/loadOTRJsonData.dart';
+import '../widgets/details_screen.dart';
+import '../widgets/otrAppBar.dart';
 
 class SearchFilter extends StatefulWidget {
   SearchFilter() : super();

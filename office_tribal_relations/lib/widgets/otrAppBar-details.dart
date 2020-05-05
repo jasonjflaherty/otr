@@ -2,8 +2,8 @@
 import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:office_tribal_relations/widgets/categoryList.dart';
-import 'package:office_tribal_relations/widgets/searchList.dart';
+import '../widgets/categoryList.dart';
+import '../widgets/searchList.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 //adding image to the left of the appbar title

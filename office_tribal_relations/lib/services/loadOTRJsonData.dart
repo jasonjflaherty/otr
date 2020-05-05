@@ -1,7 +1,7 @@
 import 'dart:async' show Future;
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:office_tribal_relations/model/otrpages_factory.dart';
+import '../model/otrpages_factory.dart';
 
 class LoadData {
   //List<OtrPages> _categories;
@@ -38,8 +38,7 @@ class LoadData {
     }
     final parsed =
         json.decode(response.toString()).cast<Map<String, dynamic>>();
-    List otrdata =
-        parsed.map<Data>((json) => new Data.fromJson(json)).toList();
+    List otrdata = parsed.map<Data>((json) => new Data.fromJson(json)).toList();
     print(parsed);
     return otrdata;
   }
