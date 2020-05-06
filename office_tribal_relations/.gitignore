@@ -77,5 +77,3 @@ assets/icons/Runner/GeneratedPluginRegistrant.*
 !assets/icons/**/default.pbxuser
 !assets/icons/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
-
-!/build/app/outputs/bundle/release/*
