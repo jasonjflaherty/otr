@@ -1,0 +1,172 @@
+[
+  {
+    "location": "Washington Office",
+    "unit": "Office of Tribal Relations",
+    "name": "Estelle J. Bowman",
+    "email": "estelle.bowman@usda.gov",
+    "position": "Assistant Director",
+    "phonedesk": "202-205-1514",
+    "phonecell": "202-400-0846",
+    "address": "USDA Forest Service\nOffice of Tribal Relations\n201 14th Street SW\nYates 3rd Floor, SE Wing\nWashington, DC 20250-1160"
+  },
+  {
+    "location": "Washington Office",
+    "unit": "Office of Tribal Relations",
+    "name": "Christopher Koeppel",
+    "email": "christopher.koeppel@usda.gov",
+    "position": "Assistant Director",
+    "phonedesk": "202-205-1514",
+    "phonecell": "202-503-6118",
+    "address": "USDA Forest Service\nOffice of Tribal Relations\n201 14th Street SW\nYates 3rd Floor, SE Wing\nWashington, DC 20250-1161"
+  },
+  {
+    "location": "Washington Office",
+    "unit": "Office of Tribal Relations",
+    "name": "Pamela Williams",
+    "email": "pamela.williams3@usda.gov",
+    "position": "Administrative Assistant",
+    "phonedesk": "202-205-1514",
+    "address": "USDA Forest Service\nOffice of Tribal Relations\n201 14th Street SW\nYates 3rd Floor, SE Wing\nWashington, DC 20250-1162"
+  },
+  {
+    "location": "Washington Office",
+    "unit": "Office of Tribal Relations",
+    "name": "Alicia Bell-Sheeter",
+    "email": "alicia.bellsheeter@usda.gov",
+    "position": "Policy Anaylst",
+    "phonedesk": "202-205-1520",
+    "phonecell": "202-306-6008",
+    "address": "USDA Forest Service\nOffice of Tribal Relations\n201 14th Street SW\nYates 3rd Floor, SE Wing\nWashington, DC 20250-1163"
+  },
+  {
+    "location": "Washington Office",
+    "unit": "Office of Tribal Relations",
+    "name": "Rebecca Hill",
+    "email": "rebecca.e.hill@usda.gov",
+    "position": "Program Anaylst",
+    "phonedesk": "202-205-1514",
+    "phonecell": "202-815-4585",
+    "address": "USDA Forest Service\nOffice of Tribal Relations\n201 14th Street SW\nYates 3rd Floor, SE Wing\nWashington, DC 20250-1164"
+  },
+  {
+    "location": "Washington Office",
+    "unit": "Office of Tribal Relations",
+    "name": "Angela Pittman",
+    "email": "angela.pittman@usda.gov",
+    "position": "Program Anaylst",
+    "phonedesk": "202-205-1514",
+    "phonecell": "202-815-4358",
+    "address": "USDA Forest Service\nOffice of Tribal Relations\n201 14th Street SW\nYates 3rd Floor, SE Wing\nWashington, DC 20250-1165"
+  },
+  {
+    "location": "Region",
+    "unit": "Region 01 (MT, ID, ND, SD)",
+    "name": "Cheryl A. Vanderburg ",
+    "email": "cheryl.vanderburg@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "406-329-3348",
+    "address": "USDA Forest Service Northern Region\n26 Fort Road\nMissoula, MT 59804"
+  },
+  {
+    "location": "Region",
+    "unit": "Region 02 (CO, KS, NE, SD, WY)",
+    "name": "Susan Johnson",
+    "email": "susan.johnson2@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "303-275-5760",
+    "address": "USDA Forest Service\nRocky Mountain Region\n1617 Cole Blvd. Bldg 17\nGolden, CO 80401-4720"
+  },
+  {
+    "location": "Region",
+    "unit": "Region 03 (AZ, NM)",
+    "name": "Margaret Hangan (acting) ",
+    "email": "margaret.hangan@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "928-635-8342",
+    "address": "USDA Forest Service\nSouthwestern Region\n333 Broadway SE\nAlbuquerque, NM 87102"
+  },
+  {
+    "location": "Region",
+    "unit": "Region 04 (ID, NV, UT, WY)",
+    "name": "Cheryl A. Vanderburg",
+    "email": "cheryl.vanderburg@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "406-329-3348",
+    "address": "USDA Forest Service\nIntermountain Region\n324 25th Street\nOgden, UT 84401"
+  },
+  {
+    "location": "Region",
+    "unit": "Region 05 (CA, HW, US affiliated Pacific Island)",
+    "name": "Rowena Yeahquo",
+    "email": "rowena.yeahquo@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "707-562-8919",
+    "phonecell": "707-980-0390",
+    "address": "USDA Forest Service\nPacific Southwest Region\n1323 Club Drive\nVallejo, CA 94592"
+  },
+  {
+    "location": "Region",
+    "unit": "Region 06 (OR, WA)",
+    "name": "Waldo Walker",
+    "email": "waldo.walker@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "503-808-2603",
+    "phonecell": "503-729-2834",
+    "address": "USDA Forest Service\nPacific Northwest Region\n1220 SW 3rd Avenue\nPortland, OR 97204"
+  },
+  {
+    "location": "Region",
+    "unit": "Region 08 (AL, AR. FL, GA, KY, LA, MS, NC, OK, PR, SC,TN, TX, VI, VA)",
+    "name": "Lexie Rue-Harris ",
+    "email": "lexie.rue-harris@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "479-964-7237",
+    "phonecell": "479-414-8576",
+    "address": "USDA Forest Service Southern Region\n1720 Peachtree Rd. NW, Suite 811 North\nAtlanta, GA 30309"
+  },
+  {
+    "location": "Region",
+    "unit": "Region 09 (CT, DE, IL, IN, IA, ME, MD, MA, MI, MN, MO, NH, NJ, NY, OH, PA, RI, VT, WV, WI)",
+    "name": "Jen Youngblood",
+    "email": "jennifer.k.youngblood@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "484-832-8006",
+    "address": "USDA Forest Service Eastern Region\n626 E. Wisconsin Ave\n Milwaukee, WI 53202"
+  },
+  {
+    "location": "Region",
+    "unit": "Region 10 (AK)",
+    "name": "Melinda Hernandez Burke",
+    "email": "melinda.hernandezburke@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "907-586-7089",
+    "phonecell": "907-419-2372",
+    "address": "USDA Forest Service Alaska Region\n709 W. 9th Street\nP.O. Box 21628\nJuneau, AK 99802-1628"
+  },
+  {
+    "location": "Research and Development",
+    "unit": "WO Research",
+    "name": "Carl Lucero",
+    "email": "carl.lucero1@usda.gov",
+    "position": "Program Manager",
+    "phonedesk": "703-405-3823",
+    "address": "USDA Forest Service\nResource Use Sciences\n201 14th Street SW\nWashington, DC 20250"
+  },
+  {
+    "location": "Research and Development",
+    "unit": "All Other Research Stations",
+    "name": "Tribal Liaisons",
+    "email": "http://www.fs.fed.us/research/tribal- engagement/liaisons",
+    "position": "Program Manager",
+    "address": "Nationwide"
+  },
+  {
+    "location": "Recreation, Heritage, and Volunteer Services",
+    "unit": "NAGPRA",
+    "name": "Wendy Sutton",
+    "email": "wendy.sutton@usda.gov",
+    "position": "PhD National NAGPRA Coordinator",
+    "phonedesk": "505-842-3236",
+    "address": "USDA Forest Service\nSouthwestern Region\n333 Broadway SE\nAlbuquerque, NM 87102"
+  }
+]

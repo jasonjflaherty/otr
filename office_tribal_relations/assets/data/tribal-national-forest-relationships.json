@@ -1,0 +1,2840 @@
+[
+  {
+    "Region": "R1/R4",
+    "Tribes": "Timbisha Shoshone Band of Paiute",
+    "State": "Nevada/California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Battle Mountain Band (Shoshone)",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Blackfeet Tribe",
+    "State": "Montana",
+    "Forest": "Helena/Lewis & Clark NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Chippewa Cree",
+    "State": "Montana",
+    "Forest": "Helena/Lewis & Clark NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Coeur D'Alene",
+    "State": "Idaho",
+    "Forest": "Idaho Panhandle NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Confederated Tribes of Goshute",
+    "State": "Utah",
+    "Forest": "Unita Wasatch Cache NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Crow Tribe",
+    "State": "Montana/Wyoming",
+    "Forest": "Beaverhead/Deerlodge NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Crow Tribe",
+    "State": "Montana/Wyoming",
+    "Forest": "Gallatin/Custer NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Crow Tribe",
+    "State": "Montana/Wyoming",
+    "Forest": "Helena/Lewis & Clark NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Dresslerville Community",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Duckwater Shoshone",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Eastern Shoshone",
+    "State": "Wyoming/Utah",
+    "Forest": "Bridger Teton NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Elko Band (Western",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Ely Shoshone",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Fallon Colony (Paiute and Shoshone)",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Fort Belknap Trib (Gros Ventre & Assiniboine)",
+    "State": "Montana",
+    "Forest": "Helena/Lewis & Clark NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Fort McDermitt",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Fort Peck (Assiniboine & Sioux)",
+    "State": "Montana",
+    "Forest": "Beaverhead/Deerlodge NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Fort Peck (Assiniboine & Sioux)",
+    "State": "Montana",
+    "Forest": "Custer/Gallatine NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Fort Peck (Assiniboine & Sioux)",
+    "State": "Montana",
+    "Forest": "Helena/Lewis & Clark NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Kalispel Tribe of Indians",
+    "State": "Washington",
+    "Forest": "Collville NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Kootenai Tribe of Idaho",
+    "State": "Idaho",
+    "Forest": "Idaho Panhandle NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Las Vegas Paiute",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Lovelock Paiute",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Moapa Band of Paiute",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Idaho",
+    "Forest": "Beaverhead/Deerlodge NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Idaho",
+    "Forest": "Bitterroot NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Idaho",
+    "Forest": "Custer/Gallatine NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Idaho",
+    "Forest": "Idaho Panhandle NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Idaho",
+    "Forest": "Lolo NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Idaho",
+    "Forest": "Nez Perce/Clearwater NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Idaho",
+    "Forest": "Payette NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Idaho",
+    "Forest": "Salmon/Challis NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Idaho",
+    "Forest": "Sawtooth NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Northern Arapaho",
+    "State": "Wyoming/Utah",
+    "Forest": "Bridger Teton NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Northern Cheyenne",
+    "State": "Montana",
+    "Forest": "Custer/Gallatine NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Northern Ute Tribe",
+    "State": "Utah",
+    "Forest": "Unita Wasatch Cache NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Northwestern Band of Shoshoni Nation",
+    "State": "Utah",
+    "Forest": "Sawtooth NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Northwestern Band of Shoshoni Nation",
+    "State": "Utah",
+    "Forest": "Unita Wasatch Cache NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Paiute Indian Tribe of Utah (Includes:  Shivwits, Cedar City, Kioosharem, Kanosh, Indian Peaks Bands)",
+    "State": "Utah",
+    "Forest": "Dixie NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Pyramid Lake Paiute",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Reno-Sparks Colony (Washoe, Paiute, Shoshone)",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Rocky Boys Chippewa Cree",
+    "State": "Montana",
+    "Forest": "Helena/Lewis & Clark NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Salish-Kootenai Tribes",
+    "State": "Montana",
+    "Forest": "Beaverhead/Deerlodge NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Salish-Kootenai Tribes",
+    "State": "Montana",
+    "Forest": "Bitterroot NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Salish-Kootenai Tribes",
+    "State": "Montana",
+    "Forest": "Custer/Gallatin NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Salish-Kootenai Tribes",
+    "State": "Montana",
+    "Forest": "Flathead NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Salish-Kootenai Tribes",
+    "State": "Montana",
+    "Forest": "Helena/Lewis & Clark NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Salish-Kootenai Tribes",
+    "State": "Montana",
+    "Forest": "Idaho Panhandle NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Salish-Kootenai Tribes",
+    "State": "Montana",
+    "Forest": "Kootenai NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Salish-Kootenai Tribes",
+    "State": "Montana",
+    "Forest": "Lolo NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "San Juan Southern Paiute",
+    "State": "Utah/Colorado",
+    "Forest": "Fishlake NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Idaho",
+    "Forest": "Beaverhead/Deerlodge NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Idaho",
+    "Forest": "Bridger Teton NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Idaho",
+    "Forest": "Caribou Targee NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Idaho",
+    "Forest": "Custer/Gallatin NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Idaho",
+    "Forest": "Payette NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Idaho",
+    "Forest": "Salmon/Challis NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Idaho",
+    "Forest": "Sawtooth NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Paiute Tribes",
+    "State": "Nevada/Idaho",
+    "Forest": "Boise NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Paiute Tribes",
+    "State": "Nevada/Idaho",
+    "Forest": "Caribou Targee NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Paiute Tribes",
+    "State": "Nevada/Idaho",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Paiute Tribes",
+    "State": "Nevada/Idaho",
+    "Forest": "Payette NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Paiute Tribes",
+    "State": "Nevada/Idaho",
+    "Forest": "Salmon/Challis NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Shoshone-Paiute Tribes",
+    "State": "Nevada/Idaho",
+    "Forest": "Sawtooth NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Skull Valley Band of Band of Goshute",
+    "State": "Utah",
+    "Forest": "Uinta Wasatch Cache NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "South Fork Band Colony",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Spirit Lake Sioux Tribe",
+    "State": "North Dakota",
+    "Forest": "Dakota Prairie Grasslands"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Standing Rock Sioux",
+    "State": "North Dakota",
+    "Forest": "Dakota Prairie Grasslands"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Stewart Colony (Washoe)",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Stewart Colony (Washoe)",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Summit Lake Paiute Tribe",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Te-Moak Tribe of Western Shoshone",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Three Affiliated Tribes",
+    "State": "North Dakota",
+    "Forest": "Dakota Prairie Grasslands"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Turtle Mountain Band of Chippewa",
+    "State": "Oregon, Idaho, Montana",
+    "Forest": "Beaverhead/Deerlodge NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Ute Mountain Ute Tribe(Weeminuche Band)",
+    "State": "Utah/Colorado",
+    "Forest": "Ashley NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Walker River Paiute",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Washoe Tribe (includes:  Carson, Dresslerville, Stewart, Washoe, Reno-Sparks, Woodsfords Colonies)",
+    "State": "Nevada/California",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Wells Band Colony",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Winnemucca Indian Colony (Paiute and Shoshone)",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Woodsfords Community Washoe (covered under Washoe Tribe)",
+    "State": "Nevada/California",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Woodsfords Community Washoe (covered under Washoe Tribe)",
+    "State": "Nevada/California",
+    "Forest": "Lake Tahoe Basin Mgt Unit"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Yerrington Paiute",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R1/R4",
+    "Tribes": "Yomba Shoshone",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R14",
+    "Tribes": "Washoe Tribe (includes:  Carson, Dresslerville, Stewart, Washoe, Reno-Sparks, Woodsfords Colonies)",
+    "State": "Nevada/California",
+    "Forest": "Lake Tahoe Basin Mgt Unit"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Knikatnu Inc.",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Cape Fox Corp.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Chenega Corp",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Chickaloon-Moose Creek Native Assoc.",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Chugach Alaska Corp",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Cook Inlet Region, Inc",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Eklutna Inc.",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "English Bay Corp",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Eyak Corp",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Goldbelt, Inc.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Haida Corp.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Huna Corp.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Kake Tribal Corp",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Kavilco Inc.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Klawock Heenya Corp",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Klukwan Inc.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Kootznoowoo Inc.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Ninilchik Native Assoc., Inc.",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Port Graham Corp",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Salamatof Native Assoc., Inc.",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Sealaska Corp.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Seldovia Native Assoc.",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Shaan-Seet Inc.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Shee Atika Inc.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Tatilek Corp",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Tyonek Native Corp.",
+    "State": "Alaska",
+    "Forest": "Chucash NF"
+  },
+  {
+    "Region": "R10",
+    "Tribes": "Yak-Tat Kwaan, Inc.",
+    "State": "Alaska",
+    "Forest": "Tongass NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Crow",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Crow",
+    "State": "Wyoming",
+    "Forest": "Bighorn NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Crow",
+    "State": "Wyoming",
+    "Forest": "Medicine  Bow - Routt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Crow",
+    "State": "Wyoming",
+    "Forest": "Shoshone NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Crow",
+    "State": "Wyoming",
+    "Forest": "Thunder Basin NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Crow Creek Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Crow Creek Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Fort Pierre NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Crow Creek Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Nebraska NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Eastern Shoshone",
+    "State": "Colorado",
+    "Forest": "Medicine  Bow - Routt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Eastern Shoshone",
+    "State": "Colorado",
+    "Forest": "Thunder Basin NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Eastern Shoshone",
+    "State": "Wyoming",
+    "Forest": "Bighorn NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Eastern Shoshone",
+    "State": "Wyoming",
+    "Forest": "Shoshone NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Eastern Shoshone",
+    "State": "Wyoming/Utah",
+    "Forest": "Medicine  Bow - Routt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Flandreau Santee Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Flandreau Santee Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Fort Pierre NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Flandreau Santee Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Nebraska NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Lower Brule Sioux Tribe",
+    "State": "Nebraska",
+    "Forest": "Nebraska NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Lower Brule Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Lower Brule Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Fort Pierre NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Mandan, Hidastsa and Arikara Nation",
+    "State": "Colorado",
+    "Forest": "Arapaho-Roosevelt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Mandan, Hidastsa and Arikara Nation",
+    "State": "Colorado",
+    "Forest": "Thunder Basin NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Mandan, Hidastsa and Arikara Nation",
+    "State": "Nebraska",
+    "Forest": "Bighorn NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Mandan, Hidastsa and Arikara Nation",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Mandan, Hidastsa and Arikara Nation",
+    "State": "South Dakota",
+    "Forest": "Fort Pierre NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Mandan, Hidastsa and Arikara Nation",
+    "State": "Wyoming",
+    "Forest": "Shoshone NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Nez Perce Tribe",
+    "State": "Wyoming",
+    "Forest": "Shoshone NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Arapaho",
+    "State": "Colorado",
+    "Forest": "Arapaho-Roosevelt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Arapaho",
+    "State": "Colorado",
+    "Forest": "Pike San Isabel NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Arapaho",
+    "State": "Colorado",
+    "Forest": "Thunder Basin NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Arapaho",
+    "State": "Wyoming",
+    "Forest": "Bighorn NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Arapaho",
+    "State": "Wyoming",
+    "Forest": "Shoshone NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Arapaho",
+    "State": "Wyoming/Utah",
+    "Forest": "Arapaho-Roosevelt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Cheyenne",
+    "State": "Colorado",
+    "Forest": "Arapaho-Roosevelt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Cheyenne",
+    "State": "Colorado",
+    "Forest": "Pike San Isabel NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Cheyenne",
+    "State": "Wyoming",
+    "Forest": "Bighorn NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Northern Cheyenne",
+    "State": "Wyoming",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Oglala Lakota Nation",
+    "State": "Colorado",
+    "Forest": "Arapaho-Roosevelt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Oglala Lakota Nation",
+    "State": "Nebraska",
+    "Forest": "Nebraska NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Oglala Lakota Nation",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Rosebud Sioux Tribe",
+    "State": "Colorado",
+    "Forest": "Arapaho-Roosevelt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Rosebud Sioux Tribe",
+    "State": "Nebraska",
+    "Forest": "Nebraska NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Rosebud Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Rosebud Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Fort Pierre NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Wyoming",
+    "Forest": "Medicine  Bow - Routt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Wyoming",
+    "Forest": "Shoshone NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Shoshone-Bannock Tribes",
+    "State": "Wyoming",
+    "Forest": "Thunder Basin NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Sisseton-Wahpeton Oyate",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Sisseton-Wahpeton Oyate",
+    "State": "South Dakota",
+    "Forest": "Fort Pierre NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Sisseton-Wahpeton Oyate",
+    "State": "South Dakota",
+    "Forest": "Nebraska NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Spirit Lake Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Standing Rock Sioux",
+    "State": "Colorado",
+    "Forest": "Arapaho-Roosevelt NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Standing Rock Sioux",
+    "State": "Nebraska",
+    "Forest": "Nebraska NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Standing Rock Sioux",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Yankton Sioux Tribe",
+    "State": "Nebraska",
+    "Forest": "Fort Pierre NG"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Yankton Sioux Tribe",
+    "State": "Nebraska",
+    "Forest": "Nebraska NF"
+  },
+  {
+    "Region": "R2",
+    "Tribes": "Yankton Sioux Tribe",
+    "State": "South Dakota",
+    "Forest": "Black Hills NF"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Hopi Tribe",
+    "State": "Utah/Arizona",
+    "Forest": "Coconino NF"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Hopi Tribe",
+    "State": "Utah/Arizona",
+    "Forest": "Kaibab NF"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "No Information Submitted",
+    "State": "",
+    "Forest": ""
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Cochiti",
+    "State": "AZ",
+    "Forest": "Coronado"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Isleta",
+    "State": "AZ",
+    "Forest": "Coronado"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Jemez",
+    "State": "AZ",
+    "Forest": "Coronado"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Laguna",
+    "State": "AZ",
+    "Forest": "Coconino"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Laguna",
+    "State": "AZ",
+    "Forest": "Coronado"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Laguna",
+    "State": "OK",
+    "Forest": "Cibola"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Nambe",
+    "State": "AZ",
+    "Forest": "Coconino"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Nambe",
+    "State": "OK",
+    "Forest": "Cibola"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Ohkay Owingeh",
+    "State": "AZ",
+    "Forest": "Coronado"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Ohkay Owingeh",
+    "State": "AZ",
+    "Forest": "Tonto"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Ohkay Owingeh",
+    "State": "OK",
+    "Forest": "Cibola"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Picuris",
+    "State": "AZ",
+    "Forest": "Kaibab"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Picuris",
+    "State": "AZ",
+    "Forest": "Tonto"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Pojoaque",
+    "State": "AZ",
+    "Forest": "Kaibab"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of San Felipe",
+    "State": "AZ",
+    "Forest": "Kaibab"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of San Ildefonso",
+    "State": "AZ",
+    "Forest": "Kaibab"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of San Ildefonso",
+    "State": "NM",
+    "Forest": "Carson"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Sandia",
+    "State": "AZ",
+    "Forest": "Kaibab"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Sandia",
+    "State": "NM",
+    "Forest": "Carson"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Santa Ana",
+    "State": "AZ",
+    "Forest": "Kaibab"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Santa Ana",
+    "State": "OK",
+    "Forest": "Cibola"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Santa Clara",
+    "State": "NM",
+    "Forest": "Lincoln"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Santo Domingo",
+    "State": "AZ",
+    "Forest": "Kaibab"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Taos",
+    "State": "AZ",
+    "Forest": "Kaibab"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Tesuque",
+    "State": "AZ",
+    "Forest": "Coronado"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Zia",
+    "State": "NM",
+    "Forest": "Carson"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Pueblo of Zia",
+    "State": "NM",
+    "Forest": "Cibola"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Salt River Pima-Maricopa Indian Community",
+    "State": "NM",
+    "Forest": "Santa Fe"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Salt River Pima-Maricopa Indian Community",
+    "State": "NM",
+    "Forest": "Santa Fe"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "San Carlos Apache Tribe",
+    "State": "NM",
+    "Forest": "Cibola"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "San Juan Southern Paiute",
+    "State": "Utah/Colorado",
+    "Forest": "Kaibab NF"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "San Juan Southern Paiute Tribe",
+    "State": "NM",
+    "Forest": "Cibola"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Southern Ute Tribe",
+    "State": "NM",
+    "Forest": "Santa Fe"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Tohono O'odham Nation",
+    "State": "NM",
+    "Forest": "Santa Fe"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Tonto Apache Tribe",
+    "State": "NM",
+    "Forest": "Cibola"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Ute Mountain Ute Tribe",
+    "State": "NM",
+    "Forest": "Cibola"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "White Mountain Apache Tribe",
+    "State": "NM",
+    "Forest": "Santa Fe"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Wichita and Affiliated Tribes",
+    "State": "NM",
+    "Forest": "Carson"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Yavapai Prescott Tribe",
+    "State": "NM",
+    "Forest": "Carson"
+  },
+  {
+    "Region": "R3",
+    "Tribes": "Ysleta del Sur Pueblo",
+    "State": "NM",
+    "Forest": "Santa Fe"
+  },
+  {
+    "Region": "R4",
+    "Tribes": "Hopi Tribe",
+    "State": "Utah/Arizona",
+    "Forest": "Fishlake NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Agua Caliente Band of Cahiulla Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Alturas Rancheria",
+    "State": "California",
+    "Forest": "Modoc NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "American Indian Council of Mariposa (Southern Sierra Miwuk Nation)",
+    "State": "California",
+    "Forest": "Stanislaus NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Antelope Valley Indian Community",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Augustine Band of Cahuilla",
+    "State": "California",
+    "Forest": "Cleaveland NG"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Bear River Band of Rhoneville Rancheria",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Benton Paiute",
+    "State": "Nevada/California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Berry Creek Rancheria",
+    "State": "California",
+    "Forest": "Plumas NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Big Lagoon Rancheria",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Big Pine Paiute Tribe of Ownes Valley",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Big Pine Paiute Tribe of Ownes Valley",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Big Sandy Rancheria of Mono Indians",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Big Sandy Rancheria of Mono Indians",
+    "State": "California",
+    "Forest": "Sierra NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Bishop Colony (Paiute-Shoshone)",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Bishop Colony (Paiute-Shoshone)",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Bishop Colony (Paiute-Shoshone)",
+    "State": "Nevada/California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Blue Lake Rancheria",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Bridgeport Indian Colony (Paiute)",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Bridgeport Indian Colony (Paiute)",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Bridgeport Indian Colony (Paiute)",
+    "State": "Nevada/California",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Buena Vista Rancheria of MeWuk Indians of California",
+    "State": "California",
+    "Forest": "Eldorado NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cabazon Band of Mission Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cachil DeHe Band of Wintun Indians of Colusa Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cahto Tribe of Laytonville Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cahuilla Band of Mission Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cahuilla Band of Mission Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "California Valley of Miwok Indians",
+    "State": "California",
+    "Forest": "Stanislaus NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Campo Band of Mission Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Capitan Grande (Barona) Band of Diegueno Mission Indians",
+    "State": "California",
+    "Forest": "Cleaveland NG"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Carson Colony (Washoe)",
+    "State": "Nevada",
+    "Forest": "Humboldt Toiyabe NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Carson Colony (Washoe)",
+    "State": "Nevada",
+    "Forest": "Lake Tahoe Basin Mgt Unit"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cedarville Rancheria",
+    "State": "California",
+    "Forest": "Modoc NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Chaushilha Yokuts",
+    "State": "California",
+    "Forest": "Sierra NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cher-Ae Heights Indian Community of the Trinidad Rancheria",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Chicken Ranch Rancheria of Me-wuk Indians",
+    "State": "California",
+    "Forest": "Stanislaus NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cloverdale Rancheria of Pomo Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cold Springs Rancheria of Pomo Indians",
+    "State": "California",
+    "Forest": "Sierra NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cortina Indian Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Coyote Valley Band of Pomo Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Dresslerville Community",
+    "State": "Nevada",
+    "Forest": "Lake Tahoe Basin Mgt Unit"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Dry Creek Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Elem Indian Colony of Pomo Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Ewiiaapaayp Band of Kumeyaay Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Fort Bidwell Indian Reservation",
+    "State": "California",
+    "Forest": "Modoc NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Fort Independence Community of Paiute Indians",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Graton Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Greenville Rancheria",
+    "State": "California",
+    "Forest": "Plumas NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Grindstone Indian Rancheria of Wintin-Wailaki Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Guidville Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Habematolel Pomo of Upper Lake",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Hoopa Valley Indian Tribe",
+    "State": "California",
+    "Forest": "Shasta NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Hoopa Valley Indian Tribe",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Hopland Band of Pomo Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Inaja/Cosmit Reservation",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Ione Band of Miwok Indians",
+    "State": "California",
+    "Forest": "Eldorado NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Jackson Band of Miwuk Indians",
+    "State": "California",
+    "Forest": "Eldorado NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Jamul Indian Village",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Karuk Tribe",
+    "State": "California",
+    "Forest": "Klamath NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Karuk Tribe",
+    "State": "California",
+    "Forest": "Shasta Trinity NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Karuk Tribe",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Kashia Band of Pomo Indians of Stewarts Point Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Klamath Tribes",
+    "State": "California",
+    "Forest": "Modoc NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Klamath Tribes",
+    "State": "California",
+    "Forest": "Shasta Trinity NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "La Jolla Band of Luiseno Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "La Posta Band of Mission Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Lipay Natin of Santa Ysabel",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Lone Pine Pine Paiute-Shoshone Tribe",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Lone Pine Pine Paiute-Shoshone Tribe",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Los Coyotes Band of Cahuilla and Cupeno Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Los Coyotes Band of Cahuilla and Cupeno Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Lytton Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Manchester Band of Pomo Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Mechoopda India Tribe of Chico Rancheria",
+    "State": "California",
+    "Forest": "Lassen NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Mechoopda India Tribe of Chico Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Mechoopda India Tribe of Chico Rancheria",
+    "State": "California",
+    "Forest": "Plumas NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Mesa Grande Band of Mission Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Middletown Rancheria of Pomo Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Mooretown Rancheria",
+    "State": "California",
+    "Forest": "Plumas NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Morango Band of Mission Indians",
+    "State": "California",
+    "Forest": "Angeles NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Morango Band of Mission Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "North Fork Rancheria of Mono Indians",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "North Fork Rancheria of Mono Indians",
+    "State": "California",
+    "Forest": "Sierra NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Pala Band of Mission Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Paskenta Band of Nomalki Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Pauma Band of Luiseno Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Pechanga Band of Luiseno Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Picayune Rancheria of the Chuckchansi Indians",
+    "State": "California",
+    "Forest": "Sierra NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Pinoleville Pomo Nation",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Pit River",
+    "State": "California",
+    "Forest": "Lassen NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Pit River",
+    "State": "California",
+    "Forest": "Modoc NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Pit River",
+    "State": "California",
+    "Forest": "Shasta Trinity NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Potter Valley",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Quartz Valley Indian Reservation",
+    "State": "California",
+    "Forest": "Klamath NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Quartz Valley Indian Reservation",
+    "State": "California",
+    "Forest": "Shasta NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Ramona Band of Cahuilla Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Ramona Band of Cahuilla Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Redding Rancheria",
+    "State": "California",
+    "Forest": "Lassen NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Redding Rancheria",
+    "State": "California",
+    "Forest": "Shasta Trinity NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Redwood Valley a/k/a Little River Band of Pomo Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Resighini Rancheria",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Rincon Band of Luiseno Mission Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Robinson Rancheria",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Round Valley Indian Reservation",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Round Valley Indian Reservation",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "San Manuel Band of Serrano Mission Indians",
+    "State": "California",
+    "Forest": "Angeles NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "San Manuel Band of Serrano Mission Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "San Pasqual Band of Mission Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Santa Rosa Band of Cahuilla Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Santa Rosa Band of Cahuilla Indians",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Santa Ynez Band of Chumash Indians",
+    "State": "California",
+    "Forest": "Angeles NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Santa Ynez Band of Chumash Indians",
+    "State": "California",
+    "Forest": "Los Padres NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Scotts Valley Band of Pomo Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Sherwood Valley Band of Pomo Indians",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Shingle Springs Band of Miwok Indians",
+    "State": "California",
+    "Forest": "Eldorado NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Soboba Band of Luiseno Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Soboba Band of Luiseno Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Susanville Indian Rancheria",
+    "State": "California",
+    "Forest": "Lassen NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Susanville Indian Rancheria",
+    "State": "California",
+    "Forest": "Plumas NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Sycuan Band of the Kumeyaay Nation",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Table Mountain Rancheria",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Table Mountain Rancheria",
+    "State": "California",
+    "Forest": "Sierra NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Tejon Indian Tribe",
+    "State": "California",
+    "Forest": "Angeles NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Tejon Indian Tribe",
+    "State": "California",
+    "Forest": "Los Padres NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Tejon Indian Tribe",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Tejon Indian Tribe",
+    "State": "California",
+    "Forest": "Sierra NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Timbisha Shoshone Band of Paiute",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Tolowa Dee-ni' Nation (Smith River Rancheria)",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Torres Martinez Desert Cahuilla Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Tule River",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Tule River",
+    "State": "California",
+    "Forest": "Sequoia NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Tuolumne Band of MeWuk Indians",
+    "State": "California",
+    "Forest": "Stanislaus NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Twenty-Nine Palms Band of Mission Indians",
+    "State": "California",
+    "Forest": "San Bernadino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "United Auburn Indian Community of Auburn Rancheria",
+    "State": "California",
+    "Forest": "Eldorado NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Utu Utu Gwaitu Paiute Tribe of Benton Paiute Reservation",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Viejas Band of Kumeyaay Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Washoe Tribe (includes:  Carson, Dresslerville, Stewart, Washoe, Reno-Sparks, Woodsfords Colonies)",
+    "State": "California",
+    "Forest": "Eldorado NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Washoe Tribe (includes:  Carson, Dresslerville, Stewart, Washoe, Reno-Sparks, Woodsfords Colonies)",
+    "State": "California",
+    "Forest": "Inyo NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Washoe Tribe (includes:  Carson, Dresslerville, Stewart, Washoe, Reno-Sparks, Woodsfords Colonies)",
+    "State": "California",
+    "Forest": "Lassen NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Washoe Tribe (includes:  Carson, Dresslerville, Stewart, Washoe, Reno-Sparks, Woodsfords Colonies)",
+    "State": "California",
+    "Forest": "Plumas NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Wilton Rancheria",
+    "State": "California",
+    "Forest": "Eldorado NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Wiyot Tribe",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Yocha Dehe Wintun Nation",
+    "State": "California",
+    "Forest": "Mendocino NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Yurok Tribe",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Cabazon Band of Mission Indians",
+    "State": "California",
+    "Forest": "Cleveland NF"
+  },
+  {
+    "Region": "R5",
+    "Tribes": "Elk Valley",
+    "State": "California",
+    "Forest": "Six Rivers NF"
+  },
+  {
+    "Region": "R6",
+    "Tribes": "No Information Submitted",
+    "State": "",
+    "Forest": ""
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Absentee Shawnee Tribe",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Alabama Coushatta Tribe of Texas",
+    "State": "Texas",
+    "Forest": "NF and Gransslands - TX"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Alabama Quassarte Tribal Town of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Caddo Nation",
+    "State": "Oklahoma",
+    "Forest": "Ouachita NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Catawba Indian Nation",
+    "State": "South Carolina",
+    "Forest": "Francis, Marion, Sumter NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Cherokee Nation",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Chickahominy Tribe",
+    "State": "Virginia",
+    "Forest": "George, Washington, Jefferson NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Chickasaw Nation",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Chickhominy Indian Tribe-Eastern Division",
+    "State": "Virginia",
+    "Forest": "George, Washington, Jefferson NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Chitimacha Tribe of Louisiana",
+    "State": "Louisiana",
+    "Forest": "Kisatchie NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Choctaw Nation",
+    "State": "Oklahoma",
+    "Forest": "Ouachita NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Coushatta Tribe of Louisiana",
+    "State": "Louisiana",
+    "Forest": "Kisatchie NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Delaware Nation",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Eastern Band of Cherokee Indians",
+    "State": "North Carolina",
+    "Forest": "NF North Carolina"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Jena Band of Choctaw Indians",
+    "State": "Louisiana",
+    "Forest": "Kisatchie NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Kialegee Tribal Town",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Kickapoo Traditional Tribe of Texas",
+    "State": "Texas",
+    "Forest": "NF and Gransslands - TX"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Miami Tribe of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Misccousukee Tribe of Indian of Florida",
+    "State": "Florida",
+    "Forest": "NF Florida"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Mississippi Band of Choctaw Indians",
+    "State": "Mississippi",
+    "Forest": "NF in Mississippi"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Monacan Indian Nation",
+    "State": "Virginia",
+    "Forest": "George, Washington, Jefferson NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Muscogee (Creek) Nation",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Nansemond Indian Trible",
+    "State": "Virginia",
+    "Forest": "George, Washington, Jefferson NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Osage Nation",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Pamunkey Indian Tribe",
+    "State": "Virginia",
+    "Forest": "George, Washington, Jefferson NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Peoria Tribe of Indians of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Poarch Band of Creek Indians",
+    "State": "Alabama",
+    "Forest": "NF Alabama"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Quapaw Tribe of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Rappahonnock Tribe, Inc.",
+    "State": "Virginia",
+    "Forest": "George, Washington, Jefferson NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Seminole Nation of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Seminole Tribe of Florida",
+    "State": "Florida",
+    "Forest": "NF Florida"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Shawnee Tribe",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Thlopthlocco Tribal Town",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Tunica Biloxi Tribe of Louisiana",
+    "State": "Louisiana",
+    "Forest": "Kisatchie NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "United Keetooway Band of Cherokee Indians in Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Upper Mattaponi Tribe",
+    "State": "Virginia",
+    "Forest": "George, Washington, Jefferson NF"
+  },
+  {
+    "Region": "R8",
+    "Tribes": "Wichita and Affiliated Tribes",
+    "State": "Oklahoma",
+    "Forest": "Ozark-St. Francis NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Absentee-Shawnee Tribe of Indians of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Wayne National Forest"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Bad River Band of Lake Superior Chippewa Indians",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Bay Mills Indian Community",
+    "State": "Michigan",
+    "Forest": "Hiawatha NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Bois Forte Band of Chippewa",
+    "State": "Minnesota",
+    "Forest": "Superior NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Cayuga Nation of New York",
+    "State": "New York",
+    "Forest": "Finger Lakes NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Cayuga Nation of New York",
+    "State": "New York",
+    "Forest": "Green Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Citizen Potawatomi Nation",
+    "State": "Oklahoma",
+    "Forest": "Midewin National Tallgrass Prairie"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Delaware Nation",
+    "State": "Oklahoma",
+    "Forest": "Shawnee NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Deleware Tribe of Indians",
+    "State": "Oklahoma",
+    "Forest": "Shawnee NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Eastern Shawnee Tribe of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Wayne National Forest"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Fond du Lac Band of Lake Superior Chippewa",
+    "State": "Minnesota",
+    "Forest": "Superior NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Forest County Potawatomi Community",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Grand Portage Band of Lake Superior Chippewa",
+    "State": "Minnesota",
+    "Forest": "Superior NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Grand Traverse Band of Ottawa and Chippewa Indians",
+    "State": "Michigan",
+    "Forest": "Huron-Manistee NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Hannahville Indian Community",
+    "State": "Michigan",
+    "Forest": "Hiawatha NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Ho-Chunk Nation of Wisconsin",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Houlton Band of Maliseet Indians",
+    "State": "Maine",
+    "Forest": "White Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Iowa Tribe of Kansas and Nebraska",
+    "State": "Kansas",
+    "Forest": "Shawnee NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Iowa Tribe of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Shawnee NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Keweenaw Bay Indian Community",
+    "State": "Michigan",
+    "Forest": "Ottawa NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Kickapoo Traditional Tribe of Texas",
+    "State": "Texas",
+    "Forest": "Midewin National Tallgrass Prairie"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Kickapoo Tribe of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Midewin National Tallgrass Prairie"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Kickapoo Tribe of the Kickapoo Reservation - Kansas",
+    "State": "Kansas",
+    "Forest": "Midewin National Tallgrass Prairie"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Lac Courte Oreilles Band of Lake Superior Chippewa Indians",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Lac du Flambeau Band of Lake Superior Chippewa Indians",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Lac Vieux Desert Band of Lake Superior Chippewa Indians",
+    "State": "Michigan",
+    "Forest": "Ottawa NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Leech Lake Band of Ojibwe",
+    "State": "Minnesota",
+    "Forest": "Chippewa NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Little River Band of Ottawa Indians",
+    "State": "Michigan",
+    "Forest": "Huron-Manistee NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Little Traverse Bay Band of Odawa Indians",
+    "State": "Michigan",
+    "Forest": "Huron-Manistee NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Lower Sioux Indian Community of Minnesota",
+    "State": "Minnesota",
+    "Forest": "Superior NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Mashantucket Pequot Tribe of Connecticut",
+    "State": "Connecticut",
+    "Forest": "Finger Lakes NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Mashantucket Pequot Tribe of Connecticut",
+    "State": "Connecticut",
+    "Forest": "Green Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Mashpee Wampanoag Tribe",
+    "State": "Massachusetts",
+    "Forest": "White Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Match-e-be-nash-she-wish Band of Potwatomi Indians",
+    "State": "Wisconsin",
+    "Forest": "Midewin National Tallgrass Prairie"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Menominee Indian Tribe of Wisconsin",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Miami Tribe of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Hoosier NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Mille Lacs Band of Ojibwe",
+    "State": "Minnesota",
+    "Forest": "Superior NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Minnesota Chippewa Tribe",
+    "State": "Minnesota",
+    "Forest": "Chippewa NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Mohegan Indian Tribe of Connecticut",
+    "State": "Connecticut",
+    "Forest": "Finger Lakes NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Mohegan Indian Tribe of Connecticut",
+    "State": "Connecticut",
+    "Forest": "Green Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Narragansett Indian Tribe of Rhode Island",
+    "State": "Rhode Island",
+    "Forest": "White Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Nottawaseppi Huron Band of Potawatomi",
+    "State": "Michigan",
+    "Forest": "Midewin National Tallgrass Prairie"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Oneida Indian Nation of New York",
+    "State": "New York",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Oneida Tribe of Indians of Wisconsin",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Osage Nation",
+    "State": "Oklahoma",
+    "Forest": "Mark Twain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Otoe-Missouria Tribe of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Mark Twain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Ottawa Tribe of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Huron-Manistee NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Passamaquoddy Tribe of Maine",
+    "State": "Maine",
+    "Forest": "White Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Penobscot Indian Nation",
+    "State": "Maine",
+    "Forest": "White Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Peoria Tribe of Indians of Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Hoosier NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Pokagon Band of Potawatomi Indians",
+    "State": "Michigan",
+    "Forest": "Midewin National Tallgrass Prairie"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Prairie Band of Potawatomi Nation",
+    "State": "Kansas",
+    "Forest": "Midewin National Tallgrass Prairie"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Prairie Island Indian Community of Minnesota",
+    "State": "Minnesota",
+    "Forest": "Superior NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Red Cliff Chippewa Tribe",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Red Lake Band of Chippewa Indians",
+    "State": "Minnesota",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Sac and Fox Nation",
+    "State": "Oklahoma",
+    "Forest": "Mark Twain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Sac and Fox Nation of Missouri in Kansas and Debraska",
+    "State": "Kansas",
+    "Forest": "Mark Twain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Sac and Fox Tribe of the Mississippi in Iowa",
+    "State": "Iowa",
+    "Forest": "Mark Twain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Saginaw Chippewa Indian Tribe",
+    "State": "Michigan",
+    "Forest": "Huron-Manistee NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Saint Regis Mohawk Tribe",
+    "State": "New York",
+    "Forest": "Finger Lakes NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Saint Regis Mohawk Tribe",
+    "State": "New York",
+    "Forest": "Green Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Sault Ste. Marie Tribe of Chippewa",
+    "State": "Michigan",
+    "Forest": "Hiawatha NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Seneca Nation of Indians",
+    "State": "New York",
+    "Forest": "Allegheny NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Shakopee Medewakanton Sioux",
+    "State": "Minnesota",
+    "Forest": "Superior NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Shawnee Tribe",
+    "State": "Oklahoma",
+    "Forest": "Wayne National Forest"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Shinnecock Indian Nation",
+    "State": "New York",
+    "Forest": "Finger Lakes NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Shinnecock Indian Nation",
+    "State": "New York",
+    "Forest": "Green Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Sokaogon Chippewa Community",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Stockbridge-Munsee Band of Mohican Indians",
+    "State": "Wisconsin",
+    "Forest": "Chequamegon-Nicolet NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Tonawanda Band of Seneca Indians of New York",
+    "State": "New York",
+    "Forest": "Allegheny NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Tuscarora Nation of New York",
+    "State": "New York",
+    "Forest": "Finger Lakes NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Tuscarora Nation of New York",
+    "State": "New York",
+    "Forest": "Green Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "United Keetooway Band of Cherokee Indians in Oklahoma",
+    "State": "Oklahoma",
+    "Forest": "Monogahela NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Upper Sioux Community",
+    "State": "Minnesota",
+    "Forest": "Superior NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Wampanoag Tribe of Gay Head (Aquinnah) of MA",
+    "State": "Massachusetts",
+    "Forest": "White Mountain NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "White Earth Band of Chippewea Indians",
+    "State": "Minnesota",
+    "Forest": "Chippewa NF"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Wyandotte Nation",
+    "State": "Oklahoma",
+    "Forest": "Wayne National Forest"
+  },
+  {
+    "Region": "R9",
+    "Tribes": "Aroostook Band of Micmacs",
+    "State": "Maine",
+    "Forest": "White Mountain NF"
+  }
+]
