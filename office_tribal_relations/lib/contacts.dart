@@ -9,17 +9,9 @@ import 'package:getflutter/getflutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:grouped_list/grouped_list.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:verbal_expressions/verbal_expressions.dart';
 
 void main() => runApp(JsonContacts());
-
-List _elements = [
-  {'name': 'John', 'group': 'Team A'},
-  {'name': 'Will', 'group': 'Team B'},
-  {'name': 'Beth', 'group': 'Team A'},
-  {'name': 'Miranda', 'group': 'Team B'},
-  {'name': 'Mike', 'group': 'Team C'},
-  {'name': 'Danny', 'group': 'Team C'},
-];
 
 //this has a white background
 class JsonContacts extends StatelessWidget {
@@ -41,7 +33,7 @@ class JsonContacts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(title: new Text("OTR Contacts")),
+      appBar: new AppBar(title: new Text("Tribal Contacts")),
       body: SafeArea(
         child: Container(
           child: FutureBuilder(
@@ -56,6 +48,7 @@ class JsonContacts extends StatelessWidget {
                   elements: snapshot.data,
                   groupBy: (element) => element.location,
                   groupSeparatorBuilder: _buildGroupSeparator,
+                  useStickyGroupSeparators: false,
                   itemBuilder: (context, element) {
                     return ListTile(
                       title: Text(element.name),
@@ -104,7 +97,6 @@ class ContactsDetails extends StatelessWidget {
   final Contact contact;
 
   ContactsDetails(this.contact);
-
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -137,23 +129,20 @@ class ContactsDetails extends StatelessWidget {
                   Text(contact.position),
                   Wrap(
                     children: <Widget>[
-                      (contact.email ==
-                              "http://www.fs.fed.us/research/tribal-engagement/liaisons")
-                          ? new GestureDetector(
-                              child: Text(
-                                contact.email,
-                              ),
-                              onLongPress: () {
-                                Clipboard.setData(
-                                    new ClipboardData(text: contact.email));
-                                Fluttertoast.showToast(
-                                  msg: "Email Copied to Clipboard",
-                                  gravity: ToastGravity.TOP,
-                                  backgroundColor: Colors.red,
-                                );
-                              },
-                            )
-                          : Text(""),
+                      new GestureDetector(
+                        child: Text(
+                          contact.email,
+                        ),
+                        onLongPress: () {
+                          Clipboard.setData(
+                              new ClipboardData(text: contact.email));
+                          Fluttertoast.showToast(
+                            msg: "Email Copied to Clipboard",
+                            gravity: ToastGravity.TOP,
+                            backgroundColor: Colors.red,
+                          );
+                        },
+                      ),
                     ],
                   ),
                   Text(contact.location),
@@ -163,36 +152,33 @@ class ContactsDetails extends StatelessWidget {
           ),
           buttonBar: GFButtonBar(
             children: <Widget>[
-              (contact.email ==
-                      "http://www.fs.fed.us/research/tribal-engagement/liaisons")
-                  ? GFButton(
-                      onPressed: () {
-                        _launchURL(contact.email);
-                      },
-                      text: 'View Webpage',
-                      icon: Icon(
-                        Icons.email,
-                        color: Colors.white,
-                      ),
-                    )
-                  : GFButton(
-                      onPressed: () {
-                        _launchURL("mailto:" +
-                            contact.email +
-                            "?subject=Question for OTR");
-                      },
-                      text: 'Send Email',
-                      icon: Icon(
-                        Icons.email,
-                        color: Colors.white,
-                      ),
-                    )
+              GFButton(
+                onPressed: () {
+                  _launchURL(
+                      "mailto:" + contact.email + "?subject=Question for OTR");
+                },
+                text: 'Send Email',
+                icon: Icon(
+                  Icons.email,
+                  color: Colors.white,
+                ),
+              )
             ],
           ),
         ),
       ),
     );
   }
+}
+
+regURL(url) {
+  var regex = VerbalExpression()
+    ..startOfLine()
+    ..then("http")
+    ..then("://")
+    ..maybe("www.")
+    ..endOfLine();
+  regex..hasMatch(url);
 }
 
 //open email client

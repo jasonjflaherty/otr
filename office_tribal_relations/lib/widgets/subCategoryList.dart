@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:office_tribal_relations/contacts.dart';
+import 'package:office_tribal_relations/relationships.dart';
 import '../widgets/details_screen.dart';
 import '../model/otrpages_factory.dart';
 import '../widgets/otrAppBar.dart';
@@ -29,14 +31,9 @@ class SubCategoryList extends StatelessWidget {
                   ),
                   onTap: () {
                     Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => DetailScreen(),
-                        settings: RouteSettings(
-                          arguments: otrdata.data[index],
-                        ),
-                      ),
-                    );
+                        context,
+                        navigateWhere(
+                            otrdata.data[index].title, otrdata.data[index]));
                   },
                 ),
                 new Divider(
@@ -47,6 +44,21 @@ class SubCategoryList extends StatelessWidget {
             );
           },
         ),
+      ),
+    );
+  }
+}
+
+navigateWhere(title, tdata) {
+  if (title == "USFS Tribal Relations Program Contact Information") {
+    MaterialPageRoute(builder: (context) => JsonContacts());
+  } else if (title == "Tribal National Forest Relationships") {
+    MaterialPageRoute(builder: (context) => JsonRelationships());
+  } else {
+    MaterialPageRoute(
+      builder: (context) => DetailScreen(),
+      settings: RouteSettings(
+        arguments: tdata,
       ),
     );
   }

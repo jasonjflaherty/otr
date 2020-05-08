@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:office_tribal_relations/contacts.dart';
+import 'package:office_tribal_relations/relationships.dart';
 import 'widgets/categoryList.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:flutter_html/flutter_html.dart';
@@ -136,7 +137,7 @@ Widget _HomepageWords(BuildContext context) {
           Navigator.push(
               context,
               PageTransition(
-                  type: PageTransitionType.upToDown, child: JsonContacts()));
+                  type: PageTransitionType.upToDown, child: CategoryList()));
           //type: PageTransitionType.upToDown, child: CategoryList()));
         },
       ),
