@@ -9,7 +9,6 @@ import 'package:getflutter/getflutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:grouped_list/grouped_list.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:verbal_expressions/verbal_expressions.dart';
 
 void main() => runApp(JsonContacts());
 
@@ -169,16 +168,6 @@ class ContactsDetails extends StatelessWidget {
       ),
     );
   }
-}
-
-regURL(url) {
-  var regex = VerbalExpression()
-    ..startOfLine()
-    ..then("http")
-    ..then("://")
-    ..maybe("www.")
-    ..endOfLine();
-  regex..hasMatch(url);
 }
 
 //open email client

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:office_tribal_relations/contacts.dart';
-import 'package:office_tribal_relations/relationships.dart';
+import '../contacts.dart';
+import '../relationships.dart';
 import '../widgets/details_screen.dart';
 import '../model/otrpages_factory.dart';
 import '../widgets/otrAppBar.dart';
@@ -21,21 +21,66 @@ class SubCategoryList extends StatelessWidget {
           itemBuilder: (BuildContext context, int index) {
             return new Column(
               children: <Widget>[
-                new ListTile(
-                  title: new Text(
-                    (otrdata.data[index].title).toUpperCase(),
-                    style: TextStyle(
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white),
+                if (otrdata.data[index].title ==
+                    "USFS Tribal Relations Program Contact Information")
+                  ListTile(
+                    title: new Text(
+                      (otrdata.data[index].title).toUpperCase(),
+                      style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => JsonContacts()));
+                    },
                   ),
-                  onTap: () {
-                    Navigator.push(
+                if (otrdata.data[index].title ==
+                    "Tribal National Forest Relationships")
+                  ListTile(
+                    title: new Text(
+                      (otrdata.data[index].title).toUpperCase(),
+                      style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => JsonRelationships()));
+                    },
+                  ),
+                if (otrdata.data[index].title !=
+                        "Tribal National Forest Relationships" &&
+                    otrdata.data[index].title !=
+                        "USFS Tribal Relations Program Contact Information")
+                  ListTile(
+                    title: new Text(
+                      (otrdata.data[index].title).toUpperCase(),
+                      style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    onTap: () {
+                      Navigator.push(
                         context,
-                        navigateWhere(
-                            otrdata.data[index].title, otrdata.data[index]));
-                  },
-                ),
+                        MaterialPageRoute(
+                          builder: (context) => DetailScreen(),
+                          settings: RouteSettings(
+                            arguments: otrdata.data[index],
+                          ),
+                        ),
+                      );
+                      // navigateWhere(
+                      //     otrdata.data[index].title, otrdata.data[index]));
+                    },
+                  ),
                 new Divider(
                   height: 12.0,
                   color: Colors.transparent,
@@ -44,21 +89,6 @@ class SubCategoryList extends StatelessWidget {
             );
           },
         ),
-      ),
-    );
-  }
-}
-
-navigateWhere(title, tdata) {
-  if (title == "USFS Tribal Relations Program Contact Information") {
-    MaterialPageRoute(builder: (context) => JsonContacts());
-  } else if (title == "Tribal National Forest Relationships") {
-    MaterialPageRoute(builder: (context) => JsonRelationships());
-  } else {
-    MaterialPageRoute(
-      builder: (context) => DetailScreen(),
-      settings: RouteSettings(
-        arguments: tdata,
       ),
     );
   }
