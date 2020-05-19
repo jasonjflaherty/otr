@@ -45,7 +45,7 @@ class JsonContacts extends StatelessWidget {
 //                  child: Center(child: Text(snapshot.data[0].name)));
                 return GroupedListView(
                   elements: snapshot.data,
-                  groupBy: (element) => element.location,
+                  groupBy: (element) => element.unit,
                   groupSeparatorBuilder: _buildGroupSeparator,
                   useStickyGroupSeparators: false,
                   itemBuilder: (context, element) {
@@ -144,7 +144,7 @@ class ContactsDetails extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Text(contact.location),
+                  Text(contact.unit),
                   Divider(),
                   Text(contact.address)
                 ]),
