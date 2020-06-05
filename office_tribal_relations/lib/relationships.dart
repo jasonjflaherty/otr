@@ -8,6 +8,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:getflutter/getflutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:grouped_list/grouped_list.dart';
+import 'package:office_tribal_relations/widgets/otrAppBar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(JsonRelationships());
@@ -32,7 +33,8 @@ class JsonRelationships extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(title: new Text("Region Tribal Relationships")),
+      appBar: otrAppBar("Regional Tribal Relationships", Colors.green[900],
+          Colors.white, appLogo, context),
       body: SafeArea(
         child: Container(
           child: FutureBuilder(
