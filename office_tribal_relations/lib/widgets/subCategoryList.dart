@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:office_tribal_relations/relationships-expand.dart';
+
 import '../contacts.dart';
-import '../relationships.dart';
-import '../widgets/details_screen.dart';
 import '../model/otrpages_factory.dart';
+import '../widgets/details_screen.dart';
 import '../widgets/otrAppBar.dart';
 
 class SubCategoryList extends StatelessWidget {
@@ -52,7 +53,7 @@ class SubCategoryList extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => JsonRelationships()));
+                              builder: (context) => JsonRelationshipsExpand()));
                     },
                   ),
                 if (otrdata.data[index].title !=
