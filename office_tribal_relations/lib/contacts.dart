@@ -23,10 +23,11 @@ class JsonContacts extends StatelessWidget {
     List<Contact> contacts = [];
     //return jsonData
     for (var c in jsonData) {
-      Contact contact = Contact(c["location"], c["unit"], c["name"], c["email"],
+      Contact contact = Contact(c["order"], c["location"], c["unit"], c["name"], c["email"],
           c["position"], c["address"]);
       contacts.add(contact);
     }
+    contacts.sort((a,b)=>a.order.compareTo(b.order));
     return contacts;
   }
 
@@ -48,6 +49,7 @@ class JsonContacts extends StatelessWidget {
                 return GroupedListView(
                   elements: snapshot.data,
                   groupBy: (element) => element.unit,
+                  sort: false,
                   groupSeparatorBuilder: _buildGroupSeparator,
                   useStickyGroupSeparators: false,
                   itemBuilder: (context, element) {
@@ -197,13 +199,13 @@ class Contact {
 //  "position": "Program Manager",
 //  "address": "Nationwide"
 //  },
-  //final int index;
+  final int order;
   final String location;
   final String unit;
   final String name;
   final String email;
   final String position;
   final String address;
-  Contact(this.location, this.unit, this.name, this.email, this.position,
+  Contact(this.order, this.location, this.unit, this.name, this.email, this.position,
       this.address);
 }

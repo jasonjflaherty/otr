@@ -163,7 +163,7 @@ Widget _HomepageWords(BuildContext context) {
                             PageTransition(
 //                                type: PageTransitionType.upToDown,
 //                                child: JsonRelationshipsExpand()));
-                                child: CategoryList()));
+                                child: CategoryList(), type: PageTransitionType.upToDown));
 //                        type:
 //                        PageTransitionType.upToDown;
                       },
