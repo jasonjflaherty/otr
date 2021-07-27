@@ -7,6 +7,7 @@ import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:office_tribal_relations/relationships-expand.dart';
 import 'package:office_tribal_relations/widgets/categoryList.dart';
+import 'package:office_tribal_relations/widgets/categoryListButtons.dart';
 import 'package:page_transition/page_transition.dart';
 
 import 'about.dart';
@@ -24,17 +25,6 @@ class OTRApp extends StatelessWidget {
         brightness: Brightness.light,
         primaryColor: Colors.green[900],
         accentColor: Colors.brown[600],
-
-        // Define the default font family.
-        //fontFamily: 'Montserrat',
-
-        // Define the default TextTheme. Use this to specify the default
-        // text styling for headlines, titles, bodies of text, and more.
-        textTheme: GoogleFonts.workSansTextTheme(textTheme).copyWith(
-          headline: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
-          title: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
-          body1: TextStyle(fontSize: 16.0, fontFamily: 'Hind'),
-        ),
       ),
       home: new OtrHomePage(title: 'Homepage'),
       // routes: {
@@ -89,7 +79,6 @@ Widget _HomepageWords(BuildContext context) {
             Text(
               "FOREST SERVICE",
               style: GoogleFonts.workSans(
-                  textStyle: Theme.of(context).textTheme.display1,
                   fontSize: 24,
                   height: 1.8,
                   fontWeight: FontWeight.bold,
@@ -98,7 +87,6 @@ Widget _HomepageWords(BuildContext context) {
             Text(
               "TRIBAL RELATIONS",
               style: GoogleFonts.workSans(
-                  textStyle: Theme.of(context).textTheme.display1,
                   fontSize: 50,
                   height: 1,
                   fontWeight: FontWeight.bold,
@@ -107,7 +95,6 @@ Widget _HomepageWords(BuildContext context) {
             Text(
               "This is an official USDA Forest Service Application",
               style: GoogleFonts.workSans(
-                  textStyle: Theme.of(context).textTheme.display1,
                   fontSize: 12,
                   height: 1.5,
                   fontWeight: FontWeight.bold,
@@ -127,7 +114,6 @@ Widget _HomepageWords(BuildContext context) {
                       child: Text(
                         'Read About Tribal Relations',
                         style: GoogleFonts.workSans(
-                            textStyle: Theme.of(context).textTheme.display1,
                             fontSize: 18,
                             height: 1.5,
                             fontWeight: FontWeight.bold,
@@ -137,9 +123,8 @@ Widget _HomepageWords(BuildContext context) {
                         Navigator.push(
                             context,
                             PageTransition(
-                                type: PageTransitionType.upToDown,
+                                type: PageTransitionType.bottomToTop,
                                 child: AboutOTR()));
-                        //type: PageTransitionType.upToDown, child: CategoryList()));
                       },
                     ),
                     Divider(),
@@ -151,7 +136,6 @@ Widget _HomepageWords(BuildContext context) {
                       child: Text(
                         'Explore Categories',
                         style: GoogleFonts.workSans(
-                            textStyle: Theme.of(context).textTheme.display1,
                             fontSize: 20,
                             height: 1.5,
                             fontWeight: FontWeight.bold,
@@ -163,7 +147,7 @@ Widget _HomepageWords(BuildContext context) {
                             PageTransition(
 //                                type: PageTransitionType.upToDown,
 //                                child: JsonRelationshipsExpand()));
-                                child: CategoryList()));
+                                child: CategoryListButtons()));
 //                        type:
 //                        PageTransitionType.upToDown;
                       },

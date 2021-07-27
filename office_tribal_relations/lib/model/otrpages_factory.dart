@@ -1,20 +1,22 @@
 class OtrPages {
   String category;
+  String categorysubtitle;
   String categoryimage;
   List<Data> data;
 
-  OtrPages({this.category, this.categoryimage, this.data});
+  OtrPages(
+      {this.category, this.categorysubtitle, this.categoryimage, this.data});
 
   factory OtrPages.fromJson(Map<String, dynamic> parsedJson) {
     var list = parsedJson['data'] as List;
     print(list.runtimeType);
     List<Data> dataList = list.map((i) => Data.fromJson(i)).toList();
-    
+
     return OtrPages(
-      category: parsedJson['category'],
-      categoryimage: parsedJson['categoryimage'],
-      data: dataList
-    );
+        category: parsedJson['category'],
+        categorysubtitle: parsedJson['categorysubtitle'],
+        categoryimage: parsedJson['categoryimage'],
+        data: dataList);
   }
 
   Map<String, dynamic> toJson() {

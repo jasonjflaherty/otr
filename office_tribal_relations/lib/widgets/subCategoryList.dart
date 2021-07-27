@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:getwidget/components/typography/gf_typography.dart';
+import 'package:getwidget/getwidget.dart';
 import 'package:office_tribal_relations/relationships-expand.dart';
 
 import '../contacts.dart';
@@ -14,9 +16,8 @@ class SubCategoryList extends StatelessWidget {
     otrdata.data.sort((a, b) => a.title.compareTo(b.title));
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.green[900],
-        appBar: otrAppBar(otrdata.category, Colors.green[900], Colors.white,
-            appLogo, context),
+        appBar: otrAppBar(
+            otrdata.category, Colors.white, Colors.black, appLogo, context),
         body: ListView.builder(
           itemCount: otrdata.data.length,
           itemBuilder: (BuildContext context, int index) {
@@ -25,12 +26,10 @@ class SubCategoryList extends StatelessWidget {
                 if (otrdata.data[index].title ==
                     "USFS Tribal Relations Program Contact Information")
                   ListTile(
-                    title: new Text(
-                      (otrdata.data[index].title).toUpperCase(),
-                      style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white),
+                    title: GFTypography(
+                      text: (otrdata.data[index].title).toUpperCase(),
+                      type: GFTypographyType.typo1,
+                      showDivider: false,
                     ),
                     onTap: () {
                       Navigator.push(
@@ -42,12 +41,10 @@ class SubCategoryList extends StatelessWidget {
                 if (otrdata.data[index].title ==
                     "Tribal National Forest Relationships")
                   ListTile(
-                    title: new Text(
-                      (otrdata.data[index].title).toUpperCase(),
-                      style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white),
+                    title: GFTypography(
+                      text: (otrdata.data[index].title).toUpperCase(),
+                      type: GFTypographyType.typo3,
+                      showDivider: false,
                     ),
                     onTap: () {
                       Navigator.push(
@@ -61,12 +58,10 @@ class SubCategoryList extends StatelessWidget {
                     otrdata.data[index].title !=
                         "USFS Tribal Relations Program Contact Information")
                   ListTile(
-                    title: new Text(
-                      (otrdata.data[index].title).toUpperCase(),
-                      style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white),
+                    title: GFTypography(
+                      text: (otrdata.data[index].title).toUpperCase(),
+                      type: GFTypographyType.typo1,
+                      showDivider: false,
                     ),
                     onTap: () {
                       Navigator.push(

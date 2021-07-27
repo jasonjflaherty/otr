@@ -91,7 +91,6 @@ class CategoryList extends StatelessWidget {
                       minFontSize: 14,
                       maxFontSize: 18,
                       style: GoogleFonts.workSans(
-                        textStyle: Theme.of(context).textTheme.display1,
                         fontSize: 16,
                         fontWeight: FontWeight.w500,
                         color: Colors.green[900],

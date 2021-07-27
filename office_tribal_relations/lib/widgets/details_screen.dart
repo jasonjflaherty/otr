@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:flutter_linkify/flutter_linkify.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+import 'package:getwidget/getwidget.dart';
 import '../model/otrpages_factory.dart';
 import '../widgets/otrAppBar.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -59,7 +60,6 @@ class DetailScreen extends StatelessWidget {
           body: Container(
             color: Colors.white,
             child: SingleChildScrollView(
-              padding: EdgeInsets.all(15),
               child: ConstrainedBox(
                 constraints: BoxConstraints(
                   minHeight: viewportConstraints.maxHeight,
@@ -81,102 +81,94 @@ class DetailScreen extends StatelessWidget {
                       //transform: Matrix4.translationValues(0.0, -100.0, 0.0),
                       alignment: Alignment(-1.0, -1.0),
                       child: Column(children: <Widget>[
-                        Container(
-                          //color: Color.fromRGBO(0, 0, 0, .5),
-                          padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
-                          child: Align(
-                            alignment: Alignment.centerLeft,
-                            child: Text(
-                              thiscategory.toUpperCase(),
-                              style: TextStyle(
-                                  fontSize: 28,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black),
-                              textAlign: TextAlign.left,
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
+                          child: Container(
+                            //color: Color.fromRGBO(0, 0, 0, .5),
+                            padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
+                            child: Align(
+                              alignment: Alignment.centerLeft,
+                              child: GFTypography(
+                                text: thiscategory.toUpperCase(),
+                                type: GFTypographyType.typo1,
+                                showDivider: false,
+                              ),
                             ),
                           ),
                         ),
                       ]),
                     ),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      mainAxisSize: MainAxisSize.min,
-                      children: <Widget>[
-                        Padding(
-                          padding: EdgeInsets.only(top: 0.0, bottom: 0),
-                          child: Align(
-                            alignment: Alignment.centerLeft,
-                            child: Text(
-                              title.toUpperCase(),
-                              style: TextStyle(
-                                  fontSize: 22,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black54),
-                              textAlign: TextAlign.left,
-                            ),
-                          ),
-                        ),
-                        //check if highlight has text.
-                        Visibility(
-                          visible: ishighlightvisible,
-                          child: Padding(
-                            padding: EdgeInsets.fromLTRB(0, 0, 0, 15),
+                    Padding(
+                      padding: EdgeInsets.all(10),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        mainAxisSize: MainAxisSize.min,
+                        children: <Widget>[
+                          Padding(
+                            padding: EdgeInsets.only(top: 0.0, bottom: 0),
                             child: Align(
                               alignment: Alignment.centerLeft,
-                              child: Text(
-                                highlight,
-                                style: TextStyle(
-                                    fontSize: 20,
-                                    color: Colors.green[900],
-                                    fontWeight: FontWeight.bold),
+                              child: GFTypography(
+                                text: title.toUpperCase(),
+                                type: GFTypographyType.typo2,
+                                textColor: Colors.grey[700],
+                                showDivider: false,
                               ),
                             ),
                           ),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                          child: Html(
-                            data: """ ${landingpagecontent} """,
-                            onLinkTap: (url) async {
-                              if (await canLaunch(url)) {
-                                await launch(url);
-                              } else {
-                                throw 'Could not launch $url';
-                              }
-                            },
+                          //check if highlight has text.
+                          Visibility(
+                            visible: ishighlightvisible,
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(0, 0, 0, 15),
+                              child: Align(
+                                alignment: Alignment.centerLeft,
+                                child: GFTypography(
+                                  text: highlight,
+                                  type: GFTypographyType.typo2,
+                                  textColor: Colors.grey[600],
+                                  showDivider: false,
+                                ),
+                              ),
+                            ),
                           ),
-                          // child: Text(landingpagecontent,
-                          //     style: TextStyle(fontSize: 18, height: 1.5)),
-                        ),
-                        //check if section has data
-                        Visibility(
-                          visible: issectionvisible,
-                          child: Container(
-                            child: _buildSectionList(sections, context),
+                          Padding(
+                            padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                            child: Html(
+                              data: """ ${landingpagecontent} """,
+                              style: {
+                                "p": Style(fontSize: FontSize.xLarge),
+                                "li": Style(fontSize: FontSize.xLarge),
+                              },
+                              onLinkTap:
+                                  (link, renderContext, map, element) async {
+                                if (link != null && link.isNotEmpty) {
+                                  await launch(link);
+                                } else {
+                                  Fluttertoast.showToast(
+                                    msg:
+                                        "Sorry, this link is not working. Please contact the Office of Tribal Relations for more information.",
+                                    toastLength: Toast.LENGTH_LONG,
+                                    gravity: ToastGravity.CENTER,
+                                    timeInSecForIosWeb: 3,
+                                    backgroundColor: Colors.deepOrange[900],
+                                    textColor: Colors.white,
+                                    fontSize: 16.0,
+                                  );
+                                }
+                              },
+                            ),
                           ),
-                        ),
-//                      Row(
-//                        crossAxisAlignment: CrossAxisAlignment.center,
-//                        textDirection: TextDirection.rtl,
-//                        children: <Widget>[
-//                          Padding(
-//                            padding: EdgeInsets.only(top: 15, bottom: 15),
-//                            child: InkWell(
-//                                child: Text("Learn More >",
-//                                    style: TextStyle(fontSize: 18)),
-//                                onTap: () async {
-//                                  var url = weblink;
-//                                  if (await canLaunch(url)) {
-//                                    await launch(url, forceWebView: false);
-//                                  } else {
-//                                    throw 'Could not launch $url';
-//                                  }
-//                                }),
-//                          ),
-//                        ],
-//                      ),
-                      ],
+                          //check if section has data
+                          Visibility(
+                            visible: issectionvisible,
+                            child: Container(
+                              child: _buildSectionList(sections, context),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
@@ -211,26 +203,29 @@ ListView _buildSectionList(List<Sections> sections, context) {
                     padding: EdgeInsets.all(15),
                     margin: EdgeInsets.fromLTRB(0, 15, 0, 15),
                     color: Colors.green[900],
-                    child: Text(
+                    child: GFTypography(
                       //the little # with green around it
-                      (index + 1).toString(),
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
+                      text: (index + 1).toString(),
+                      showDivider: false,
+                      type: GFTypographyType.typo3,
+                      textColor: Colors.white,
                     ),
                   ),
                 ),
-                Html(
-                  data: """ ${sections[index].content} """,
-                  onLinkTap: (url) async {
-                    if (await canLaunch(url)) {
-                      await launch(url);
-                    } else {
-                      throw 'Could not launch $url';
-                    }
-                  },
-                ),
+                Html(data: """ ${sections[index].content} """, style: {
+                  "<p>": Style(fontSize: FontSize.large),
+                  "<li>": Style(fontSize: FontSize.large),
+                }
+                    // onLinkTap: (url) async {
+                    //   if (await canLaunch(url)) {
+                    //     await launch(
+                    //       url,
+                    //     );
+                    //   } else {
+                    //     throw 'Could not launch $url';
+                    //   }
+                    // },
+                    ),
               ],
             ),
           ),
