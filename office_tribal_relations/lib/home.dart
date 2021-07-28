@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/widgets/categoryListButtons.dart';
 import 'package:office_tribal_relations/widgets/searchList.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
 import 'about.dart';
 import 'contacts.dart';
@@ -42,7 +44,9 @@ class _OtrHomeScreenState extends State<OtrHomeScreen> {
     CategoryListButtons(),
     JsonContacts(),
     SearchFilter(),
-    //AboutOTR()
+    WebViewContainer(
+        "https://www.arcgis.com/home/webmap/viewer.html?webmap=91a950377c264b7e84415ef2e91c3a49"),
+    WebViewContainer("https://www.fs.fed.us/spf/tribalrelations/")
   ];
   void _onPageChanged(int index) {}
   void _onItemTapped(int selectedIndex) {
@@ -87,7 +91,15 @@ class _OtrHomeScreenState extends State<OtrHomeScreen> {
   }
 
   List<Widget> _buildScreens() {
-    return [CategoryListButtons(), JsonContacts(), SearchFilter()];
+    return [
+      CategoryListButtons(),
+      JsonContacts(),
+      SearchFilter(),
+      WebViewContainer(
+          "https://www.arcgis.com/home/webmap/viewer.html?webmap=91a950377c264b7e84415ef2e91c3a49"),
+      WebViewContainer(
+          "https://www.fs.usda.gov/working-with-us/tribal-relations")
+    ];
   }
 
   List<PersistentBottomNavBarItem> _navBarsItems() {
@@ -116,14 +128,61 @@ class _OtrHomeScreenState extends State<OtrHomeScreen> {
           title: ("Search"),
           activeColorPrimary: Theme.of(context).colorScheme.primary,
           inactiveColorPrimary: Theme.of(context).colorScheme.secondary),
-      // PersistentBottomNavBarItem(
-      //     icon: Icon(
-      //       Icons.web,
-      //       color: Colors.white,
-      //     ),
-      //     title: ("Website"),
-      //     activeColorPrimary: Theme.of(context).colorScheme.primary,
-      //     inactiveColorPrimary: Theme.of(context).colorScheme.secondary),
+      PersistentBottomNavBarItem(
+          icon: Icon(
+            Icons.map,
+            color: Colors.grey[700],
+          ),
+          title: ("Tribal Relations Map"),
+          activeColorPrimary: Theme.of(context).colorScheme.primary,
+          inactiveColorPrimary: Theme.of(context).colorScheme.secondary),
+      PersistentBottomNavBarItem(
+          icon: Icon(
+            Icons.language,
+            color: Colors.grey[700],
+          ),
+          title: ("Website"),
+          activeColorPrimary: Theme.of(context).colorScheme.primary,
+          inactiveColorPrimary: Theme.of(context).colorScheme.secondary),
     ];
+  }
+}
+
+//widget used to show map and otr website.
+class WebViewContainer extends StatefulWidget {
+  final url;
+  WebViewContainer(this.url);
+  @override
+  createState() => _WebViewContainerState(this.url);
+}
+
+class _WebViewContainerState extends State<WebViewContainer> {
+  bool _isLoading = true;
+  var _url;
+  final _key = UniqueKey();
+  _WebViewContainerState(this._url);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Stack(
+        children: <Widget>[
+          WebView(
+            key: _key,
+            initialUrl: _url,
+            javascriptMode: JavascriptMode.unrestricted,
+            onPageFinished: (finish) {
+              setState(() {
+                _isLoading = false;
+              });
+            },
+          ),
+          _isLoading
+              ? Center(
+                  child: CircularProgressIndicator(),
+                )
+              : Stack(),
+        ],
+      ),
+    );
   }
 }

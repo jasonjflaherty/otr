@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
@@ -43,14 +45,18 @@ class CategoryListButtons extends StatelessWidget {
           }
         });
     return new Scaffold(
-      appBar: otrAppBar("", Colors.white, Colors.grey[700], appLogo, context),
+      //appBar: otrAppBar("", Colors.white, Colors.grey[700], appLogo, context),
       body: SafeArea(
         child: CustomScrollView(
           slivers: [
             SliverList(
               delegate: SliverChildListDelegate(
                 [
-                  Image.asset("assets/images/good-for-front-page.jpg"),
+                  Image.asset(
+                    "assets/images/good-for-front-page.jpg",
+                    height: MediaQuery.of(context).size.height / 5,
+                    fit: BoxFit.fitWidth,
+                  ),
                   Padding(
                     padding: EdgeInsets.all(10),
                     child: Container(
@@ -110,7 +116,10 @@ class CategoryListButtons extends StatelessWidget {
           child: GFButton(
             fullWidthButton: true,
             padding: EdgeInsets.all(5),
-            text: '${(values[index].categorysubtitle).toUpperCase()}',
+            child: Text(
+              '${(values[index].categorysubtitle).toUpperCase()}',
+              textAlign: TextAlign.center,
+            ),
             color: _colors[index],
             onPressed: () {
               //need to check if this category has one or more than one child...

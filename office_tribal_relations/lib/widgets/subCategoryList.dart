@@ -16,8 +16,8 @@ class SubCategoryList extends StatelessWidget {
     otrdata.data.sort((a, b) => a.title.compareTo(b.title));
     return SafeArea(
       child: Scaffold(
-        appBar: otrAppBar(
-            otrdata.category, Colors.white, Colors.black, appLogo, context),
+        // appBar: otrAppBar(
+        //     otrdata.category, Colors.white, Colors.black, appLogo, context),
         body: ListView.builder(
           itemCount: otrdata.data.length,
           itemBuilder: (BuildContext context, int index) {

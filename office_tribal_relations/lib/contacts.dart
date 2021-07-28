@@ -34,8 +34,8 @@ class JsonContacts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: otrAppBar(
-          "Tribal Contacts", Colors.white, Colors.grey[700], appLogo, context),
+      // appBar: otrAppBar(
+      //     "Tribal Contacts", Colors.white, Colors.grey[700], appLogo, context),
       body: SafeArea(
         child: Container(
           child: FutureBuilder(
@@ -103,69 +103,74 @@ class ContactsDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(
-        title: Text(contact.name),
-      ),
-      body: SingleChildScrollView(
-        child: GFCard(
-          boxFit: BoxFit.cover,
-          image: Image.asset('assets/images/woods.jpg'),
-          title: GFListTile(
+      // appBar: AppBar(
+      //   leading: BackButton(color: Colors.grey[800]),
+      //   title: Text(contact.name, style: TextStyle(color: Colors.grey[800])),
+      //   backgroundColor: Colors.white,
+      // ),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: GFCard(
+            boxFit: BoxFit.cover,
+            image: Image.asset('assets/images/woods.jpg'),
+            title: GFListTile(
 //              avatar: GFAvatar(
 //                backgroundImage:
 //                    AssetImage('assets/images/USForestService.png'),
 //                backgroundColor: Colors.black87,
 //                shape: GFAvatarShape.standard,
 //              ),
-            title: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text(
-                    contact.name,
-                    style: GoogleFonts.workSans(
-                        fontSize: 16,
-                        height: 1.5,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black87),
-                  ),
-                  Text(contact.position),
-                  Wrap(
-                    children: <Widget>[
-                      new GestureDetector(
-                        child: Text(
-                          contact.email,
+              title: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      contact.name,
+                      style: GoogleFonts.workSans(
+                          fontSize: 16,
+                          height: 1.5,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black87),
+                    ),
+                    Text(contact.position),
+                    Wrap(
+                      children: <Widget>[
+                        new GestureDetector(
+                          child: Text(
+                            contact.email,
+                          ),
+                          onLongPress: () {
+                            Clipboard.setData(
+                                new ClipboardData(text: contact.email));
+                            Fluttertoast.showToast(
+                              msg: "Email Copied to Clipboard",
+                              gravity: ToastGravity.TOP,
+                              backgroundColor: Colors.red,
+                            );
+                          },
                         ),
-                        onLongPress: () {
-                          Clipboard.setData(
-                              new ClipboardData(text: contact.email));
-                          Fluttertoast.showToast(
-                            msg: "Email Copied to Clipboard",
-                            gravity: ToastGravity.TOP,
-                            backgroundColor: Colors.red,
-                          );
-                        },
-                      ),
-                    ],
+                      ],
+                    ),
+                    Text(contact.unit),
+                    Divider(),
+                    Text(contact.address)
+                  ]),
+            ),
+            buttonBar: GFButtonBar(
+              children: <Widget>[
+                GFButton(
+                  onPressed: () {
+                    _launchURL("mailto:" +
+                        contact.email +
+                        "?subject=Question for OTR");
+                  },
+                  text: 'Send Email',
+                  icon: Icon(
+                    Icons.email,
+                    color: Colors.white,
                   ),
-                  Text(contact.unit),
-                  Divider(),
-                  Text(contact.address)
-                ]),
-          ),
-          buttonBar: GFButtonBar(
-            children: <Widget>[
-              GFButton(
-                onPressed: () {
-                  _launchURL(
-                      "mailto:" + contact.email + "?subject=Question for OTR");
-                },
-                text: 'Send Email',
-                icon: Icon(
-                  Icons.email,
-                  color: Colors.white,
-                ),
-              )
-            ],
+                )
+              ],
+            ),
           ),
         ),
       ),

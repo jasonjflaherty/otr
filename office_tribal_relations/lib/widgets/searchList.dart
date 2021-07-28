@@ -1,11 +1,12 @@
 import 'dart:async';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:getwidget/getwidget.dart';
 import '../model/otrpages_factory.dart';
 import '../services/loadOTRJsonData.dart';
 import '../widgets/details_screen.dart';
 import '../widgets/otrAppBar.dart';
+import 'package:utility/utility.dart';
 
 class SearchFilter extends StatefulWidget {
   SearchFilter() : super();
@@ -61,79 +62,81 @@ class SearchFilterState extends State<SearchFilter> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: otrAppBar(
-          widget.title, Colors.white, Colors.grey[700], appLogo, context),
-      body: Column(
-        children: <Widget>[
-          TextField(
-            decoration: InputDecoration(
-              contentPadding: EdgeInsets.all(15.0),
-              hintText: 'Enter Search Words',
-            ),
-            onChanged: (string) {
-              _debouncer.run(() {
-                setState(() {
-                  fData = tData
-                      .where((d) => (d.title
-                              .toLowerCase()
-                              .contains(string.toLowerCase()) ||
-                          d.landpagecontent
-                              .toLowerCase()
-                              .contains(string.toLowerCase())))
-                      .toList();
+      // appBar: otrAppBar(
+      //     widget.title, Colors.white, Colors.grey[700], appLogo, context),
+      body: SafeArea(
+        child: Column(
+          children: <Widget>[
+            TextField(
+              decoration: InputDecoration(
+                contentPadding: EdgeInsets.all(15.0),
+                hintText: 'Enter Search Words',
+              ),
+              onChanged: (string) {
+                _debouncer.run(() {
+                  setState(() {
+                    fData = tData
+                        .where((d) => (d.title
+                                .toLowerCase()
+                                .contains(string.toLowerCase()) ||
+                            d.landpagecontent
+                                .toLowerCase()
+                                .contains(string.toLowerCase())))
+                        .toList();
+                  });
                 });
-              });
-            },
-          ),
-          Expanded(
-            child: ListView.builder(
-              padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
-              itemCount: fData.length,
-              itemBuilder: (BuildContext context, int index) {
-                return Column(
-                  children: <Widget>[
-                    ListTile(
-                      title: Text(
-                        fData[index].title,
-                        style: TextStyle(
-                          fontSize: 16.0,
-                          color: Colors.black,
-                        ),
-                      ),
-                      subtitle: Container(
-                        child: Text(
-                          removeAllHtmlTags(fData[index].landpagecontent),
-                          overflow: TextOverflow.fade,
-                          softWrap: true,
-                          maxLines: 3,
-                          style: TextStyle(
-                            fontSize: 14.0,
-                            color: Colors.grey,
-                          ),
-                        ),
-                      ),
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => DetailScreen(),
-                            settings: RouteSettings(
-                              arguments: fData[index],
-                            ),
-                          ),
-                        );
-                      },
-                    ),
-                    Divider(
-                      height: 12.0,
-                      color: Colors.white,
-                    ),
-                  ],
-                );
               },
             ),
-          ),
-        ],
+            Expanded(
+              child: ListView.builder(
+                padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
+                itemCount: fData.length,
+                itemBuilder: (BuildContext context, int index) {
+                  return Column(
+                    children: <Widget>[
+                      ListTile(
+                        title: Text(
+                          fData[index].title,
+                          style: TextStyle(
+                            fontSize: 16.0,
+                            color: Colors.black,
+                          ),
+                        ),
+                        subtitle: Container(
+                          child: Text(
+                            removeAllHtmlTags(fData[index].landpagecontent),
+                            overflow: TextOverflow.fade,
+                            softWrap: true,
+                            maxLines: 3,
+                            style: TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => DetailScreen(),
+                              settings: RouteSettings(
+                                arguments: fData[index],
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                      Divider(
+                        height: 12.0,
+                        color: Colors.white,
+                      ),
+                    ],
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
