@@ -1,71 +1,129 @@
 import 'package:flutter/material.dart';
+import 'package:office_tribal_relations/widgets/categoryListButtons.dart';
+import 'package:office_tribal_relations/widgets/searchList.dart';
+import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
-void main() => runApp(MyApp());
+import 'about.dart';
+import 'contacts.dart';
 
-BuildContext testContext;
+void main() {
+  runApp(OtrHome());
+}
 
-class MyApp extends StatelessWidget {
+class OtrHome extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Persistent Bottom Navigation Bar example project',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MainMenu(),
-      initialRoute: '/',
-      routes: {
-        // When navigating to the "/" route, build the FirstScreen widget.
-        '/first': (context) => MainScreen2(),
-        // When navigating to the "/second" route, build the SecondScreen widget.
-        '/second': (context) => MainScreen3(),
-      },
+      title: 'Office of Tribal Relations (OTR)',
+      home: OtrHomeScreen(),
     );
   }
 }
 
-class MainMenu extends StatefulWidget {
-  MainMenu({Key key}) : super(key: key);
+class OtrHomeScreen extends StatefulWidget {
+  //OtrHomeScreen({Key? key, required this.title}) : super(key: key);
+
+  //final String title;
 
   @override
-  _MainMenuState createState() => _MainMenuState();
+  _OtrHomeScreenState createState() => _OtrHomeScreenState();
 }
 
-class _MainMenuState extends State<MainMenu> {
+class _OtrHomeScreenState extends State<OtrHomeScreen> {
+  int currentPage = 1;
+  GlobalKey bottomNavigationKey = GlobalKey();
+
+  PersistentTabController _controller =
+      PersistentTabController(initialIndex: 0);
+
+  //var _pageController;
+  List<Widget> _screens = [
+    CategoryListButtons(),
+    JsonContacts(),
+    SearchFilter(),
+    //AboutOTR()
+  ];
+  void _onPageChanged(int index) {}
+  void _onItemTapped(int selectedIndex) {
+    //_pageController.jumpToPage(selectedIndex);
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Sample Project"),
+    return PersistentTabView(
+      context,
+      controller: _controller,
+      screens: _buildScreens(),
+      items: _navBarsItems(),
+      confineInSafeArea: true,
+      backgroundColor: Colors.white, // Default is Colors.white.
+      handleAndroidBackButtonPress: true, // Default is true.
+      resizeToAvoidBottomInset:
+          true, // This needs to be true if you want to move up the screen when keyboard appears. Default is true.
+      stateManagement: true, // Default is true.
+      hideNavigationBarWhenKeyboardShows:
+          true, // Recommended to set 'resizeToAvoidBottomInset' as true while using this argument. Default is true.
+      decoration: NavBarDecoration(
+        borderRadius: BorderRadius.circular(10.0),
+        colorBehindNavBar: Colors.white,
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Center(
-            child: ElevatedButton(
-              child: Text("Custom widget example"),
-              onPressed: () => pushNewScreen(
-                context,
-                screen: CustomWidgetExample(
-                  menuScreenContext: context,
-                ),
-              ),
-            ),
-          ),
-          SizedBox(height: 20.0),
-          Center(
-            child: ElevatedButton(
-              child: Text("Built-in styles example"),
-              onPressed: () => pushNewScreen(
-                context,
-                screen: ProvidedStylesExample(
-                  menuScreenContext: context,
-                ),
-              ),
-            ),
-          ),
-        ],
+      popAllScreensOnTapOfSelectedTab: true,
+      popActionScreens: PopActionScreensType.all,
+      itemAnimationProperties: ItemAnimationProperties(
+        // Navigation Bar's items animation properties.
+        duration: Duration(milliseconds: 200),
+        curve: Curves.ease,
       ),
+      screenTransitionAnimation: ScreenTransitionAnimation(
+        // Screen transition animation on change of selected tab.
+        animateTabTransition: true,
+        curve: Curves.fastOutSlowIn,
+        duration: Duration(milliseconds: 200),
+      ),
+      navBarStyle: NavBarStyle
+          .neumorphic, // Choose the nav bar style with this property.
     );
+  }
+
+  List<Widget> _buildScreens() {
+    return [CategoryListButtons(), JsonContacts(), SearchFilter()];
+  }
+
+  List<PersistentBottomNavBarItem> _navBarsItems() {
+    return [
+      PersistentBottomNavBarItem(
+          icon: Icon(
+            Icons.home,
+            color: Colors.grey[700],
+          ),
+          title: ("Home"),
+          activeColorPrimary: Theme.of(context).colorScheme.primary,
+          inactiveColorPrimary: Theme.of(context).colorScheme.secondary),
+      PersistentBottomNavBarItem(
+          icon: Icon(
+            Icons.mail,
+            color: Colors.grey[700],
+          ),
+          title: ("Contact"),
+          activeColorPrimary: Theme.of(context).colorScheme.primary,
+          inactiveColorPrimary: Theme.of(context).colorScheme.secondary),
+      PersistentBottomNavBarItem(
+          icon: Icon(
+            Icons.search,
+            color: Colors.grey[700],
+          ),
+          title: ("Search"),
+          activeColorPrimary: Theme.of(context).colorScheme.primary,
+          inactiveColorPrimary: Theme.of(context).colorScheme.secondary),
+      // PersistentBottomNavBarItem(
+      //     icon: Icon(
+      //       Icons.web,
+      //       color: Colors.white,
+      //     ),
+      //     title: ("Website"),
+      //     activeColorPrimary: Theme.of(context).colorScheme.primary,
+      //     inactiveColorPrimary: Theme.of(context).colorScheme.secondary),
+    ];
   }
 }

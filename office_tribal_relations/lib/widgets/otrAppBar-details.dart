@@ -22,16 +22,16 @@ Widget otrAppBarDetails(String title, Color bgColor, Color iconColor, Image img,
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        IconButton(
-          color: Colors.black54,
-          icon: Icon(Icons.arrow_back_ios),
-          onPressed: () => print(currentPage - 1),
-        ),
-        IconButton(
-          color: Colors.black54,
-          icon: Icon(Icons.arrow_forward_ios),
-          onPressed: () => print(currentPage + 1),
-        ),
+        // IconButton(
+        //   color: Colors.black54,
+        //   icon: Icon(Icons.arrow_back_ios),
+        //   onPressed: () => print(currentPage - 1),
+        // ),
+        // IconButton(
+        //   color: Colors.black54,
+        //   icon: Icon(Icons.arrow_forward_ios),
+        //   onPressed: () => print(currentPage + 1),
+        // ),
         Expanded(
           child: Center(child: Text(title)),
         )
@@ -58,21 +58,21 @@ Widget otrAppBarDetails(String title, Color bgColor, Color iconColor, Image img,
                   throw 'Could not launch $url';
                 }
               }),
-          IconButton(
-            icon: Icon(
-              Icons.search,
-              color: iconColor,
-              semanticLabel: "Search",
-            ),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => SearchFilter(),
-                ),
-              );
-            },
-          ),
+          // IconButton(
+          //   icon: Icon(
+          //     Icons.search,
+          //     color: iconColor,
+          //     semanticLabel: "Search",
+          //   ),
+          //   onPressed: () {
+          //     Navigator.push(
+          //       context,
+          //       MaterialPageRoute(
+          //         builder: (context) => SearchFilter(),
+          //       ),
+          //     );
+          //   },
+          // ),
           IconButton(
             icon: Icon(
               Icons.menu,
@@ -89,6 +89,20 @@ Widget otrAppBarDetails(String title, Color bgColor, Color iconColor, Image img,
               );
             },
           ),
+          IconButton(
+              icon: Icon(
+                Icons.language,
+                color: iconColor,
+                semanticLabel: "OTR Website",
+              ),
+              onPressed: () async {
+                var url = "https://www.fs.fed.us/spf/tribalrelations/";
+                if (await canLaunch(url)) {
+                  await launch(url, forceWebView: true, enableJavaScript: true);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              }),
         ],
       )
     ],

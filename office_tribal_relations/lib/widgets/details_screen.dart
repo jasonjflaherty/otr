@@ -55,8 +55,8 @@ class DetailScreen extends StatelessWidget {
         builder: (BuildContext context, BoxConstraints viewportConstraints) {
       return SafeArea(
         child: Scaffold(
-          appBar: otrAppBar("", Color.fromRGBO(255, 255, 255, 1), Colors.black,
-              appLogo, context),
+          appBar:
+              otrAppBar("", Colors.white, Colors.grey[700], appLogo, context),
           body: Container(
             color: Colors.white,
             child: SingleChildScrollView(

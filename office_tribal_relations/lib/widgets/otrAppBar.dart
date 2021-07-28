@@ -16,7 +16,7 @@ Image appLogo = new Image(
 Widget otrAppBar(String title, Color bgColor, Color iconColor, Image img,
     BuildContext context) {
   return AppBar(
-    leading: BackButton(color: iconColor),
+    //leading: BackButton(color: iconColor),
     backgroundColor: bgColor,
     title: Text(
       title.toUpperCase(),
@@ -41,21 +41,7 @@ Widget otrAppBar(String title, Color bgColor, Color iconColor, Image img,
               throw 'Could not launch $url';
             }
           }),
-      IconButton(
-        icon: Icon(
-          Icons.search,
-          color: iconColor,
-          semanticLabel: "Search",
-        ),
-        onPressed: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => SearchFilter(),
-            ),
-          );
-        },
-      ),
+
       IconButton(
         icon: Icon(
           Icons.menu,
@@ -72,6 +58,21 @@ Widget otrAppBar(String title, Color bgColor, Color iconColor, Image img,
           );
         },
       ),
+      IconButton(
+          icon: Icon(
+            Icons.language,
+            color: iconColor,
+            semanticLabel: "OTR Website",
+          ),
+          onPressed: () async {
+            var url =
+                "https://www.fs.usda.gov/working-with-us/tribal-relations";
+            if (await canLaunch(url)) {
+              await launch(url, forceWebView: true, enableJavaScript: true);
+            } else {
+              throw 'Could not launch $url';
+            }
+          }),
     ],
   );
 }

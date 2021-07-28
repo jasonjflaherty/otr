@@ -62,7 +62,7 @@ class SearchFilterState extends State<SearchFilter> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: otrAppBar(
-          widget.title, Colors.green[900], Colors.white, appLogo, context),
+          widget.title, Colors.white, Colors.grey[700], appLogo, context),
       body: Column(
         children: <Widget>[
           TextField(

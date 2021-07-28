@@ -9,10 +9,10 @@ import 'package:office_tribal_relations/relationships-expand.dart';
 import 'package:office_tribal_relations/widgets/categoryList.dart';
 import 'package:office_tribal_relations/widgets/categoryListButtons.dart';
 import 'package:page_transition/page_transition.dart';
-
 import 'about.dart';
+import 'home.dart';
 
-void main() => runApp(new OTRApp());
+void main() => runApp(new OtrHome());
 
 class OTRApp extends StatelessWidget {
   @override

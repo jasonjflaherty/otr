@@ -43,7 +43,7 @@ class CategoryListButtons extends StatelessWidget {
           }
         });
     return new Scaffold(
-      appBar: otrAppBar("", Colors.white, Colors.black, appLogo, context),
+      appBar: otrAppBar("", Colors.white, Colors.grey[700], appLogo, context),
       body: SafeArea(
         child: CustomScrollView(
           slivers: [

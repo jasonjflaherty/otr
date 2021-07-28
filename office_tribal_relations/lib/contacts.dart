@@ -35,7 +35,7 @@ class JsonContacts extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: otrAppBar(
-          "Tribal Contacts", Colors.green[900], Colors.white, appLogo, context),
+          "Tribal Contacts", Colors.white, Colors.grey[700], appLogo, context),
       body: SafeArea(
         child: Container(
           child: FutureBuilder(
