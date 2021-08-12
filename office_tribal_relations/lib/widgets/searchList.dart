@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_html/flutter_html.dart';
 import 'package:getwidget/getwidget.dart';
 import '../model/otrpages_factory.dart';
 import '../services/loadOTRJsonData.dart';
@@ -33,10 +34,18 @@ class Debouncer {
 
 class SearchFilterState extends State<SearchFilter> {
   final _debouncer = Debouncer(milliseconds: 500);
-  List<Data> tData = List();
-  List<Data> fData = List();
-  List<OtrPages> otrPage = List();
-  List<OtrPages> filteredData = List();
+  List<Data> tData = [];
+  List<Data> fData = [];
+  List<OtrPages> otrPage = [];
+  List<OtrPages> filteredData = [];
+  final searchInputController = TextEditingController();
+
+  @override
+  void dispose() {
+    // Clean up the controller when the widget is disposed.
+    searchInputController.dispose();
+    super.dispose();
+  }
 
   @override
   void initState() {
@@ -53,6 +62,8 @@ class SearchFilterState extends State<SearchFilter> {
       setState(() {
         otrPage = dataFromJson;
         filteredData = otrPage;
+        //sorting by title alpha asc
+        tData.sort((a, b) => a.title.compareTo(b.title));
         fData = tData;
       });
     });
@@ -67,9 +78,10 @@ class SearchFilterState extends State<SearchFilter> {
         child: Column(
           children: <Widget>[
             TextField(
+              controller: searchInputController,
               decoration: InputDecoration(
                 contentPadding: EdgeInsets.all(15.0),
-                hintText: 'Enter Search Words',
+                hintText: 'Enter Search Term... ie NAGPRA or Sacred Sites',
               ),
               onChanged: (string) {
                 _debouncer.run(() {
@@ -82,57 +94,75 @@ class SearchFilterState extends State<SearchFilter> {
                                 .toLowerCase()
                                 .contains(string.toLowerCase())))
                         .toList();
+                    print(fData.length);
                   });
                 });
               },
             ),
             Expanded(
-              child: ListView.builder(
-                padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
-                itemCount: fData.length,
-                itemBuilder: (BuildContext context, int index) {
-                  return Column(
-                    children: <Widget>[
-                      ListTile(
-                        title: Text(
-                          fData[index].title,
-                          style: TextStyle(
-                            fontSize: 16.0,
-                            color: Colors.black,
-                          ),
+              child: fData.isEmpty
+                  ? Center(
+                      child: Padding(
+                        padding: EdgeInsets.all(10),
+                        child: Html(
+                          data:
+                              """<p>Sorry, there is no content matching <b>"${searchInputController.text}"</b>.</p> <p>Please try other keywords.</p>""",
+                          style: {
+                            "p": Style(fontSize: FontSize.xLarge),
+                          },
                         ),
-                        subtitle: Container(
-                          child: Text(
-                            removeAllHtmlTags(fData[index].landpagecontent),
-                            overflow: TextOverflow.fade,
-                            softWrap: true,
-                            maxLines: 3,
-                            style: TextStyle(
-                              fontSize: 14.0,
-                              color: Colors.grey,
-                            ),
-                          ),
-                        ),
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => DetailScreen(),
-                              settings: RouteSettings(
-                                arguments: fData[index],
+                      ),
+                    )
+                  : ListView.builder(
+                      padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
+                      itemCount: fData.length,
+                      itemBuilder: (BuildContext context, int index) {
+                        return Column(
+                          children: <Widget>[
+                            ListTile(
+                              title: RichText(
+                                text: TextSpan(
+                                  children: highlightOccurrences(
+                                      removeAllHtmlTags(fData[index].title),
+                                      searchInputController.text),
+                                  style: TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
+                              subtitle: Container(
+                                child: RichText(
+                                  text: TextSpan(
+                                    children: highlightOccurrences(
+                                        removeAllHtmlTags(
+                                            fData[index].landpagecontent),
+                                        searchInputController.text),
+                                    style: TextStyle(
+                                        color: Colors.black54, fontSize: 16),
+                                  ),
+                                ),
+                              ),
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => DetailScreen(),
+                                    settings: RouteSettings(
+                                      arguments: fData[index],
+                                    ),
+                                  ),
+                                );
+                              },
                             ),
-                          );
-                        },
-                      ),
-                      Divider(
-                        height: 12.0,
-                        color: Colors.white,
-                      ),
-                    ],
-                  );
-                },
-              ),
+                            Divider(
+                              height: 12.0,
+                              color: Colors.white,
+                            ),
+                          ],
+                        );
+                      },
+                    ),
             ),
           ],
         ),
@@ -144,5 +174,57 @@ class SearchFilterState extends State<SearchFilter> {
 String removeAllHtmlTags(String htmlText) {
   RegExp exp = RegExp(r"<[^>]*>", multiLine: true, caseSensitive: true);
 
-  return htmlText.replaceAll(exp, '');
+  return htmlText.replaceAll(exp, '').trim();
+}
+
+List<TextSpan> highlightOccurrences(String source, String query) {
+  if (query == null || query.isEmpty) {
+    return [TextSpan(text: source)];
+  }
+
+  var matches = <Match>[];
+  for (final token in query.trim().toLowerCase().split(' ')) {
+    matches.addAll(token.allMatches(source.toLowerCase()));
+  }
+
+  if (matches.isEmpty) {
+    return [TextSpan(text: source)];
+  }
+  matches.sort((a, b) => a.start.compareTo(b.start));
+
+  int lastMatchEnd = 0;
+  final List<TextSpan> children = [];
+  for (final match in matches) {
+    if (match.end <= lastMatchEnd) {
+      // already matched -> ignore
+    } else if (match.start <= lastMatchEnd) {
+      children.add(TextSpan(
+        text: source.substring(lastMatchEnd, match.end),
+        style: TextStyle(
+            fontWeight: FontWeight.bold, backgroundColor: Colors.yellow),
+      ));
+    } else if (match.start > lastMatchEnd) {
+      children.add(TextSpan(
+        text: source.substring(lastMatchEnd, match.start),
+      ));
+
+      children.add(TextSpan(
+        text: source.substring(match.start, match.end),
+        style: TextStyle(
+            fontWeight: FontWeight.bold, backgroundColor: Colors.yellow),
+      ));
+    }
+
+    if (lastMatchEnd < match.end) {
+      lastMatchEnd = match.end;
+    }
+  }
+
+  if (lastMatchEnd < source.length) {
+    children.add(TextSpan(
+      text: source.substring(lastMatchEnd, source.length),
+    ));
+  }
+
+  return children;
 }
