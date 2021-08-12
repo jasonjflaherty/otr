@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:readmore/readmore.dart';
 import '../model/otrpages_factory.dart';
 import '../services/loadOTRJsonData.dart';
 import '../widgets/details_screen.dart';
-import '../widgets/otrAppBar.dart';
 import '../widgets/subCategoryList.dart';
 
 class CategoryListButtons extends StatelessWidget {
@@ -45,7 +45,6 @@ class CategoryListButtons extends StatelessWidget {
           }
         });
     return new Scaffold(
-      //appBar: otrAppBar("", Colors.white, Colors.grey[700], appLogo, context),
       body: SafeArea(
         child: CustomScrollView(
           slivers: [
@@ -53,8 +52,8 @@ class CategoryListButtons extends StatelessWidget {
               delegate: SliverChildListDelegate(
                 [
                   Image.asset(
-                    "assets/images/good-for-front-page.jpg",
-                    height: MediaQuery.of(context).size.height / 5,
+                    "assets/images/front-page.png",
+                    height: MediaQuery.of(context).size.height / 3,
                     fit: BoxFit.fitWidth,
                   ),
                   Padding(
@@ -68,14 +67,19 @@ class CategoryListButtons extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsets.all(10),
-                    child: Container(
-                      child: GFTypography(
-                        text:
-                            "The Office of Tribal Relations supports meaningful and significant collaboration and consultation with Tribes across all program areas.",
-                        type: GFTypographyType.typo3,
-                        showDivider: false,
-                      ),
+                    padding: EdgeInsets.fromLTRB(10, 0, 10, 10),
+                    child: ReadMoreText(
+                      "The U.S. Forest Service has a unique legal and fiduciary trust responsibility to serve Tribal Nations outlined in law, policy, and regulations. Tribal relations is the responsibility of every Forest Service employee. The foundation for excellence in Tribal relations is in place through the Forest Service Manual and Handbook direction, top-level leadership orientation, and the skill and positive attitude of line officers and other personnel throughout the agency. The Forest Service now is challenged to expand its level of excellence, to be recognized by Tribes, other Federal agencies, members of Congress, and the Courts as the best among our Federal peers in fostering and enhancing Federal – Tribal relationships in the spirit of helpfulness and partnership. Tribal relations personnel are available to provide advice and assistance in this endeavor. Striving for outstanding public service is part of our organizational culture, and by increasing the diversity of our workforce, we are better meeting the needs of the people we serve.",
+                      style: TextStyle(color: Colors.black, fontSize: 16),
+                      trimLength: 175,
+                      colorClickableText: Colors.blue,
+                      trimMode: TrimMode.Length,
+                      trimCollapsedText: 'Read More',
+                      trimExpandedText: 'Show Less',
+                      moreStyle: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blue),
                     ),
                   ),
                 ],
@@ -107,7 +111,7 @@ class CategoryListButtons extends StatelessWidget {
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
         childAspectRatio: MediaQuery.of(context).size.width /
-            (MediaQuery.of(context).size.height / 4),
+            (MediaQuery.of(context).size.height / 5),
       ),
       itemCount: values.length,
       itemBuilder: (BuildContext context, int index) {

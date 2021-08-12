@@ -6,7 +6,6 @@ import '../model/otrpages_factory.dart';
 import '../services/loadOTRJsonData.dart';
 import '../widgets/details_screen.dart';
 import '../widgets/otrAppBar.dart';
-import 'package:utility/utility.dart';
 
 class SearchFilter extends StatefulWidget {
   SearchFilter() : super();

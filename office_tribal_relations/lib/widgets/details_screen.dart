@@ -141,6 +141,32 @@ class DetailScreen extends StatelessWidget {
                                 "p": Style(fontSize: FontSize.xLarge),
                                 "li": Style(fontSize: FontSize.xLarge),
                               },
+                              customRender: {
+                                "abbr": (RenderContext context, Widget child) {
+                                  return GestureDetector(
+                                    onTap: () {
+                                      Fluttertoast.showToast(
+                                          msg: context.tree.element?.id ?? '',
+                                          toastLength: Toast.LENGTH_LONG,
+                                          gravity: ToastGravity.TOP,
+                                          timeInSecForIosWeb: 3,
+                                          backgroundColor: Colors.brown,
+                                          textColor: Colors.white,
+                                          fontSize: 16.0);
+                                    },
+                                    child: Text(
+                                      context.tree.element?.text ?? '',
+                                      style: TextStyle(
+                                        fontSize: 21, //this is xLarge
+                                        height: 1.2,
+                                        color: Colors.black,
+                                        decoration: TextDecoration.underline,
+                                      ),
+                                    ),
+                                  );
+                                },
+                              },
+                              tagsList: Html.tags..addAll(["abbr"]),
                               onLinkTap:
                                   (link, renderContext, map, element) async {
                                 if (link != null && link.isNotEmpty) {

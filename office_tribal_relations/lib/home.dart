@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:office_tribal_relations/widgets/categoryListButtons.dart';
 import 'package:office_tribal_relations/widgets/searchList.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
-
-import 'about.dart';
 import 'contacts.dart';
 
 void main() {
@@ -90,6 +87,7 @@ class _OtrHomeScreenState extends State<OtrHomeScreen> {
     );
   }
 
+  //navigate to screens (pages). Put these in the order you want the buttons to click to...
   List<Widget> _buildScreens() {
     return [
       CategoryListButtons(),
@@ -102,6 +100,7 @@ class _OtrHomeScreenState extends State<OtrHomeScreen> {
     ];
   }
 
+//bottom navbar click to different screens based on List above.
   List<PersistentBottomNavBarItem> _navBarsItems() {
     return [
       PersistentBottomNavBarItem(
@@ -148,7 +147,7 @@ class _OtrHomeScreenState extends State<OtrHomeScreen> {
   }
 }
 
-//widget used to show map and otr website.
+//widget used to show map and otr websites rather than screens in app
 class WebViewContainer extends StatefulWidget {
   final url;
   WebViewContainer(this.url);

@@ -28,11 +28,13 @@ dependencies:
   grouped_list: ^4.1.0
   getwidget: ^2.0.3
   fluttertoast: ^8.0.7
-  sticky_and_expandable_list: ^0.3.1
+  sticky_and_expandable_list: ^1.0.1
   persistent_bottom_nav_bar: ^4.0.2
   cupertino_icons: ^1.0.3
   flutter_html: ^2.1.0
   webview_flutter: ^2.0.10
+  expandable: ^5.0.1
+  readmore: ^2.1.0
 
 dev_dependencies:
   flutter_test:
