@@ -178,6 +178,8 @@ String removeAllHtmlTags(String htmlText) {
 }
 
 List<TextSpan> highlightOccurrences(String source, String query) {
+  print("Source: " + source);
+  print("Query: " + query);
   if (query == null || query.isEmpty) {
     return [TextSpan(text: source)];
   }
@@ -200,14 +202,19 @@ List<TextSpan> highlightOccurrences(String source, String query) {
     } else if (match.start <= lastMatchEnd) {
       children.add(TextSpan(
         text: source.substring(lastMatchEnd, match.end),
-        style: TextStyle(
-            fontWeight: FontWeight.bold, backgroundColor: Colors.yellow),
+        style:
+            TextStyle(fontWeight: FontWeight.bold, backgroundColor: Colors.red),
       ));
     } else if (match.start > lastMatchEnd) {
       children.add(TextSpan(
         text: source.substring(lastMatchEnd, match.start),
       ));
-
+      //If the search needs to be more "narrow looking" we can use substring to only show a few words around the keyword?
+      // print("MATCH");
+      // print(match.start);
+      // print(match.end);
+      // print("MATCH END");
+      // print(source.substring(match.start - 50, match.end + 50));
       children.add(TextSpan(
         text: source.substring(match.start, match.end),
         style: TextStyle(
@@ -227,4 +234,13 @@ List<TextSpan> highlightOccurrences(String source, String query) {
   }
 
   return children;
+}
+
+String smallSentence(String bigSentence) {
+  print("BS: " + bigSentence);
+  if (bigSentence.length > 5) {
+    return bigSentence.substring(1, 3) + '...';
+  } else {
+    return bigSentence;
+  }
 }
