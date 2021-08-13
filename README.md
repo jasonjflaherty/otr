@@ -1,4 +1,4 @@
 # Office of Tribal Relations App
 Tribal relations in the U.S. Department of Agriculture (USDA), Forest Service crosscuts all Forest Service deputy and mission areas. For every plan or action (including actions under the National Environmental Policy Act) developed by the Forest Service that could impact Tribes and/or significant tribal resources on the lands that we manage, agency Line Officers are required by various laws to formally consult with those Tribes. While extensive directives and guidance exist to provide consistence and outline the rules and responsibilities for consultation, these directives are lengthy, difficult to retrieve, and stored only as PDFs. Accessing the appropriate guidance, forms, and information is cumbersome, inefficient, and difficult.  This inefficiency can negatively impact consultation by interrupting relationship building conversations, dragging out consultation timelines, and generally discouraging progress.  	
-## app-office-of-tribal-relations
+
 Web version for quick content review: https://staging-www.fs.fed.us/otr/
