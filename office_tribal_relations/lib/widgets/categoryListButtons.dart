@@ -70,7 +70,11 @@ class CategoryListButtons extends StatelessWidget {
                     padding: EdgeInsets.fromLTRB(10, 0, 10, 10),
                     child: ReadMoreText(
                       "The U.S. Forest Service has a unique legal and fiduciary trust responsibility to serve Tribal Nations outlined in law, policy, and regulations. Tribal relations is the responsibility of every Forest Service employee. The foundation for excellence in Tribal relations is in place through the Forest Service Manual and Handbook direction, top-level leadership orientation, and the skill and positive attitude of line officers and other personnel throughout the agency. The Forest Service now is challenged to expand its level of excellence, to be recognized by Tribes, other Federal agencies, members of Congress, and the Courts as the best among our Federal peers in fostering and enhancing Federal – Tribal relationships in the spirit of helpfulness and partnership. Tribal relations personnel are available to provide advice and assistance in this endeavor. Striving for outstanding public service is part of our organizational culture, and by increasing the diversity of our workforce, we are better meeting the needs of the people we serve.",
-                      style: TextStyle(color: Colors.black, fontSize: 16),
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 18,
+                        height: 1.2,
+                      ),
                       trimLength: 175,
                       colorClickableText: Colors.blue,
                       trimMode: TrimMode.Length,
@@ -103,7 +107,7 @@ class CategoryListButtons extends StatelessWidget {
       Colors.blueGrey[700],
     ];
     //sorting the categories alphabetically...
-    values.sort((a, b) => a.category.compareTo(b.category));
+    //values.sort((a, b) => a.category.compareTo(b.category));
     return GridView.builder(
       physics: NeverScrollableScrollPhysics(),
       shrinkWrap: true,
@@ -121,7 +125,7 @@ class CategoryListButtons extends StatelessWidget {
             fullWidthButton: true,
             padding: EdgeInsets.all(5),
             child: Text(
-              '${(values[index].categorysubtitle).toUpperCase()}',
+              '${(values[index].categorysubtitle)}',
               textAlign: TextAlign.center,
             ),
             color: _colors[index],

@@ -1,392 +1,463 @@
 [
     {
-        "category": "sacred sites",
-        "categorysubtitle": "sacred sites",
-        "categoryimage": "good-for-sacred-sites.png",
-        "data": [
+        "category":"what's my role",
+        "categorysubtitle":"What's My Role",
+        "categoryimage":"good-for-front-page.jpg",
+        "data":[
             {
-                "title": "Sacred Sites",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "sacred sites",
-                "landingpagecontent": "<p align=\"center\"><em>. . . any specific, discrete, narrowly delineated location on  Federal land that is identified by an Indian Tribe, or Indian individual  determined to be an appropriately authoritative representative of an Indian  religion, as sacred by virtue of its established religious significance to, or  ceremonial use by, an Indian religion; provided that the Tribe or appropriately  authoritative representative of an Indian religion has informed the agency of  the existence of such a site.&rdquo;</em> </p>\n<p>Agencies are required  to, where appropriate, maintain the confidentiality of sacred  sites. Executive Order 13007 establishes that<strong> Indian Tribes and  appropriate representatives of AI/AN religions (not the agencies) identify  which locations are sacred sites </strong>under the Executive Order). Sacred  Sites do not need to have material cultural components; examples include  natural springs, rock shelters, landscapes, or even bodies of water.</p>\n",
-                "sections": []
+                "title":"What's My Role?",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-front-page.jpg",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"what's my role",
+                "landingpagecontent":"<p>The following is a general overview of the roles and responsibilities that will greatly enhance successful interactions and outcomes by all; this is followed by a list of specific roles as they pertain to Forest Service job title. <br>Guidable actions:</p><ul> <li>Apply the Forest Service mission in ways that fulfill the agency&rsquo;s trust responsibilities and treaty obligations.</li><li>Help protect Tribal reserved rights as they pertain to Forest Service lands and resources, as applied through policies, programs, and projects.</li><li>Consult early and often to ensure all topics are on the table and relationships are maintained.</li><li>Convene regularly scheduled interactions between Tribal and Forest Service unit leadership to maintain productive relationships and collaborative opportunities.</li><li>Develop personal relationships with Tribal partners that help build mutual understanding as well as social and political capital.</li><li>Support the aspirations of the United Nations Declaration on the Rights of Indigenous Peoples, especially the call for free, prior, and informed consent.</li><li>Develop and enhance bilateral agreements.</li></ul>",
+                "sections":[
+
+                ]
             },
             {
-                "title": "USDA FS Sacred Sites Policy",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "sacred sites",
-                "landingpagecontent": "<ul> <li>Accommodate access to and ceremonial use of Indian sacred sites by Indian religious practitioners.</li><li>Avoid adversely affecting the physical integrity of such sacred sites.</li><li>Maintain the confidentiality of sacred sites where appropriate.</li><li>Implement procedures to execute these provisions.</li><li>Ensure reasonable notice is provided of proposed actions that may restrict future access to, ceremonial use of, or will adversely affect the physical integrity of sacred sites.</li></ul>",
-                "sections": []
+                "title":"Regional Foresters",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-front-page.jpg",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"what's my role",
+                "landingpagecontent":"<ol> <li>Fulfill, within the Forest Service's mission areas, the Government's trust responsibilities and treaty obligations.</li><li>Coordinate and collaborate with Tribes in the early development of policies and decisions that may have Tribal implications.</li><li>Establish and implement effective Tribal Relations Programs for their Units.</li><li>Develop effective, timely communication between the Forest Service Office of Tribal Relations in Washington, D.C., Regional Tribal Relations Program Managers, Research and Development (R&amp;D) Tribal Liaisons, and Forest Tribal Liaisons.</li><li>Designate employees to serve as a focal point for the Unit's contact between Tribes at the Region or Station level.</li><li>Ensure that Tribes with rights and interests that cross more than one Region, Forest, Station, or other Units have one primary point of contact between the Forest Service and the Tribe.</li><li>Ensure Tribal program management interests are represented in the decision-making process of the National and Regional Leadership teams.</li><li>Ensure that consultation is conducted with Tribes for Region or Station decisions and actions that may affect Tribes.</li><li>Ensure that the recommendations from the Report to the Secretary of Agriculture, USDA Policy and Procedures Review and Recommendations: Indian what's my role and similar recommendations are implemented efficiently, effectively, and thoroughly throughout their Region or Station.</li><li>Ensure appropriate repatriation of human remains, associated funerary objects, unassociated funerary objects, sacred objects, and objects of cultural patrimony from National Forests under their jurisdiction.</li><li>Support reburial of repatriated human remains and cultural items on National Forest System lands consistent with uses on the National Forest System land as determined necessary for management of the National Forest System.</li><li>Provide funding and training to Units in support of Tribal Relations work.</li></ol>",
+                "sections":[
+
+                ]
             },
             {
-                "title": "Sacred Sites as Spiritual Connections to the Landscape",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "sacred sites",
-                "landingpagecontent": "<ul> <li>Spiritual connection between Tribal people and their ancestors (including all aspects of the natural world) is expressed through the existence and use of cultural resources or traditional ceremonial sites left in place and in context.</li><li>Can be:</li><ul> <li>Burial Places</li><li>Sacred areas</li><li>Historic Trails</li><li>Travel Corridors</li><li>Subsistence locations</li></ul></ul><ul> <li>A sacred site is not necessarily a place but may be a geographic feature connected to a creation story.</li><li>A sacred site is <strong>not</strong> necessarily a place where anyone goes.</li><ul> <li>Example: <abbr id=\"Arctic National Wildlife Refuge\">ANWR</abbr> (Arctic National Wildlife Refuge) contains caribou birthing grounds. Those grounds are sacred to most Athabascan people and they do not go there.</li></ul></ul><ul> <li>Knowledge of sites is often private and cannot be shared with non-Tribal members, or the public.</li></ul><ul> <li>It is important to understand the nature of private knowledge among indigenous communities.</li><li>Some things cannot be shared with outsiders without violating cultural customs and beliefs.</li></ul>",
-                "sections": []
-            }, {
-                "title": "Sacred Sites and the National Historic Preservation Act (NHPA)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "sacred sites",
-                "landingpagecontent": "<ul> <li>BASICS:  A Sacred Site might not be protected under the <abbr id=\"National Historic Preservation Act\">NHPA</abbr> if it does <strong>not</strong> have a material cultural component, such an archeological site or structure.</li><li> <abbr id=\"National Historic Preservation Act\">NHPA</abbr> is a federal law passed in 1966 that governs historic preservation policy of the federal government.</li><li>Created the Advisory Council on Historic Preservation (<abbr id=\"Advisory Council on Historic Preservation\">ACHP</abbr>), an independent agency of the United States government that oversees federal preservation efforts.</li><li> <abbr id=\"National Historic Preservation Act\">NHPA</abbr> and its regulations are the most important tools for protecting historic sites affected by projects undertaken, funded, or regulated by the federal government.</li><li>Section 106 of the  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> requires agencies to consider the impact of undertakings they carry out, fund, or regulate on historic properties and to give the ACHP the opportunity to comment on those undertakings. </li><li>Regulations established pursuant to §106, 36 CFR 800, are that federal agencies:</li><ul> <li>Make attempts to identify historic properties that might be impacted by their actions.</li><li>The attempts include seeking input from knowledgeable sources.</li><li>Make attempts to avoid, minimize or mitigate any impacts their actions may have on historic properties.</li><ul> <li>These attempts including seeking input from knowledgeable sources, including Tribes.</li></ul> <li>Consult with interested parties on how to avoid, minimize, or mitigate impacts to historic properties.</li><li>Consult with the appropriate federally recognized Indian Tribe(s) when Native American historic properties are involved.</li></ul></ul><ul> <li>These requirements are highly significant when it comes to preserving Native American historical sites. The requirement to identify historic properties makes it less probable that these resources will be unintentionally destroyed.</li><li>Section 106 of  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> – ensures that historic preservation is considered in federal project planning. State Historic Preservation Officers and Tribal Historic Preservation Officers, as well as Federal Preservation Officers, should all collaborate during the process. The Section 106 review process is used to determine a federal project&rsquo;s effect on historic properties.</li></ul><p><a href=\"https://www.achp.gov/sites/default/files/regulations/2017-02/regs-rev04.pdf\">Link to 36 CFR 800, from Advisory Council on Historic Preservation</a></p>",
-                "sections": []
+                "title":"Regional Tribal Relations Program Managers",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-front-page.jpg",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"what's my role",
+                "landingpagecontent":"<ol> <li>Ensure that Tribal interests and rights are considered and integrated across program areas and that government-to-government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Forest Service policy.</li><li>Collaborate with other Federal agencies, Tribes, and American Indian advocacy organizations to implement programs and projects and seek mutually beneficial opportunities.</li><li>Serve as the Region's primary source of advice and assistance on matters involving Tribal relations, including advising Line Officers and staff on responses to Tribal requests for use of National Forest System lands and resources.</li><li>Brief and coach Line Officers, Forest Tribal Liaisons, key staff, and appropriate specialists on effective communication skills and cultural knowledge required for effective government-to-government relationships between the Forest Service and Tribes and Tribal organizations. This may include:</li><ol> <li>Fulfill, within the Forest Service's mission areas, the Government's trust responsibilities and treaty obligations.</li><li>Protect sacred sites and archaeological, historical and cultural resources.</li><li>Accommodate Indian religious and spiritual values and practices to the maximum extent practicable, permitted by law, and not clearly inconsistent with Forest Service functions.</li><li>Respond to Tribal requests for reburial of human remains in coordination with the Heritage Resources Program Manager.</li><li>Explain off-reservation treaty rights that affect Forest Service administered land management.</li></ol> <li>Seek traditional knowledge that may be relevant to the management of natural and cultural resources. </li><li>Monitor Forest Service programs to ensure that Tribal governments are consulted when land and resource management plans and/or other actions could affect Tribal rights and interests.</li><li>Seek to reconcile different views and facilitate timely resolution of disputes involving Tribes and the Forest Service that cannot be resolved at the local level.</li><li>Coordinate and facilitate a Tribal Relations program of training at the Regional and local levels that include Indian law and policy, consultation, Federal-Tribal relations, sacred sites protection, and cultural awareness.</li><li>Collect and submit to the Director of the Forest Service Office of Tribal relations in Washington, D.C. and the U.S. Department of Agriculture, Office of Tribal Relations information that summarizes the issues and outcomes of consultations with Tribal Governments within their respective Regions or administrative Units, as requested by Forest Service Office of Tribal Relations in Washington, D.C.</li><li>Serve on the National Tribal Relations Team, led by the Director of the Forest Service Office of Tribal Relations, in Washington, D.C. to coordinate policy development, program reviews and improvement, and project support across the Agency.</li><li>Coordinate and provide Agency staff work necessary for processing requests by Indian tribes and lineal descendants for reburial of human remains and/or cultural items. Provide documentation, budget, and briefing materials necessary for management decisions and reporting. Initiate program and reburial activity reviews necessary to provide quality controls and Tribal relations feedback.</li><li>Conduct periodic reviews to ensure compliance with the Forest Service reburial policy pursuant to requirements of the Cultural and Heritage Cooperation Authority of 2008.</li></ol>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Forest Supervisor Responsibilities",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-front-page.jpg",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"what's my role",
+                "landingpagecontent":"<ul> <li>Fulfill, within the Forest Service's mission areas, the Government's responsibilities and treaty obligations.</li><li>Coordinate and collaborate with Tribes in the early development of policies and decisions that may have Tribal implications.</li><li>Serve as the Consultation Official on the Unit. This requires being personally engaged in the consultation process with Tribes.</li><li>Identify a Forest Tribal Liaison to serve as the first point of contact with Tribal leaders and as the person who will generally initiate Agency contact with Tribes.</li><li>In partnership with Tribal officials, develop agreed-upon protocols for consultation on issues and decisions that may have a direct, substantial effect on Tribal lands, subsistence uses, treaty rights, sacred sites, or cultural resources or practices both on and off reservations.</li><li>Ensure that activities relating to Tribes are reported to the Regional Office, through the Regional Tribal Relations Program Manager, for inclusion in an annual end-of-year report to be delivered to the Forest Service Office of Tribal Relations in Washington, DC.</li></ul><p>Delegation</p><ul> <li>Line Officers should engage personally with Tribal leaders.</li><li>This direction is not intended to minimize the importance of staff-to-staff communication and collaboration. On the contrary, staff interactions are essential to set the stage for effective consultation and should be maintained and enhanced.</li><li>The staff or Unit responsible for planning the consultation may request technical assistance from the Forest Service Office of Tribal Relations in Washington, D.C. or from Tribal Relations Specialists.</li></ul><p>Line Officers Responsibilities for Reburial</p><ul> <li>Responsibility for authorizing reburials on <abbr id=\"National Forest System\">NFS</abbr> lands resides with the Regional Foresters. Regional Foresters may delegate that authority in writing to Forest Supervisors under their supervision.</li></ul><ul type=\"disc\"> <li>Timeframe: Ensure that requests for reburial are addressed in a timely manner.</li><li>Consultation: When authorizing reburials, consult with the lineal descendants or culturally affiliated process. This may include site protection and management protocols.</li><ul type=\"circle\"> <li>An understanding may take the form of correspondence rather than a formal MOU.</li><li>This agreement may include reburial of human remains and associated funerary objects (FSH §1509.13).</li></ul> <li>Notification: Inform the appropriate law enforcement agents of reburial activities in order to protect reburial sites through monitoring and surveillance activities.</li><li>Avoid Conflicting Uses: Identify areas where anticipated uses will not cause future impacts or physical harm to the site and, in consultation, a location that is consistent with Tribal cultural, spiritual, and religious requirements for reburial purposes.</li><li>Mitigation Measures: Develop and implement mitigation measures in consultation with Tribal governments, clans, and individuals to minimize or avoid adverse impacts to reburial sites that may be caused by particular land uses. Ensure the measures will be implemented for the long run</li><li>Coordination and Reporting: A critical first step is to ensure that all requests for reburial are reported and coordinated with the Regional Tribal Relations Program Manager, Regional Heritage Resources Program Manager and appropriate law enforcement personnel</li></ul>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"District Rangers",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-front-page.jpg",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"what's my role",
+                "landingpagecontent":"<ul> <li>Implement and maintain the Tribal Relations Program within their area of authority, including staffing.</li><li>Serve as the consultation official on the Unit when delegated that authority by the Forest Supervisor. This requires being personally engaged in the consultation process with Tribes.</li></ul><p>Delegation</p><ul> <li>Line Officers should engage personally with Tribal leaders.</li><li>This direction is not intended to minimize the importance of staff-to-staff communication and collaboration. On the contrary, staff interactions are essential to set the stage for effective consultation and should be maintained and enhanced.</li><li>The staff or Unit responsible for planning the consultation may request technical assistance from the Forest Service Office of Tribal Relations in Washington, D.C. or from Tribal Relations Specialists.</li></ul><p>Line Officers Responsibilities for Reburial</p><ul> <li>Responsibility for authorizing reburials on <abbr id=\"National Forest System\">NFS</abbr> lands resides with the Regional Foresters. Regional Foresters may delegate that authority, in writing, to Forest Supervisors under their supervision.</li></ul><ul type=\"disc\"> <li>Timeframe: Ensure that requests for reburial are addressed in a timely manner.</li><li>Consultation: When authorizing reburials, consult with the lineal descendants or culturally affiliated process. This may include site protection and management protocols.</li><ul type=\"circle\"> <li>An understanding may take the form of correspondence rather than a formal MOU.</li><li>This agreement may include reburial of human remains and associated funerary objects (FSH §1509.13).</li></ul> <li>Notification: Inform the appropriate law enforcement agents of reburial activities in order to protect reburial sites through monitoring and surveillance activities.</li><li>Avoid Conflicting Uses: Identify areas where anticipated uses will not cause future impacts or physical harm to the site and, in consultation, a location that is consistent with Tribal cultural, spiritual and religious requirements for reburial purposes.</li><li>Mitigation Measures: Develop and implement mitigation measures in consultation with Tribal governments, clans, and individuals to minimize or avoid adverse impacts to reburial sites that may be caused by particular land uses. Ensure the measures will be implemented for the long run</li><li>Coordination and Reporting: A critical first step is to ensure that all requests for reburial are reported and coordinated with the Regional Tribal Relations Program Manager, Regional Heritage Resources Program Manager and appropriate law enforcement personnel</li></ul>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"National Forest Tribal Liaisons",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-sacred-sites.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"what's my role",
+                "landingpagecontent":"<ol> <li>Support their Unit and, especially, their Line Officer's efforts regarding Tribal consultation, coordination and collaboration.</li><li>Serve as the Unit primary staff point of contact for developing and maintaining relationships with Tribes.</li><li>Maintain the Unit's input to the USDA Tribal Consultation and Collaboration Database.</li><li>Serve as the Unit subject matter expert in providing information, training and assistance to personnel across the Unit regarding working with American Indian and/or Alaska Native tribes and Alaska Native Corporations</li><li>Assist the Regional Tribal Relations Program Manager in their responsibilities and activities, including end-of-year reporting.</li></ol>",
+                "sections":[
+
+                ]
             }
         ]
     },
     {
-        "category": "laws and policy",
-        "categorysubtitle": "laws and policy",
-        "categoryimage": "good-for-law-policy.png",
-        "data": [
+        "category":"consultation guide",
+        "categorysubtitle":"Consultation Guide",
+        "categoryimage":"good-for-consultation-guide.png",
+        "data":[
             {
-                "title": "Laws and Policy",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The Forest Service and federally recognized American Indian and Alaska Native entities share the value of restoring, sustaining, and enhancing the nation's forests and grasslands, and providing and sustaining benefits to the American people. In many cases, Indian Tribes continue their traditional uses of the nation's forests and grasslands to sustain their cultural identity and continuity, and for economic development. The Government's trust responsibilities and treaty obligations make it essential that the Forest Service engage with Indian tribes in timely and meaningful consultation on policies that may affect Indian Tribes. In addition to consultation, coordination and collaboration lead to information exchange, mutual understanding, informed decision-making, and mutual benefit. The value of collaboration is fully recognized within the Forest Service for all of its constituents. For Indian Tribes collaboration can serve as a support process for government – to – government consultation.</p>",
-                "sections": []
-            },
-            {
-                "title": "Forest Service Tribal Relations Directives",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The Forest Service  Manual and Handbook for Tribal relations were published on March 9, 2016. These  directives institutionalize and tailor the agency-wide practices of Tribal  consultation and engagement.  Perhaps the most significant aspect of the  new directives is the clear emphasis that Tribal relations is inherently  embedded across the agency and working with Tribes is part of every employee's  job. <a href=\"https://www.fs.fed.us/spf/tribalrelations/authorities.shtml\">https://www.fs.fed.us/spf/Tribalrelations/authorities.shtml</a></p>\n",
-                "sections": []
-            },
-            {
-                "title": "Title 36, CFR, Pt 219 (Planning Rule)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The Forest Service's  2012 Planning Rule provides direction for National Forest System <abbr id=\"National Forest System\">NFS</abbr> land management  planning. Section 219.4 of the rule requires opportunities for public and Tribal  participation and coordination throughout the planning process. <a href=\"https://www.fs.usda.gov/detail/planningrule/home/?cid=stelprd3828310\">https://www.fs.usda.gov/detail/planningrule/home/?cid=stelprd3828310</a></p>\n",
-                "sections": []
-            },
-            {
-                "title": "Food Conservation and Energy Act of 2008, \"The Farm Bill\"",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The Farm Bill allows the  Forest Service to provide federal financial assistance to local governments,  Indian Tribes, and qualified nonprofit organizations (including land trusts) to  establish community forests that provide defined benefits, and includes the <abbr id=\"Culture and Heritage Cooperation Authority\">CHCA</abbr>. <a href=\"http://www.agriculture.senate.gov/issues/2008-farm-bill\">http://www.agriculture.senate.gov/issues/2008-farm-bill</a></p>\n",
-                "sections": []
-            },
-            {
-                "title": "USDA Departmental Regulation 1350-002",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The Regulation directs the USDA and its agencies to provide federally recognized Indian Tribes the  opportunity for government – to – government consultation and coordination in  policy development and program activities which have direct and substantial  effects on their Tribe. <a href=\"https://www.ocio.usda.gov/document/departmental-regulation-1350-002\">https://www.ocio.usda.gov/document/departmental-regulation-1350-002</a></p>",
-                "sections": []
-            },
-            {
-                "title": "Forest Products for Traditional Cultural Purposes (2016)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>This rule gives the  Secretary of Agriculture discretionary authority to provide, free of charge,  any trees, portions of trees, or forest products from National Forest System  lands to federally recognized Indian Tribes for traditional and cultural  purposes. <a href=\"https://www.fs.fed.us/forestmanagement/traditional_cultural/index.shtml\">https://www.fs.fed.us/forestmanagement/traditional_cultural/index.shtml</a> \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Consultation and Coordination with Indian Tribes on  Forest Planning, NFMA, 1976",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>Regulations (36 CFR  219.4(a)) implementing the National Forest Management Act (<abbr id=\"National Forest Management Act\">NFMA</abbr>) of 1976 (16  U.S.C. 472a et seq.) direct the Forest Service to consult with and coordinate  forest planning with Indian Tribes. The Forest Service must also consult with  Alaska Native Corporations pursuant to PL 108-199 and PL 108-447. <a href=\"https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5359591.pdf\">https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5359591.pdf</a> \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Coordination with Tribal Land Use Management and  Planning, Federal Land Policy and Management Act of 1976",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The Federal Land Policy  and Management Act of 1976 (43 U.S.C. 1712(b)) requires the Forest Service to  coordinate land use plans for <abbr id=\"National Forest System\">NFS</abbr> lands with the land use planning and  management programs of and for Indian Tribes.\n  <a href=\"https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd488457.pdf\">https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd488457.pdf</a> </p>",
-                "sections": []
-            },
-            {
-                "title": "Secure Rural Schools and Community Self-Determination Act  of 2000",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The act allows the  Forest Service to enter into contracts, grants, cooperative agreements, and  partnership agreements with local governmental entities, Tribal nations,  individuals, nonprofits, and for-profit organizations. <a href=\"https://www.fs.fed.us/payments/106-393_text.pdf\">https://www.fs.fed.us/payments/106-393_text.pdf</a> \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Culture and Heritage Cooperation Authority of 2008",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>Requires the Forest  Service to consult with affected Indian Tribes before releasing culturally  sensitive information. It also includes provisions for reburial of human  remains and cultural items, temporary closure for traditional and cultural  purposes, forest products for traditional and cultural purposes, and  prohibition on disclosure of information. <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/policy/Farm_Bill/HR6124_SubtitleB_sections8101-8107_as_enrolled.pdf\">https://www.fs.fed.us/spf/Tribalrelations/documents/policy/Farm_Bill/HR6124_SubtitleB_sections8101-8107_as_enrolled.pdf</a>  \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Federal Land Policy and Management Act, 1976 (FLPMA)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>Requires coordination of  land use plans for lands in the National Forest System with the land use planning  and management programs of and for Indian Tribes. (See FSM 1563.01d.1). <a href=\"https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd488457.pdf\">https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd488457.pdf</a> \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Forest and Rangeland Renewable Resources Research Act of  1978",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The Secretary of  Agriculture may conduct, support, and cooperate in investigations, experiments,  tests, and other activities deemed necessary to obtain, analyze, develop,  demonstrate, and disseminate scientific information about protecting, managing,  and using forest and rangeland resources in rural, suburban, and urban areas.  The Secretary may cooperate with Indian Tribes and is authorized to make  competitive grants that will further research activities. <a href=\"https://www.fs.fed.us/emc/nfma/includes/range74.pdf\">https://www.fs.fed.us/emc/nfma/includes/range74.pdf</a> \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Watershed Restoration and Enhancement Agreement Authority  (Wyden Amendment)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The Forest Service uses  this authority when it enters into Cooperative Agreements and Participating  Agreements with Federal, Tribal, State, and local governments; private and  nonprofit entities; and landowners to improve fish, wildlife, and other  resources on National Forest System lands within a watershed, and to reduce  risk of natural disaster where public safety is threatened within the  watershed. <a href=\"https://www.fs.fed.us/spf/coop/wyden/\">https://www.fs.fed.us/spf/coop/wyden/</a> \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "National Historic Preservation Act of 1966 (NHPA)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>As amended in 1992, requires  Federal agency officials to consult with Indian Tribes concerning the effects  of undertakings on historic properties of traditional and cultural importance  to Indian Tribes. <a href=\"https://www.achp.gov/digital-library-section-106-landing/national-historic-preservation-act\">https://www.achp.gov/digital-library-section-106-landing/national-historic-preservation-act</a>  \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Native American Graves Protection and Repatriation Act  (NAGPRA)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>Under <abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr>, the Forest  Service has supported the repatriation of thousands of human remains and tens  of thousands of funerary objects, sacred objects, and items of cultural  patrimony. The Forest Service has also continued to support the reburial of  approximately 5,000 sets of repatriated human remains on <abbr id=\"National Forest System\">NFS</abbr> lands under the  Culture and Heritage Cooperation Authority (25 USC 32A). <a href=\"https://www.nps.gov/subjects/nagpra/index.htm\">https://www.nps.gov/subjects/nagpra/index.htm</a>  \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Presidential Memorandum of Nov 5, 2009",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>Presidential Memorandum  to the heads of executive departments and agencies on Tribal Consultation. <u> </u><a href=\"https://obamawhitehouse.archives.gov/the-press-office/memorandum-tribal-consultation-signed-president\">https://obamawhitehouse.archives.gov/the-press-office/memorandum-Tribal-consultation-signed-president</a><u>   </u> \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Tribal Forest Protection Act of 2004 (TFPA)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The TFPA provides the  authority for a Tribe and the Forest Service to enter into an agreement or  contract to carry out a project to protect Indian forest land or rangeland that  meets certain criteria. <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/policy/tfpa/USDA_FSBriefing_paper_TFPA_040505.pdf\">https://www.fs.fed.us/spf/Tribalrelations/documents/policy/tfpa/USDA_FSBriefing_paper_TFPA_040505.pdf</a> \n  </p>\n",
-                "sections": []
-            },
-            {
-                "title": "Title 36, Code of Federal Regulations, Pt 219, (Planning  Rule)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>The Forest Service's  2012 Planning Rule provides direction for National Forest System (<abbr id=\"National Forest System\">NFS</abbr>) land  management planning. Section 219.4 of the rule requires opportunities for  public and Tribal participation and coordination throughout the planning  process. <a href=\"https://www.fs.usda.gov/detail/planningrule/home/?cid=stelprd3828310\">https://www.fs.usda.gov/detail/planningrule/home/?cid=stelprd3828310</a> \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Executive Order 13007, Indian Sacred Sites, 5/24/1996",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>This Executive Order directs  Federal land management agencies, to the extent permitted by law, and not  clearly inconsistent with essential agency functions, to accommodate access to  and use of Indian sacred sites, to avoid affecting the physical integrity of  such sites wherever possible, and, where appropriate, to maintain the  confidentiality of sacred sites.  <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/policy/executiveorders/EO13007_5_24_96.pdf\">https://www.fs.fed.us/spf/Tribalrelations/documents/policy/executiveorders/EO13007_5_24_96.pdf</a><u> </u> \n  </p>",
-                "sections": []
-            },
-            {
-                "title": "Executive Order 13175, Consultation with Indian Tribal  Governments, 11/6/2000",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-law-policy.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "laws and policy",
-                "landingpagecontent": "<p>This Executive Order directs Federal agencies to  establish regular and meaningful consultation and collaboration with Tribal  officials in the development of Federal policies that have Tribal implications  to strengthen the United States government-to-government relationships with  Indian Tribes.  <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/policy/executiveorders/EO13175_11_6_00.pdf\">https://www.fs.fed.us/spf/Tribalrelations/documents/policy/executiveorders/EO13175_11_6_00.pdf</a><u> </u></p>",
-                "sections": []
+                "title":"Consultation Guide",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-consultation-guide.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"consultation guide",
+                "landingpagecontent":"<p>The Forest Service, like other Federal agencies, has a duty to consult and coordinate with Indian tribes on a government-to-government basis, as directed in Executive Order 13175, Consultation and Coordination with Indian Tribal Governments.</p><ul> <li>When there is a &ldquo;substantial direct effect&rdquo; to one of more Tribes or ANCs from the proposed decision or action, consultation must be initiated.</li><li>When there are possible effects, consider the geographical extent of those effects and evaluate which Tribes or ANCs have cultural and historic connections to the lands. </li><li>When determining which Tribes or ANCs to consult with, check with inter-Tribal organizations or other agencies which may have conducted consultation on similar actions or activities in the past. The National Park Service <abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr> database may give an indication of which Tribes have an interest in a specific location.</li><li>Line Officers should engage personally with Tribal leaders.</li><li>Staff interactions are essential to set the stage for effective consultation and should be maintained and enhanced.</li><li>The staff or Unit responsible for planning the consultation may request technical assistance from the Forest Service Office of Tribal Relations in Washington, D.C. or from Tribal Relations Specialists.</li><li>Government-to-government consultation may only occur between Forest Service Line Officers and Tribal leaders who have authority to consult on behalf of their Tribe.</li><ul> <li>This direction is not intended to minimize the importance of staff-to-staff communication and collaboration. This section only indicates that staff may not serve as the Forest Service Consulting Official in government-to-government consultations.</li></ul> <li>Minimum Consultation Period: Widely applicable national issues must provide a consultation period of at least 120 days from the date the Indian tribe or Alaska Native Corporation likely received the information on which they are being invited to consult. Allow an additional 14 days for delivery time if the notification is by postal service.</li><li>Other actions (such as consultation on national issues that may affect only one or a few Indian Tribes or ANCs, or on regional or more local decisions) may require less time for consultation.</li></ul><p>Mediation <br>The Forest Service Line Officer with responsibilities for a particular decision and the Tribe&rsquo;s representative are encouraged to use AlterNative Dispute Resolution processes, including mediation, where a neutral third-party facilitates a mutually agreeable solution.<br>Documenting Consultation</p><ul> <li>Database entry: All consultation events must be entered into the USDA Tribal Consultation and Collaboration Database.</li><li>Record Maintenance: Each staff or Unit conducting consultations shall maintain a consultation record for each consultation.</li><li>Program Reviews: Consultation monitoring and evaluation of effectiveness must be incorporated, as appropriate, in program reviews. During program reviews, monitor and evaluate the results and effectiveness of consultation.</li></ul><p><strong>Compensation</strong></p><ul type=\"disc\"> <li>Agency officials are encouraged to facilitate Tribal participation in Agency decision-making through financial support and other means.</li><li>No legal requirement exists to compensate for consultation or other involvement in Forest Service activities:</li><ul type=\"circle\"> <li>The Forest Service may elect to provide compensation to Tribes or Tribal representatives for extraordinary situations and specialized expertise.</li></ul></ul><ul type=\"disc\"> <li>Guidance for Compensation:</li><ul type=\"circle\"> <li>Various authorities enable the Forest Servce to compensate Tribes:</li><ul type=\"square\"> <li>Grants</li><li>Contracts</li><li>Cooperative Agreements</li></ul> </ul></ul><p>For extraordinary consultation and specialized expertise, such as traditional knowledge, that could be incorporated into restoration efforts (FSM §1563.01 and FSH §1509.11):</p><ul type=\"disc\"> <li> <abbr id=\"National Historic Preservation Act\">NHPA</abbr> also authorizes Federal agencies to expend funds for historic preservation activities that includes working with Tribes.</li><li>The Forest Service is not required to compensate a Tribe, the Agency can take a number of actions to assist with Tribal participation. </li><li>The Forest Service may request the Tribe to provide specific information and documentation such as:</li></ul><ul type=\"disc\"> <ul type=\"circle\"> <li>Actual surveys and reports from the Tribe that would assist Agency management and responsibilities.</li><li>In this circumstance, the Tribe may be acting as a professional contractor or consultant providing work products or services that the Agency would normally compensate for.</li></ul></ul><p>Forest Service Tribal Relations Strategic Plan Guidance<br>The goals of the Forest Service Tribal Relations Strategic Plan match the goals in the USDA Forest Service Strategic Plan. The following framework for assessing goals and objectives can be helpful to consider when engaging in consultation efforts. </p><ul> <li>Goals - high-level goals are derived from the Forest Service mission and fiduciary responsibility to Tribes.</li><ul> <li>What are the key values we are trying to address?</li><li>What is the problem you are faced with?</li><li>Why are we addressing this topic?</li><li>What does success look like?</li></ul> <li>Objectives - actionable statements that focus on what must be accomplished to achieve the goals.</li><ul> <li>What are the most important actions and the order in which they are accomplished?</li><li>Who is the target of the actions?</li><li>Who is affected by the action?</li><li>Who is accountable?</li><li>Where is there overlap? Is there opportunity to double up on priority actions?</li><li>Where are the roadblocks?</li></ul> <li>Outcomes - provide the quantitative or qualitative measurable effect the program/actions will accomplish.</li><ul> <li>What are the real and lasting changes we want to produce?</li><li>What needs to be catalyzed or changed?</li><li>What do Forest Service employees most need?</li><li>What are we missing?</li></ul> <li>Focused Actions – targeted actions to achieve the outcomes.</li><ul> <li>Will directions and policy need to change?</li><li>Is the product within the purview of the Agency? The Department?</li></ul></ul>How do products accomplish the objectives or outcomes?",
+                "sections":[
+
+                ]
             }
         ]
     },
     {
-        "category": "partnership agreements",
-        "categorysubtitle": "partnership agreements",
-        "categoryimage": "good-for-partnerships.jpg",
-        "data": [
+        "category":"partnership agreements",
+        "categorysubtitle":"Partnership Agreements",
+        "categoryimage":"good-for-partnerships.jpg",
+        "data":[
             {
-                "title": "Partnership Agreements",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-partnerships.jpg",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "partnershp with usda fs a guide for tribal governments obtain financial assistance guide",
-                "landingpagecontent": "<p>While the Forest Service is required to meet trust responsibilities and treaty obligations in a timely manner, consultation efforts cannot accomplish everything alone. Partnerships and Federal Financial Assistance house several options that the Forest Service and Tribes can use to collaborate and partner with each other on to achieve successful outcomes. <br><strong>Federal Financial Assistance (<abbr id=\"Federal Financial Assistance\">FFA</abbr>)</strong> – consisting mainly of cooperative agreements and grants – are options when the Forest Service provides goods or money to support programs with a public purpose. </p><ul> <li><u>Cooperative Agreement</u>: appropriate when the Forest Service is substantially involved with the cooperator carrying out the award agreement.</li><ul> <li>Indian Tribes should coordinate at the local level to learn of most Federal financial assistance opportunities.</li><li>A few opportunities are formally announced on</li><ul> <li><a href=\"http://www.grants.gov/\">http://www.grants.gov</a> ; applicants must apply and compete for the award</li></ul> <li>Federal Financial Assistance Awards have a maximum 5-year period of performance.</li><li>Every <abbr id=\"Federal Financial Assistance\">FFA</abbr> must also have a legal instrument (document) defining the:</li><ul> <li>Rights</li><li>Duties</li><li>Entitle</li></ul> </ul> <li><u>Grants</u>: appropriate when the Forest Service is not substantially involved and will not be involved with the cooperator in carrying out the award agreement.</li></ul><p><strong>Partnership Agreement</strong> – are agreements that don&rsquo;t fall under <abbr id=\"Federal Financial Assistance\">FFA</abbr> awards. They generally outline voluntary relationships where people and entities with shared interests work together. Forest Service units or stations make the final decisions on partnerships based on the resources available and community and mission needs.<br>Below is a list of Partnership Requirements:</p><ul> <ul> <li>Legal Authority</li><li>Appropriated funds can be used for intended purpose</li><li>Mutual interest and mutual nonmonetary benefit</li><li>A state of participating or sharing (active involvement by both parties)</li><li>No conflict of interest</li><li>Agreement must be executed before costs are incurred or work commences.</li><li>Specific relationship between both parties (written agreement)</li><li>Voluntary participation (USDA FS 2003)</li></ul></ul><p>A step-by-step guide and further information for working through the best options either through an <abbr id=\"Federal Financial Assistance\">FFA</abbr> or other partnership is available here: <br><a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/tools/StartPartnershipTribalGuide.pdf\">Start a partnership with the USDA Forest Service or Obtain Federal Financial Assistance</a> <br>For general information on <abbr id=\"Federal Financial Assistance\">FFA</abbr> and partnerships, please refer to the following sources:<br><a href=\"http://fsweb.wo.fs.fed.us/aqm3/pages/grants-agreements/?tab=policy\">http://fsweb.wo.fs.fed.us/aqm3/pages/grants-agreements/?tab=policy</a> <br><a href=\"https://www.fs.usda.gov/working-with-us/partnerships\">https://www.fs.usda.gov/working-with-us/partnerships</a></p>",
-                "sections": []
+                "title":"Partnership Agreements",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-partnerships.jpg",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"Partnership Agreements",
+                "landingpagecontent":"<p>While the Forest Service is required to meet trust responsibilities and treaty obligations in a timely manner, consultation efforts cannot accomplish everything alone. Partnerships and Federal Financial Assistance house several options that the Forest Service and Tribes can use to collaborate and partner with each other on to achieve successful outcomes. <br><strong>Federal Financial Assistance (<abbr id=\"Federal Financial Assistance\">FFA</abbr>)</strong> – consisting mainly of cooperative agreements and grants – are options when the Forest Service provides goods or money to support programs with a public purpose. </p><ul> <li><u>Cooperative Agreement</u>: appropriate when the Forest Service is substantially involved with the cooperator carrying out the award agreement.</li><ul> <li>Indian Tribes should coordinate at the local level to learn of most Federal financial assistance opportunities.</li><li>A few opportunities are formally announced on</li><ul> <li><a href=\"http://www.grants.gov/\">http://www.grants.gov</a> ; applicants must apply and compete for the award</li></ul> <li>Federal Financial Assistance Awards have a maximum 5-year period of performance.</li><li>Every <abbr id=\"Federal Financial Assistance\">FFA</abbr> must also have a legal instrument (document) defining the:</li><ul> <li>Rights</li><li>Duties</li><li>Entitle</li></ul> </ul> <li><u>Grants</u>: appropriate when the Forest Service is not substantially involved and will not be involved with the cooperator in carrying out the award agreement.</li></ul><p><strong>Partnership Agreement</strong> – are agreements that don&rsquo;t fall under <abbr id=\"Federal Financial Assistance\">FFA</abbr> awards. They generally outline voluntary relationships where people and entities with shared interests work together. Forest Service units or stations make the final decisions on partnerships based on the resources available and community and mission needs.<br>Below is a list of Partnership Requirements:</p><ul> <ul> <li>Legal Authority</li><li>Appropriated funds can be used for intended purpose</li><li>Mutual interest and mutual nonmonetary benefit</li><li>A state of participating or sharing (active involvement by both parties)</li><li>No conflict of interest</li><li>Agreement must be executed before costs are incurred or work commences.</li><li>Specific relationship between both parties (written agreement)</li><li>Voluntary participation (USDA FS 2003)</li></ul></ul><p>A step-by-step guide and further information for working through the best options either through an <abbr id=\"Federal Financial Assistance\">FFA</abbr> or other partnership is available here: <br><a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/tools/StartPartnershipTribalGuide.pdf\">Start a partnership with the USDA Forest Service or Obtain Federal Financial Assistance</a> <br>For general information on <abbr id=\"Federal Financial Assistance\">FFA</abbr> and partnerships, please refer to the following sources:<br><a href=\"http://fsweb.wo.fs.fed.us/aqm3/pages/grants-agreements/?tab=policy\">http://fsweb.wo.fs.fed.us/aqm3/pages/grants-agreements/?tab=policy</a> <br><a href=\"https://www.fs.usda.gov/working-with-us/partnerships\">https://www.fs.usda.gov/working-with-us/partnerships</a></p>",
+                "sections":[
+
+                ]
             }
         ]
     },
     {
-        "category": "cultural and heritage cooperation authority (chca)",
-        "categorysubtitle": "chca",
-        "categoryimage": "good-for-CHCA-section.jpg",
-        "data": [
+        "category":"laws and policy",
+        "categorysubtitle":"Laws and Policy",
+        "categoryimage":"good-for-laws-policy.png",
+        "data":[
             {
-                "title": "Cultural and Heritage Cooperation Authority (CHCA)",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-CHCA-section.jpg",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "chca",
-                "landingpagecontent": "<p>The <abbr id=\"Culture and Heritage Cooperation Authority\">CHCA</abbr> provides legal authority to improve numerous matters of concern regarding relations between federally recognized Indian Tribes, the National Forest System (<abbr id=\"National Forest System\">NFS</abbr>) and the Forest Service Research and Development. The <abbr id=\"Culture and Heritage Cooperation Authority\">CHCA</abbr> outlines agency conduct as it pertains to:</p><ul> <ul> <li>Reburials of human remains and cultural items on <abbr id=\"National Forest System\">NFS</abbr> lands</li><li>Temporary closure for traditional and cultural purposes</li><li>Providing forest products free of charge for traditional and cultural purposes</li><li>A prohibition on disclosure of information pertaining to reburials, sites or resources of traditional and cultural importance</li><li>Protection of all reserved rights to use <abbr id=\"National Forest System\">NFS</abbr> lands or other public land.</li></ul></ul><p>For highlighted information from the guide see below, or if you would like to see the guide in its entirety it is available here: the <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/publications/tribal-cultural-heritage-cooperation-authority-guide.pdf\">Tribal Cultural and Heritage Cooperation Authority Technical Guide</a> (2.5mb PDF)</p>",
-                "sections": []
+                "title":"Laws and Policy",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The Forest Service and federally recognized American Indian and Alaska Native entities share the value of restoring, sustaining, and enhancing the nation's forests and grasslands, and providing and sustaining benefits to the American people. In many cases, Indian Tribes continue their traditional uses of the nation's forests and grasslands to sustain their cultural identity and continuity, and for economic development. The Government's trust responsibilities and treaty obligations make it essential that the Forest Service engage with Indian tribes in timely and meaningful consultation on policies that may affect Indian Tribes. In addition to consultation, coordination and collaboration lead to information exchange, mutual understanding, informed decision-making, and mutual benefit. The value of collaboration is fully recognized within the Forest Service for all of its constituents. For Indian Tribes collaboration can serve as a support process for government – to – government consultation.</p>",
+                "sections":[
+
+                ]
             },
             {
-                "title": "Management Tools - Reburial",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-CHCA-section.jpg",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "chca",
-                "landingpagecontent": "<ul type=\"disc\"> <li>Placement of remains in a historic property, under the provisions of  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> and <abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr>. Both laws provide for additional security of the site and associated information.</li><li>When remains are known to have been removed from a specific site, evaluate, on a case-by-case basis. AlterNative locations should be considered if a reburial would cause adverse effect to known properties.</li><li>When remains are not reburied at the site of their original interment, consider an alterNative location at another historic property; evaluate reburial plans on a case-by-case basis.</li><li>During consultation, provide information to Indian Tribes, clans, and family members regarding appropriate reburial locations, including the location where the remains were removed. </li><ul type=\"circle\"> <li>It is important to determine the status of the reburial location in regard to the Sacred Sites Executive Order 13007, the Forest Service must depend on Indian Tribes to identify and designate sacred sites.</li></ul> <li>Redirect public use away from reburial sites, including those not located on a historical property. This may require landscape level consideration of potential land and resource management actions.</li><li>Restrict Permit Issuance – Deny or redirect permit for use of areas or materials that contain reburial sites.</li><li>During a National Forest and Grassland planning process, ensure that consideration is given to special areas identified by Indian Tribes.</li><ul type=\"circle\"> <li>Create planning information and direction that enable and protects areas suitable for reburial, as well as previous reburial sites.</li></ul></ul>",
-                "sections": []
+                "title":"Forest Service Tribal Relations Directives",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The Forest Service  Manual and Handbook for Tribal relations were published on March 9, 2016. These  directives institutionalize and tailor the agency-wide practices of Tribal  consultation and engagement.  Perhaps the most significant aspect of the  new directives is the clear emphasis that Tribal relations is inherently  embedded across the agency and working with Tribes is part of every employee's  job. <a href=\"https://www.fs.fed.us/spf/tribalrelations/authorities.shtml\">https://www.fs.fed.us/spf/Tribalrelations/authorities.shtml</a></p>\n",
+                "sections":[
+
+                ]
             },
             {
-                "title": "Confidentiality",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-CHCA-section.jpg",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "chca",
-                "landingpagecontent": "<ul> <li>Forest Service personnel should ensure that information about reburial locations is kept confidential by consulting person –to – person. This will ensure that the appropriate Forest Service staff and Indian Tribe or descendent community retains documentation.</li><ul> <li>Restriction of access to information will help keep reburial locations protected from future development or disturbance.</li></ul></ul><p>The Agency must provide for the long-term security of the confidential information and ensure that the locational information is available during planning efforts.</p><ul> <li>Federal regulations (36 CFR §800 and 54 USC §300101) require agencies to consult with various parties (i.e. State and Tribal Historic Preservation Officers{SHPO/THPOs}, Indian Tribes, or Native Hawaiian organizations and others), to determine if the proposed project may have an effect on a property listed on or eligible for listing on the National Register of Historic Places and, if so, what measures might be appropriate to minimize or mitigate that effect.</li><ul> <li>Many reburials will have very little or no effect on historic properties when they avoid the salient features of known historic properties, do not require physical site preparation and avoid extensive ground disturbance.</li><li>Such cases usually conclude with an official  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> determination of &ldquo;no effect&rdquo; or &ldquo;no historic properties affected&rdquo; or &ldquo;no adverse effect&rdquo; (36 CFR 800.4(d) and 800.5).</li></ul> <li>Applying <abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr>,  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> and <abbr id=\"Culture and Heritage Cooperation Authority\">CHCA</abbr>:</li><ul> <li>Tribal governments and the Forest Service should have meaningful, government – to – government, discussion to determine:</li><ul> <li>Mutually acceptable solutions to protect and manage reburial sites</li><li>How Tribal government organizations will be involved in protecting and managing their reburial sties.</li><li>What framework will be used for future collaborative efforts, with special emphasis on how to incorporate Tribally authorized members to help protect reburial sites.</li></ul> <li>Native American and Alaska Native concerns expressed most often during consultation or through personal testimony include:</li><ul> <li>Reburied remains may be disturbed in the future.</li><li>Forest Service staff may interfere with Tribal spiritual practices.</li></ul> <li>Reburial of culturally unidentifiable human remains should be conducted with sensitivity and in a traditionally appropriate manner.</li></ul></ul><ul> <li><u>Native American Graves Protection and Repatriation Act (<abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr>)</u>, is a federal law passed in 1990. It provides a process for museums and federal agencies to resolve possessory rights to certain Native American cultural items – human remains, funerary objects, sacred objects, or objects of cultural patrimony – to lineal descendants and cultural affiliated Indian Tribes and Native Hawaiian organizations.</li><ul> <li><abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr> <u>does not</u> explicitly address reburial of Native American human remains repatriated by museums and federal agencies subject to <abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr>.</li><li><abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr> provides for Indian tribes to take possession of the remains but does not establish the authority to rebury them on <abbr id=\"National Forest System\">NFS</abbr> lands.</li></ul></ul><ul> <li> <u>National Historic Preservation ACT ( <abbr id=\"National Historic Preservation Act\">NHPA</abbr>) </u>was passed in 1966 and substantially amended in 1980 and 1992.  THE  <abbr id=\"National Historic Preservation Act\">NHPA</abbr>, requires all federal agencies to consider the effects of their projects and programs on historic properties and provides the structure and direction for all federal management of important cultural resources.</li><li>Archaeological Resources Protection Act (<abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr>) – passed in 1979, <abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr> recognizes archaeological resources as an irreplaceable part of America&rsquo;s heritage and are increasingly endangered because of the escalating commercial value of a small portion of contents of archeological sites.</li><ul> <li><abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr> prohibits unauthorized excavation on Federal and Indian lands, which adds a layer of protection to the repatriated and reburied items.</li><li><abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr> establishes standards for permissible excavation, prescribes civil and criminal penalties, requires agencies to identify archeological sites and encourages cooperation between Federal agencies and private individuals.</li></ul></ul>",
-                "sections": []
+                "title":"Title 36, CFR, Pt 219 (Planning Rule)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The Forest Service's  2012 Planning Rule provides direction for National Forest System <abbr id=\"National Forest System\">NFS</abbr> land management  planning. Section 219.4 of the rule requires opportunities for public and Tribal  participation and coordination throughout the planning process. <a href=\"https://www.fs.usda.gov/detail/planningrule/home/?cid=stelprd3828310\">https://www.fs.usda.gov/detail/planningrule/home/?cid=stelprd3828310</a></p>\n",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Food Conservation and Energy Act of 2008, \"The Farm Bill\"",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The Farm Bill allows the  Forest Service to provide federal financial assistance to local governments,  Indian Tribes, and qualified nonprofit organizations (including land trusts) to  establish community forests that provide defined benefits, and includes the <abbr id=\"Culture and Heritage Cooperation Authority\">CHCA</abbr>. <a href=\"http://www.agriculture.senate.gov/issues/2008-farm-bill\">http://www.agriculture.senate.gov/issues/2008-farm-bill</a></p>\n",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"USDA Departmental Regulation 1350-002",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The Regulation directs the USDA and its agencies to provide federally recognized Indian Tribes the  opportunity for government – to – government consultation and coordination in  policy development and program activities which have direct and substantial  effects on their Tribe. <a href=\"https://www.ocio.usda.gov/document/departmental-regulation-1350-002\">https://www.ocio.usda.gov/document/departmental-regulation-1350-002</a></p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Forest Products for Traditional Cultural Purposes (2016)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>This rule gives the  Secretary of Agriculture discretionary authority to provide, free of charge,  any trees, portions of trees, or forest products from National Forest System  lands to federally recognized Indian Tribes for traditional and cultural  purposes. <a href=\"https://www.fs.fed.us/forestmanagement/traditional_cultural/index.shtml\">https://www.fs.fed.us/forestmanagement/traditional_cultural/index.shtml</a> \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Consultation and Coordination with Indian Tribes on  Forest Planning, NFMA, 1976",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>Regulations (36 CFR  219.4(a)) implementing the National Forest Management Act (<abbr id=\"National Forest Management Act\">NFMA</abbr>) of 1976 (16  U.S.C. 472a et seq.) direct the Forest Service to consult with and coordinate  forest planning with Indian Tribes. The Forest Service must also consult with  Alaska Native Corporations pursuant to PL 108-199 and PL 108-447. <a href=\"https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5359591.pdf\">https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5359591.pdf</a> \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Coordination with Tribal Land Use Management and  Planning, Federal Land Policy and Management Act of 1976",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The Federal Land Policy  and Management Act of 1976 (43 U.S.C. 1712(b)) requires the Forest Service to  coordinate land use plans for <abbr id=\"National Forest System\">NFS</abbr> lands with the land use planning and  management programs of and for Indian Tribes.\n  <a href=\"https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd488457.pdf\">https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd488457.pdf</a> </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Secure Rural Schools and Community Self-Determination Act  of 2000",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The act allows the  Forest Service to enter into contracts, grants, cooperative agreements, and  partnership agreements with local governmental entities, Tribal nations,  individuals, nonprofits, and for-profit organizations. <a href=\"https://www.fs.fed.us/payments/106-393_text.pdf\">https://www.fs.fed.us/payments/106-393_text.pdf</a> \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Culture and Heritage Cooperation Authority of 2008",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>Requires the Forest  Service to consult with affected Indian Tribes before releasing culturally  sensitive information. It also includes provisions for reburial of human  remains and cultural items, temporary closure for traditional and cultural  purposes, forest products for traditional and cultural purposes, and  prohibition on disclosure of information. <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/policy/Farm_Bill/HR6124_SubtitleB_sections8101-8107_as_enrolled.pdf\">https://www.fs.fed.us/spf/Tribalrelations/documents/policy/Farm_Bill/HR6124_SubtitleB_sections8101-8107_as_enrolled.pdf</a>  \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Federal Land Policy and Management Act, 1976 (FLPMA)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>Requires coordination of  land use plans for lands in the National Forest System with the land use planning  and management programs of and for Indian Tribes. (See FSM 1563.01d.1). <a href=\"https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd488457.pdf\">https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd488457.pdf</a> \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Forest and Rangeland Renewable Resources Research Act of  1978",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The Secretary of  Agriculture may conduct, support, and cooperate in investigations, experiments,  tests, and other activities deemed necessary to obtain, analyze, develop,  demonstrate, and disseminate scientific information about protecting, managing,  and using forest and rangeland resources in rural, suburban, and urban areas.  The Secretary may cooperate with Indian Tribes and is authorized to make  competitive grants that will further research activities. <a href=\"https://www.fs.fed.us/emc/nfma/includes/range74.pdf\">https://www.fs.fed.us/emc/nfma/includes/range74.pdf</a> \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Watershed Restoration and Enhancement Agreement Authority  (Wyden Amendment)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The Forest Service uses  this authority when it enters into Cooperative Agreements and Participating  Agreements with Federal, Tribal, State, and local governments; private and  nonprofit entities; and landowners to improve fish, wildlife, and other  resources on National Forest System lands within a watershed, and to reduce  risk of natural disaster where public safety is threatened within the  watershed. <a href=\"https://www.fs.fed.us/spf/coop/wyden/\">https://www.fs.fed.us/spf/coop/wyden/</a> \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"National Historic Preservation Act of 1966 (NHPA)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>As amended in 1992, requires  Federal agency officials to consult with Indian Tribes concerning the effects  of undertakings on historic properties of traditional and cultural importance  to Indian Tribes. <a href=\"https://www.achp.gov/digital-library-section-106-landing/national-historic-preservation-act\">https://www.achp.gov/digital-library-section-106-landing/national-historic-preservation-act</a>  \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Native American Graves Protection and Repatriation Act  (NAGPRA)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>Under <abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr>, the Forest  Service has supported the repatriation of thousands of human remains and tens  of thousands of funerary objects, sacred objects, and items of cultural  patrimony. The Forest Service has also continued to support the reburial of  approximately 5,000 sets of repatriated human remains on <abbr id=\"National Forest System\">NFS</abbr> lands under the  Culture and Heritage Cooperation Authority (25 USC 32A). <a href=\"https://www.nps.gov/subjects/nagpra/index.htm\">https://www.nps.gov/subjects/nagpra/index.htm</a>  \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Presidential Memorandum of Nov 5, 2009",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>Presidential Memorandum  to the heads of executive departments and agencies on Tribal Consultation. <u> </u><a href=\"https://obamawhitehouse.archives.gov/the-press-office/memorandum-tribal-consultation-signed-president\">https://obamawhitehouse.archives.gov/the-press-office/memorandum-Tribal-consultation-signed-president</a><u>   </u> \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Tribal Forest Protection Act of 2004 (TFPA)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The TFPA provides the  authority for a Tribe and the Forest Service to enter into an agreement or  contract to carry out a project to protect Indian forest land or rangeland that  meets certain criteria. <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/policy/tfpa/USDA_FSBriefing_paper_TFPA_040505.pdf\">https://www.fs.fed.us/spf/Tribalrelations/documents/policy/tfpa/USDA_FSBriefing_paper_TFPA_040505.pdf</a> \n  </p>\n",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Title 36, Code of Federal Regulations, Pt 219, (Planning  Rule)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>The Forest Service's  2012 Planning Rule provides direction for National Forest System (<abbr id=\"National Forest System\">NFS</abbr>) land  management planning. Section 219.4 of the rule requires opportunities for  public and Tribal participation and coordination throughout the planning  process. <a href=\"https://www.fs.usda.gov/detail/planningrule/home/?cid=stelprd3828310\">https://www.fs.usda.gov/detail/planningrule/home/?cid=stelprd3828310</a> \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Executive Order 13007, Indian Sacred Sites, 5/24/1996",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>This Executive Order directs  Federal land management agencies, to the extent permitted by law, and not  clearly inconsistent with essential agency functions, to accommodate access to  and use of Indian sacred sites, to avoid affecting the physical integrity of  such sites wherever possible, and, where appropriate, to maintain the  confidentiality of sacred sites.  <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/policy/executiveorders/EO13007_5_24_96.pdf\">https://www.fs.fed.us/spf/Tribalrelations/documents/policy/executiveorders/EO13007_5_24_96.pdf</a><u> </u> \n  </p>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Executive Order 13175, Consultation with Indian Tribal  Governments, 11/6/2000",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-laws-policy.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"laws and policy",
+                "landingpagecontent":"<p>This Executive Order directs Federal agencies to  establish regular and meaningful consultation and collaboration with Tribal  officials in the development of Federal policies that have Tribal implications  to strengthen the United States government-to-government relationships with  Indian Tribes.  <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/policy/executiveorders/EO13175_11_6_00.pdf\">https://www.fs.fed.us/spf/Tribalrelations/documents/policy/executiveorders/EO13175_11_6_00.pdf</a><u> </u></p>",
+                "sections":[
+
+                ]
             }
         ]
     },
     {
-        "category": "consultation guide",
-        "categorysubtitle": "consultation guide",
-        "categoryimage": "good-for-consultation-guide.png",
-        "data": [
+        "category":"sacred sites",
+        "categorysubtitle":"Sacred Sites",
+        "categoryimage":"good-for-sacred-sites.png",
+        "data":[
             {
-                "title": "Consultation Guide",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-consultation-guide.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "consultation guide",
-                "landingpagecontent": "<p>The Forest Service, like other Federal agencies, has a duty to consult and coordinate with Indian tribes on a government-to-government basis, as directed in Executive Order 13175, Consultation and Coordination with Indian Tribal Governments.</p><ul> <li>When there is a &ldquo;substantial direct effect&rdquo; to one of more Tribes or ANCs from the proposed decision or action, consultation must be initiated.</li><li>When there are possible effects, consider the geographical extent of those effects and evaluate which Tribes or ANCs have cultural and historic connections to the lands. </li><li>When determining which Tribes or ANCs to consult with, check with inter-Tribal organizations or other agencies which may have conducted consultation on similar actions or activities in the past. The National Park Service <abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr> database may give an indication of which Tribes have an interest in a specific location.</li><li>Line Officers should engage personally with Tribal leaders.</li><li>Staff interactions are essential to set the stage for effective consultation and should be maintained and enhanced.</li><li>The staff or Unit responsible for planning the consultation may request technical assistance from the Forest Service Office of Tribal Relations in Washington, D.C. or from Tribal Relations Specialists.</li><li>Government-to-government consultation may only occur between Forest Service Line Officers and Tribal leaders who have authority to consult on behalf of their Tribe.</li><ul> <li>This direction is not intended to minimize the importance of staff-to-staff communication and collaboration. This section only indicates that staff may not serve as the Forest Service Consulting Official in government-to-government consultations.</li></ul> <li>Minimum Consultation Period: Widely applicable national issues must provide a consultation period of at least 120 days from the date the Indian tribe or Alaska Native Corporation likely received the information on which they are being invited to consult. Allow an additional 14 days for delivery time if the notification is by postal service.</li><li>Other actions (such as consultation on national issues that may affect only one or a few Indian Tribes or ANCs, or on regional or more local decisions) may require less time for consultation.</li></ul><p>Mediation <br>The Forest Service Line Officer with responsibilities for a particular decision and the Tribe&rsquo;s representative are encouraged to use AlterNative Dispute Resolution processes, including mediation, where a neutral third-party facilitates a mutually agreeable solution.<br>Documenting Consultation</p><ul> <li>Database entry: All consultation events must be entered into the USDA Tribal Consultation and Collaboration Database.</li><li>Record Maintenance: Each staff or Unit conducting consultations shall maintain a consultation record for each consultation.</li><li>Program Reviews: Consultation monitoring and evaluation of effectiveness must be incorporated, as appropriate, in program reviews. During program reviews, monitor and evaluate the results and effectiveness of consultation.</li></ul><p><strong>Compensation</strong></p><ul type=\"disc\"> <li>Agency officials are encouraged to facilitate Tribal participation in Agency decision-making through financial support and other means.</li><li>No legal requirement exists to compensate for consultation or other involvement in Forest Service activities:</li><ul type=\"circle\"> <li>The Forest Service may elect to provide compensation to Tribes or Tribal representatives for extraordinary situations and specialized expertise.</li></ul></ul><ul type=\"disc\"> <li>Guidance for Compensation:</li><ul type=\"circle\"> <li>Various authorities enable the Forest Servce to compensate Tribes:</li><ul type=\"square\"> <li>Grants</li><li>Contracts</li><li>Cooperative Agreements</li></ul> </ul></ul><p>For extraordinary consultation and specialized expertise, such as traditional knowledge, that could be incorporated into restoration efforts (FSM §1563.01 and FSH §1509.11):</p><ul type=\"disc\"> <li> <abbr id=\"National Historic Preservation Act\">NHPA</abbr> also authorizes Federal agencies to expend funds for historic preservation activities that includes working with Tribes.</li><li>The Forest Service is not required to compensate a Tribe, the Agency can take a number of actions to assist with Tribal participation. </li><li>The Forest Service may request the Tribe to provide specific information and documentation such as:</li></ul><ul type=\"disc\"> <ul type=\"circle\"> <li>Actual surveys and reports from the Tribe that would assist Agency management and responsibilities.</li><li>In this circumstance, the Tribe may be acting as a professional contractor or consultant providing work products or services that the Agency would normally compensate for.</li></ul></ul><p>Forest Service Tribal Relations Strategic Plan Guidance<br>The goals of the Forest Service Tribal Relations Strategic Plan match the goals in the USDA Forest Service Strategic Plan. The following framework for assessing goals and objectives can be helpful to consider when engaging in consultation efforts. </p><ul> <li>Goals - high-level goals are derived from the Forest Service mission and fiduciary responsibility to Tribes.</li><ul> <li>What are the key values we are trying to address?</li><li>What is the problem you are faced with?</li><li>Why are we addressing this topic?</li><li>What does success look like?</li></ul> <li>Objectives - actionable statements that focus on what must be accomplished to achieve the goals.</li><ul> <li>What are the most important actions and the order in which they are accomplished?</li><li>Who is the target of the actions?</li><li>Who is affected by the action?</li><li>Who is accountable?</li><li>Where is there overlap? Is there opportunity to double up on priority actions?</li><li>Where are the roadblocks?</li></ul> <li>Outcomes - provide the quantitative or qualitative measurable effect the program/actions will accomplish.</li><ul> <li>What are the real and lasting changes we want to produce?</li><li>What needs to be catalyzed or changed?</li><li>What do Forest Service employees most need?</li><li>What are we missing?</li></ul> <li>Focused Actions – targeted actions to achieve the outcomes.</li><ul> <li>Will directions and policy need to change?</li><li>Is the product within the purview of the Agency? The Department?</li></ul></ul>How do products accomplish the objectives or outcomes?",
-                "sections": []
+                "title":"Sacred Sites",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-sacred-sites.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"sacred sites",
+                "landingpagecontent":"<p align=\"center\"><em>. . . any specific, discrete, narrowly delineated location on  Federal land that is identified by an Indian Tribe, or Indian individual  determined to be an appropriately authoritative representative of an Indian  religion, as sacred by virtue of its established religious significance to, or  ceremonial use by, an Indian religion; provided that the Tribe or appropriately  authoritative representative of an Indian religion has informed the agency of  the existence of such a site.&rdquo;</em> </p>\n<p>Agencies are required  to, where appropriate, maintain the confidentiality of sacred  sites. Executive Order 13007 establishes that<strong> Indian Tribes and  appropriate representatives of AI/AN religions (not the agencies) identify  which locations are sacred sites </strong>under the Executive Order). Sacred  Sites do not need to have material cultural components; examples include  natural springs, rock shelters, landscapes, or even bodies of water.</p>\n",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"USDA FS Sacred Sites Policy",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-sacred-sites.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"sacred sites",
+                "landingpagecontent":"<ul> <li>Accommodate access to and ceremonial use of Indian sacred sites by Indian religious practitioners.</li><li>Avoid adversely affecting the physical integrity of such sacred sites.</li><li>Maintain the confidentiality of sacred sites where appropriate.</li><li>Implement procedures to execute these provisions.</li><li>Ensure reasonable notice is provided of proposed actions that may restrict future access to, ceremonial use of, or will adversely affect the physical integrity of sacred sites.</li></ul>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Sacred Sites as Spiritual Connections to the Landscape",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-sacred-sites.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"sacred sites",
+                "landingpagecontent":"<ul> <li>Spiritual connection between Tribal people and their ancestors (including all aspects of the natural world) is expressed through the existence and use of cultural resources or traditional ceremonial sites left in place and in context.</li><li>Can be:</li><ul> <li>Burial Places</li><li>Sacred areas</li><li>Historic Trails</li><li>Travel Corridors</li><li>Subsistence locations</li></ul></ul><ul> <li>A sacred site is not necessarily a place but may be a geographic feature connected to a creation story.</li><li>A sacred site is <strong>not</strong> necessarily a place where anyone goes.</li><ul> <li>Example: <abbr id=\"Arctic National Wildlife Refuge\">ANWR</abbr> (Arctic National Wildlife Refuge) contains caribou birthing grounds. Those grounds are sacred to most Athabascan people and they do not go there.</li></ul></ul><ul> <li>Knowledge of sites is often private and cannot be shared with non-Tribal members, or the public.</li></ul><ul> <li>It is important to understand the nature of private knowledge among indigenous communities.</li><li>Some things cannot be shared with outsiders without violating cultural customs and beliefs.</li></ul>",
+                "sections":[
+
+                ]
+            },
+            {
+                "title":"Sacred Sites and the National Historic Preservation Act (NHPA)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-sacred-sites.png",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"sacred sites",
+                "landingpagecontent":"<ul> <li>BASICS:  A Sacred Site might not be protected under the <abbr id=\"National Historic Preservation Act\">NHPA</abbr> if it does <strong>not</strong> have a material cultural component, such an archeological site or structure.</li><li> <abbr id=\"National Historic Preservation Act\">NHPA</abbr> is a federal law passed in 1966 that governs historic preservation policy of the federal government.</li><li>Created the Advisory Council on Historic Preservation (<abbr id=\"Advisory Council on Historic Preservation\">ACHP</abbr>), an independent agency of the United States government that oversees federal preservation efforts.</li><li> <abbr id=\"National Historic Preservation Act\">NHPA</abbr> and its regulations are the most important tools for protecting historic sites affected by projects undertaken, funded, or regulated by the federal government.</li><li>Section 106 of the  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> requires agencies to consider the impact of undertakings they carry out, fund, or regulate on historic properties and to give the ACHP the opportunity to comment on those undertakings. </li><li>Regulations established pursuant to §106, 36 CFR 800, are that federal agencies:</li><ul> <li>Make attempts to identify historic properties that might be impacted by their actions.</li><li>The attempts include seeking input from knowledgeable sources.</li><li>Make attempts to avoid, minimize or mitigate any impacts their actions may have on historic properties.</li><ul> <li>These attempts including seeking input from knowledgeable sources, including Tribes.</li></ul> <li>Consult with interested parties on how to avoid, minimize, or mitigate impacts to historic properties.</li><li>Consult with the appropriate federally recognized Indian Tribe(s) when Native American historic properties are involved.</li></ul></ul><ul> <li>These requirements are highly significant when it comes to preserving Native American historical sites. The requirement to identify historic properties makes it less probable that these resources will be unintentionally destroyed.</li><li>Section 106 of  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> – ensures that historic preservation is considered in federal project planning. State Historic Preservation Officers and Tribal Historic Preservation Officers, as well as Federal Preservation Officers, should all collaborate during the process. The Section 106 review process is used to determine a federal project&rsquo;s effect on historic properties.</li></ul><p><a href=\"https://www.achp.gov/sites/default/files/regulations/2017-02/regs-rev04.pdf\">Link to 36 CFR 800, from Advisory Council on Historic Preservation</a></p>",
+                "sections":[
+
+                ]
             }
         ]
     },
     {
-        "category": "what's my role",
-        "categorysubtitle": "what's my role",
-        "categoryimage": "good-for-consultation-guide.jpg",
-        "data": [
+        "category":"cultural and heritage cooperation authority (chca)",
+        "categorysubtitle":"CHCA",
+        "categoryimage":"good-for-CHCA-section.jpg",
+        "data":[
             {
-                "title": "What's My Role?",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "what's my role",
-                "landingpagecontent": "<p>The following is a general overview of the roles and responsibilities that will greatly enhance successful interactions and outcomes by all; this is followed by a list of specific roles as they pertain to Forest Service job title. <br>Guidable actions:</p><ul> <li>Apply the Forest Service mission in ways that fulfill the agency&rsquo;s trust responsibilities and treaty obligations.</li><li>Help protect Tribal reserved rights as they pertain to Forest Service lands and resources, as applied through policies, programs, and projects.</li><li>Consult early and often to ensure all topics are on the table and relationships are maintained.</li><li>Convene regularly scheduled interactions between Tribal and Forest Service unit leadership to maintain productive relationships and collaborative opportunities.</li><li>Develop personal relationships with Tribal partners that help build mutual understanding as well as social and political capital.</li><li>Support the aspirations of the United Nations Declaration on the Rights of Indigenous Peoples, especially the call for free, prior, and informed consent.</li><li>Develop and enhance bilateral agreements.</li></ul>",
-                "sections": []
+                "title":"Cultural and Heritage Cooperation Authority (CHCA)",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-CHCA-section.jpg",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"chca",
+                "landingpagecontent":"<p>The <abbr id=\"Culture and Heritage Cooperation Authority\">CHCA</abbr> provides legal authority to improve numerous matters of concern regarding relations between federally recognized Indian Tribes, the National Forest System (<abbr id=\"National Forest System\">NFS</abbr>) and the Forest Service Research and Development. The <abbr id=\"Culture and Heritage Cooperation Authority\">CHCA</abbr> outlines agency conduct as it pertains to:</p><ul> <ul> <li>Reburials of human remains and cultural items on <abbr id=\"National Forest System\">NFS</abbr> lands</li><li>Temporary closure for traditional and cultural purposes</li><li>Providing forest products free of charge for traditional and cultural purposes</li><li>A prohibition on disclosure of information pertaining to reburials, sites or resources of traditional and cultural importance</li><li>Protection of all reserved rights to use <abbr id=\"National Forest System\">NFS</abbr> lands or other public land.</li></ul></ul><p>For highlighted information from the guide see below, or if you would like to see the guide in its entirety it is available here: the <a href=\"https://www.fs.fed.us/spf/tribalrelations/documents/publications/tribal-cultural-heritage-cooperation-authority-guide.pdf\">Tribal Cultural and Heritage Cooperation Authority Technical Guide</a> (2.5mb PDF)</p>",
+                "sections":[
+
+                ]
             },
             {
-                "title": "Regional Foresters",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "what's my role",
-                "landingpagecontent": "<ol> <li>Fulfill, within the Forest Service's mission areas, the Government's trust responsibilities and treaty obligations.</li><li>Coordinate and collaborate with Tribes in the early development of policies and decisions that may have Tribal implications.</li><li>Establish and implement effective Tribal Relations Programs for their Units.</li><li>Develop effective, timely communication between the Forest Service Office of Tribal Relations in Washington, D.C., Regional Tribal Relations Program Managers, Research and Development (R&amp;D) Tribal Liaisons, and Forest Tribal Liaisons.</li><li>Designate employees to serve as a focal point for the Unit's contact between Tribes at the Region or Station level.</li><li>Ensure that Tribes with rights and interests that cross more than one Region, Forest, Station, or other Units have one primary point of contact between the Forest Service and the Tribe.</li><li>Ensure Tribal program management interests are represented in the decision-making process of the National and Regional Leadership teams.</li><li>Ensure that consultation is conducted with Tribes for Region or Station decisions and actions that may affect Tribes.</li><li>Ensure that the recommendations from the Report to the Secretary of Agriculture, USDA Policy and Procedures Review and Recommendations: Indian what's my role and similar recommendations are implemented efficiently, effectively, and thoroughly throughout their Region or Station.</li><li>Ensure appropriate repatriation of human remains, associated funerary objects, unassociated funerary objects, sacred objects, and objects of cultural patrimony from National Forests under their jurisdiction.</li><li>Support reburial of repatriated human remains and cultural items on National Forest System lands consistent with uses on the National Forest System land as determined necessary for management of the National Forest System.</li><li>Provide funding and training to Units in support of Tribal Relations work.</li></ol>",
-                "sections": []
+                "title":"Management Tools - Reburial",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-CHCA-section.jpg",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"chca",
+                "landingpagecontent":"<ul type=\"disc\"> <li>Placement of remains in a historic property, under the provisions of  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> and <abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr>. Both laws provide for additional security of the site and associated information.</li><li>When remains are known to have been removed from a specific site, evaluate, on a case-by-case basis. AlterNative locations should be considered if a reburial would cause adverse effect to known properties.</li><li>When remains are not reburied at the site of their original interment, consider an alterNative location at another historic property; evaluate reburial plans on a case-by-case basis.</li><li>During consultation, provide information to Indian Tribes, clans, and family members regarding appropriate reburial locations, including the location where the remains were removed. </li><ul type=\"circle\"> <li>It is important to determine the status of the reburial location in regard to the Sacred Sites Executive Order 13007, the Forest Service must depend on Indian Tribes to identify and designate sacred sites.</li></ul> <li>Redirect public use away from reburial sites, including those not located on a historical property. This may require landscape level consideration of potential land and resource management actions.</li><li>Restrict Permit Issuance – Deny or redirect permit for use of areas or materials that contain reburial sites.</li><li>During a National Forest and Grassland planning process, ensure that consideration is given to special areas identified by Indian Tribes.</li><ul type=\"circle\"> <li>Create planning information and direction that enable and protects areas suitable for reburial, as well as previous reburial sites.</li></ul></ul>",
+                "sections":[
+
+                ]
             },
             {
-                "title": "Regional Tribal Relations Program Managers",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "what's my role",
-                "landingpagecontent": "<ol> <li>Ensure that Tribal interests and rights are considered and integrated across program areas and that government-to-government relations between Tribes and Forest Service Administrative Units are conducted in compliance with applicable laws, Executive Orders, and Forest Service policy.</li><li>Collaborate with other Federal agencies, Tribes, and American Indian advocacy organizations to implement programs and projects and seek mutually beneficial opportunities.</li><li>Serve as the Region's primary source of advice and assistance on matters involving Tribal relations, including advising Line Officers and staff on responses to Tribal requests for use of National Forest System lands and resources.</li><li>Brief and coach Line Officers, Forest Tribal Liaisons, key staff, and appropriate specialists on effective communication skills and cultural knowledge required for effective government-to-government relationships between the Forest Service and Tribes and Tribal organizations. This may include:</li><ol> <li>Fulfill, within the Forest Service's mission areas, the Government's trust responsibilities and treaty obligations.</li><li>Protect sacred sites and archaeological, historical and cultural resources.</li><li>Accommodate Indian religious and spiritual values and practices to the maximum extent practicable, permitted by law, and not clearly inconsistent with Forest Service functions.</li><li>Respond to Tribal requests for reburial of human remains in coordination with the Heritage Resources Program Manager.</li><li>Explain off-reservation treaty rights that affect Forest Service administered land management.</li></ol> <li>Seek traditional knowledge that may be relevant to the management of natural and cultural resources. </li><li>Monitor Forest Service programs to ensure that Tribal governments are consulted when land and resource management plans and/or other actions could affect Tribal rights and interests.</li><li>Seek to reconcile different views and facilitate timely resolution of disputes involving Tribes and the Forest Service that cannot be resolved at the local level.</li><li>Coordinate and facilitate a Tribal Relations program of training at the Regional and local levels that include Indian law and policy, consultation, Federal-Tribal relations, sacred sites protection, and cultural awareness.</li><li>Collect and submit to the Director of the Forest Service Office of Tribal relations in Washington, D.C. and the U.S. Department of Agriculture, Office of Tribal Relations information that summarizes the issues and outcomes of consultations with Tribal Governments within their respective Regions or administrative Units, as requested by Forest Service Office of Tribal Relations in Washington, D.C.</li><li>Serve on the National Tribal Relations Team, led by the Director of the Forest Service Office of Tribal Relations, in Washington, D.C. to coordinate policy development, program reviews and improvement, and project support across the Agency.</li><li>Coordinate and provide Agency staff work necessary for processing requests by Indian tribes and lineal descendants for reburial of human remains and/or cultural items. Provide documentation, budget, and briefing materials necessary for management decisions and reporting. Initiate program and reburial activity reviews necessary to provide quality controls and Tribal relations feedback.</li><li>Conduct periodic reviews to ensure compliance with the Forest Service reburial policy pursuant to requirements of the Cultural and Heritage Cooperation Authority of 2008.</li></ol>",
-                "sections": []
-            },
-            {
-                "title": "Forest Supervisor Responsibilities",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "what's my role",
-                "landingpagecontent": "<ul> <li>Fulfill, within the Forest Service's mission areas, the Government's responsibilities and treaty obligations.</li><li>Coordinate and collaborate with Tribes in the early development of policies and decisions that may have Tribal implications.</li><li>Serve as the Consultation Official on the Unit. This requires being personally engaged in the consultation process with Tribes.</li><li>Identify a Forest Tribal Liaison to serve as the first point of contact with Tribal leaders and as the person who will generally initiate Agency contact with Tribes.</li><li>In partnership with Tribal officials, develop agreed-upon protocols for consultation on issues and decisions that may have a direct, substantial effect on Tribal lands, subsistence uses, treaty rights, sacred sites, or cultural resources or practices both on and off reservations.</li><li>Ensure that activities relating to Tribes are reported to the Regional Office, through the Regional Tribal Relations Program Manager, for inclusion in an annual end-of-year report to be delivered to the Forest Service Office of Tribal Relations in Washington, DC.</li></ul><p>Delegation</p><ul> <li>Line Officers should engage personally with Tribal leaders.</li><li>This direction is not intended to minimize the importance of staff-to-staff communication and collaboration. On the contrary, staff interactions are essential to set the stage for effective consultation and should be maintained and enhanced.</li><li>The staff or Unit responsible for planning the consultation may request technical assistance from the Forest Service Office of Tribal Relations in Washington, D.C. or from Tribal Relations Specialists.</li></ul><p>Line Officers Responsibilities for Reburial</p><ul> <li>Responsibility for authorizing reburials on <abbr id=\"National Forest System\">NFS</abbr> lands resides with the Regional Foresters. Regional Foresters may delegate that authority in writing to Forest Supervisors under their supervision.</li></ul><ul type=\"disc\"> <li>Timeframe: Ensure that requests for reburial are addressed in a timely manner.</li><li>Consultation: When authorizing reburials, consult with the lineal descendants or culturally affiliated process. This may include site protection and management protocols.</li><ul type=\"circle\"> <li>An understanding may take the form of correspondence rather than a formal MOU.</li><li>This agreement may include reburial of human remains and associated funerary objects (FSH §1509.13).</li></ul> <li>Notification: Inform the appropriate law enforcement agents of reburial activities in order to protect reburial sites through monitoring and surveillance activities.</li><li>Avoid Conflicting Uses: Identify areas where anticipated uses will not cause future impacts or physical harm to the site and, in consultation, a location that is consistent with Tribal cultural, spiritual, and religious requirements for reburial purposes.</li><li>Mitigation Measures: Develop and implement mitigation measures in consultation with Tribal governments, clans, and individuals to minimize or avoid adverse impacts to reburial sites that may be caused by particular land uses. Ensure the measures will be implemented for the long run</li><li>Coordination and Reporting: A critical first step is to ensure that all requests for reburial are reported and coordinated with the Regional Tribal Relations Program Manager, Regional Heritage Resources Program Manager and appropriate law enforcement personnel</li></ul>",
-                "sections": []
-            },
-            {
-                "title": "District Rangers",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "what's my role",
-                "landingpagecontent": "<ul> <li>Implement and maintain the Tribal Relations Program within their area of authority, including staffing.</li><li>Serve as the consultation official on the Unit when delegated that authority by the Forest Supervisor. This requires being personally engaged in the consultation process with Tribes.</li></ul><p>Delegation</p><ul> <li>Line Officers should engage personally with Tribal leaders.</li><li>This direction is not intended to minimize the importance of staff-to-staff communication and collaboration. On the contrary, staff interactions are essential to set the stage for effective consultation and should be maintained and enhanced.</li><li>The staff or Unit responsible for planning the consultation may request technical assistance from the Forest Service Office of Tribal Relations in Washington, D.C. or from Tribal Relations Specialists.</li></ul><p>Line Officers Responsibilities for Reburial</p><ul> <li>Responsibility for authorizing reburials on <abbr id=\"National Forest System\">NFS</abbr> lands resides with the Regional Foresters. Regional Foresters may delegate that authority, in writing, to Forest Supervisors under their supervision.</li></ul><ul type=\"disc\"> <li>Timeframe: Ensure that requests for reburial are addressed in a timely manner.</li><li>Consultation: When authorizing reburials, consult with the lineal descendants or culturally affiliated process. This may include site protection and management protocols.</li><ul type=\"circle\"> <li>An understanding may take the form of correspondence rather than a formal MOU.</li><li>This agreement may include reburial of human remains and associated funerary objects (FSH §1509.13).</li></ul> <li>Notification: Inform the appropriate law enforcement agents of reburial activities in order to protect reburial sites through monitoring and surveillance activities.</li><li>Avoid Conflicting Uses: Identify areas where anticipated uses will not cause future impacts or physical harm to the site and, in consultation, a location that is consistent with Tribal cultural, spiritual and religious requirements for reburial purposes.</li><li>Mitigation Measures: Develop and implement mitigation measures in consultation with Tribal governments, clans, and individuals to minimize or avoid adverse impacts to reburial sites that may be caused by particular land uses. Ensure the measures will be implemented for the long run</li><li>Coordination and Reporting: A critical first step is to ensure that all requests for reburial are reported and coordinated with the Regional Tribal Relations Program Manager, Regional Heritage Resources Program Manager and appropriate law enforcement personnel</li></ul>",
-                "sections": []
-            },
-            {
-                "title": "National Forest Tribal Liaisons",
-                "subtitle": "",
-                "highlight": "",
-                "mainimage": "good-for-sacred-sites.png",
-                "weblink": "https://www.fs.usda.gov",
-                "thiscategory": "what's my role",
-                "landingpagecontent": "<ol> <li>Support their Unit and, especially, their Line Officer's efforts regarding Tribal consultation, coordination and collaboration.</li><li>Serve as the Unit primary staff point of contact for developing and maintaining relationships with Tribes.</li><li>Maintain the Unit's input to the USDA Tribal Consultation and Collaboration Database.</li><li>Serve as the Unit subject matter expert in providing information, training and assistance to personnel across the Unit regarding working with American Indian and/or Alaska Native tribes and Alaska Native Corporations</li><li>Assist the Regional Tribal Relations Program Manager in their responsibilities and activities, including end-of-year reporting.</li></ol>",
-                "sections": []
+                "title":"Confidentiality",
+                "subtitle":"",
+                "highlight":"",
+                "mainimage":"good-for-CHCA-section.jpg",
+                "weblink":"https://www.fs.usda.gov",
+                "thiscategory":"chca",
+                "landingpagecontent":"<ul> <li>Forest Service personnel should ensure that information about reburial locations is kept confidential by consulting person –to – person. This will ensure that the appropriate Forest Service staff and Indian Tribe or descendent community retains documentation.</li><ul> <li>Restriction of access to information will help keep reburial locations protected from future development or disturbance.</li></ul></ul><p>The Agency must provide for the long-term security of the confidential information and ensure that the locational information is available during planning efforts.</p><ul> <li>Federal regulations (36 CFR §800 and 54 USC §300101) require agencies to consult with various parties (i.e. State and Tribal Historic Preservation Officers{SHPO/THPOs}, Indian Tribes, or Native Hawaiian organizations and others), to determine if the proposed project may have an effect on a property listed on or eligible for listing on the National Register of Historic Places and, if so, what measures might be appropriate to minimize or mitigate that effect.</li><ul> <li>Many reburials will have very little or no effect on historic properties when they avoid the salient features of known historic properties, do not require physical site preparation and avoid extensive ground disturbance.</li><li>Such cases usually conclude with an official  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> determination of &ldquo;no effect&rdquo; or &ldquo;no historic properties affected&rdquo; or &ldquo;no adverse effect&rdquo; (36 CFR 800.4(d) and 800.5).</li></ul> <li>Applying <abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr>,  <abbr id=\"National Historic Preservation Act\">NHPA</abbr> and <abbr id=\"Culture and Heritage Cooperation Authority\">CHCA</abbr>:</li><ul> <li>Tribal governments and the Forest Service should have meaningful, government – to – government, discussion to determine:</li><ul> <li>Mutually acceptable solutions to protect and manage reburial sites</li><li>How Tribal government organizations will be involved in protecting and managing their reburial sties.</li><li>What framework will be used for future collaborative efforts, with special emphasis on how to incorporate Tribally authorized members to help protect reburial sites.</li></ul> <li>Native American and Alaska Native concerns expressed most often during consultation or through personal testimony include:</li><ul> <li>Reburied remains may be disturbed in the future.</li><li>Forest Service staff may interfere with Tribal spiritual practices.</li></ul> <li>Reburial of culturally unidentifiable human remains should be conducted with sensitivity and in a traditionally appropriate manner.</li></ul></ul><ul> <li><u>Native American Graves Protection and Repatriation Act (<abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr>)</u>, is a federal law passed in 1990. It provides a process for museums and federal agencies to resolve possessory rights to certain Native American cultural items – human remains, funerary objects, sacred objects, or objects of cultural patrimony – to lineal descendants and cultural affiliated Indian Tribes and Native Hawaiian organizations.</li><ul> <li><abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr> <u>does not</u> explicitly address reburial of Native American human remains repatriated by museums and federal agencies subject to <abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr>.</li><li><abbr id=\"Native American Graves Protection and Repatriation Act\">NAGPRA</abbr> provides for Indian tribes to take possession of the remains but does not establish the authority to rebury them on <abbr id=\"National Forest System\">NFS</abbr> lands.</li></ul></ul><ul> <li> <u>National Historic Preservation ACT ( <abbr id=\"National Historic Preservation Act\">NHPA</abbr>) </u>was passed in 1966 and substantially amended in 1980 and 1992.  THE  <abbr id=\"National Historic Preservation Act\">NHPA</abbr>, requires all federal agencies to consider the effects of their projects and programs on historic properties and provides the structure and direction for all federal management of important cultural resources.</li><li>Archaeological Resources Protection Act (<abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr>) – passed in 1979, <abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr> recognizes archaeological resources as an irreplaceable part of America&rsquo;s heritage and are increasingly endangered because of the escalating commercial value of a small portion of contents of archeological sites.</li><ul> <li><abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr> prohibits unauthorized excavation on Federal and Indian lands, which adds a layer of protection to the repatriated and reburied items.</li><li><abbr id=\"Archaeological Resources Protection Act\">ARPA</abbr> establishes standards for permissible excavation, prescribes civil and criminal penalties, requires agencies to identify archeological sites and encourages cooperation between Federal agencies and private individuals.</li></ul></ul>",
+                "sections":[
+
+                ]
             }
         ]
     }

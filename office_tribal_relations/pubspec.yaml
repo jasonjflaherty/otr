@@ -35,6 +35,7 @@ dependencies:
   webview_flutter: ^2.0.10
   expandable: ^5.0.1
   readmore: ^2.1.0
+  recase: ^4.0.0
 
 dev_dependencies:
   flutter_test:

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:recase/recase.dart';
 import '../model/otrpages_factory.dart';
 import '../widgets/otrAppBar.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -54,155 +55,274 @@ class DetailScreen extends StatelessWidget {
     return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints viewportConstraints) {
       return SafeArea(
-        child: Scaffold(
-          //appBar:
-          //   otrAppBar("", Colors.white, Colors.grey[700], appLogo, context),
-          body: Container(
-            color: Colors.white,
-            child: SingleChildScrollView(
-              child: ConstrainedBox(
-                constraints: BoxConstraints(
-                  minHeight: viewportConstraints.maxHeight,
+          child: Scaffold(
+        //appBar:
+        //   otrAppBar("", Colors.white, Colors.grey[700], appLogo, context),
+        body: CustomScrollView(slivers: <Widget>[
+          SliverAppBar(
+            backgroundColor: Colors.white,
+            expandedHeight: MediaQuery.of(context).size.height / 3,
+            flexibleSpace: Stack(
+              children: <Widget>[
+                Image.asset(
+                  "assets/images/${mainimage}",
+                  fit: BoxFit.fitWidth,
+                  width: MediaQuery.of(context).size.width,
+                  semanticLabel: "background image for decoration",
                 ),
-                child: Column(
-                  children: <Widget>[
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: <Widget>[
-                        Image.asset(
-                          "assets/images/$mainimage",
-                          fit: BoxFit.fitWidth,
-                          height: 200,
-                          semanticLabel: "background image for decoration",
-                        ),
+                Container(
+                  padding: const EdgeInsets.all(0),
+                  alignment: Alignment.bottomCenter,
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(20),
+                        topRight: Radius.circular(20),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                            color: Colors.black54,
+                            blurRadius: 20,
+                            spreadRadius: 0,
+                            offset: Offset(0, -25)),
                       ],
                     ),
-                    Container(
-                      //transform: Matrix4.translationValues(0.0, -100.0, 0.0),
-                      alignment: Alignment(-1.0, -1.0),
-                      child: Column(children: <Widget>[
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
-                          child: Container(
-                            //color: Color.fromRGBO(0, 0, 0, .5),
-                            padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
-                            child: Align(
-                              alignment: Alignment.centerLeft,
-                              child: GFTypography(
-                                text: thiscategory.toUpperCase(),
-                                type: GFTypographyType.typo1,
-                                showDivider: false,
-                              ),
-                            ),
+                    width: MediaQuery.of(context).size.width,
+                    //CHCA needs to be all uppercase
+                    child: thiscategory.trim() == "chca"
+                        ? Text(
+                            thiscategory.trim().toUpperCase(),
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 25,
+                                fontWeight: FontWeight.bold),
+                            textAlign: TextAlign.center,
+                          )
+                        : Text(
+                            thiscategory.trim().titleCase,
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 25,
+                                fontWeight: FontWeight.bold),
+                            textAlign: TextAlign.center,
                           ),
-                        ),
-                      ]),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(10),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          Padding(
-                            padding: EdgeInsets.only(top: 0.0, bottom: 0),
-                            child: Align(
-                              alignment: Alignment.centerLeft,
-                              child: GFTypography(
-                                text: title.toUpperCase(),
-                                type: GFTypographyType.typo2,
-                                textColor: Colors.grey[700],
-                                showDivider: false,
-                              ),
-                            ),
-                          ),
-                          //check if highlight has text.
-                          Visibility(
-                            visible: ishighlightvisible,
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(0, 0, 0, 15),
-                              child: Align(
-                                alignment: Alignment.centerLeft,
-                                child: GFTypography(
-                                  text: highlight,
-                                  type: GFTypographyType.typo2,
-                                  textColor: Colors.grey[600],
-                                  showDivider: false,
-                                ),
-                              ),
-                            ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                            child: Html(
-                              data: """ ${landingpagecontent} """,
-                              style: {
-                                "p": Style(fontSize: FontSize.xLarge),
-                                "li": Style(fontSize: FontSize.xLarge),
-                              },
-                              customRender: {
-                                "abbr": (RenderContext context, Widget child) {
-                                  return GestureDetector(
-                                    onTap: () {
-                                      Fluttertoast.showToast(
-                                          msg: context.tree.element?.id ?? '',
-                                          toastLength: Toast.LENGTH_LONG,
-                                          gravity: ToastGravity.TOP,
-                                          timeInSecForIosWeb: 3,
-                                          backgroundColor: Colors.brown,
-                                          textColor: Colors.white,
-                                          fontSize: 16.0);
-                                    },
-                                    child: Text(
-                                      context.tree.element?.text ?? '',
-                                      style: TextStyle(
-                                        fontSize: 21, //this is xLarge
-                                        height: 1.2,
-                                        color: Colors.black,
-                                        decoration: TextDecoration.underline,
-                                      ),
-                                    ),
-                                  );
-                                },
-                              },
-                              tagsList: Html.tags..addAll(["abbr"]),
-                              onLinkTap:
-                                  (link, renderContext, map, element) async {
-                                if (link != null && link.isNotEmpty) {
-                                  await launch(link);
-                                } else {
-                                  Fluttertoast.showToast(
-                                    msg:
-                                        "Sorry, this link is not working. Please contact the Office of Tribal Relations for more information.",
-                                    toastLength: Toast.LENGTH_LONG,
-                                    gravity: ToastGravity.CENTER,
-                                    timeInSecForIosWeb: 3,
-                                    backgroundColor: Colors.deepOrange[900],
-                                    textColor: Colors.white,
-                                    fontSize: 16.0,
-                                  );
-                                }
-                              },
-                            ),
-                          ),
-                          //check if section has data
-                          Visibility(
-                            visible: issectionvisible,
-                            child: Container(
-                              child: _buildSectionList(sections, context),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
+              ],
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
+              child: Html(
+                data: """ ${landingpagecontent} """,
+                style: {
+                  "p": Style(fontSize: FontSize.xLarge),
+                  "li": Style(fontSize: FontSize.xLarge),
+                },
+                customRender: {
+                  "abbr": (RenderContext context, Widget child) {
+                    return GestureDetector(
+                      onTap: () {
+                        Fluttertoast.showToast(
+                            msg: context.tree.element?.id ?? '',
+                            toastLength: Toast.LENGTH_LONG,
+                            gravity: ToastGravity.TOP,
+                            timeInSecForIosWeb: 3,
+                            backgroundColor: Colors.brown,
+                            textColor: Colors.white,
+                            fontSize: 16.0);
+                      },
+                      child: Text(
+                        context.tree.element?.text ?? '',
+                        style: TextStyle(
+                          fontSize: 21, //this is xLarge
+                          height: 1.2,
+                          color: Colors.black,
+                          decoration: TextDecoration.underline,
+                        ),
+                      ),
+                    );
+                  },
+                },
+                tagsList: Html.tags..addAll(["abbr"]),
+                onLinkTap: (link, renderContext, map, element) async {
+                  if (link != null && link.isNotEmpty) {
+                    await launch(link);
+                  } else {
+                    Fluttertoast.showToast(
+                      msg:
+                          "Sorry, this link is not working. Please contact the Office of Tribal Relations for more information.",
+                      toastLength: Toast.LENGTH_LONG,
+                      gravity: ToastGravity.CENTER,
+                      timeInSecForIosWeb: 3,
+                      backgroundColor: Colors.deepOrange[900],
+                      textColor: Colors.white,
+                      fontSize: 16.0,
+                    );
+                  }
+                },
               ),
             ),
           ),
-        ),
-      );
+
+          // Container(
+          //   color: Colors.white,
+          //   child: SingleChildScrollView(
+          //     child: ConstrainedBox(
+          //       constraints: BoxConstraints(
+          //         minHeight: viewportConstraints.maxHeight,
+          //       ),
+          //       child: Column(
+          //         children: <Widget>[
+          //           Container(
+          //             height: MediaQuery.of(context).size.height / 3,
+          //             child: Stack(
+          //               children: <Widget>[
+          //                 Image.asset(
+          //                   "assets/images/${mainimage}",
+          //                   fit: BoxFit.fitWidth,
+          //                   width: MediaQuery.of(context).size.width,
+          //                   semanticLabel: "background image for decoration",
+          //                 ),
+          //                 Container(
+          //                   padding: const EdgeInsets.all(0),
+          //                   alignment: Alignment.bottomCenter,
+          //                   child: Container(
+          //                     padding: const EdgeInsets.all(10),
+          //                     decoration: BoxDecoration(
+          //                       color: Colors.white,
+          //                       borderRadius: BorderRadius.only(
+          //                         topLeft: Radius.circular(20),
+          //                         topRight: Radius.circular(20),
+          //                       ),
+          //                       boxShadow: [
+          //                         BoxShadow(
+          //                             color: Colors.black54,
+          //                             blurRadius: 20,
+          //                             spreadRadius: 0,
+          //                             offset: Offset(0, -25)),
+          //                       ],
+          //                     ),
+          //                     width: MediaQuery.of(context).size.width,
+          //                     //CHCA needs to be all uppercase
+          //                     child: thiscategory.trim() == "chca"
+          //                         ? Text(
+          //                             thiscategory.trim().toUpperCase(),
+          //                             style: TextStyle(
+          //                                 color: Colors.black,
+          //                                 fontSize: 25,
+          //                                 fontWeight: FontWeight.bold),
+          //                             textAlign: TextAlign.center,
+          //                           )
+          //                         : Text(
+          //                             thiscategory.trim().titleCase,
+          //                             style: TextStyle(
+          //                                 color: Colors.black,
+          //                                 fontSize: 25,
+          //                                 fontWeight: FontWeight.bold),
+          //                             textAlign: TextAlign.center,
+          //                           ),
+          //                   ),
+          //                 ),
+          //               ],
+          //             ),
+          //           ),
+          //           Padding(
+          //             padding: EdgeInsets.all(10),
+          //             child: Column(
+          //               crossAxisAlignment: CrossAxisAlignment.center,
+          //               mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //               mainAxisSize: MainAxisSize.min,
+          //               children: <Widget>[
+          //                 //check if highlight has text.
+          //                 Visibility(
+          //                   visible: ishighlightvisible,
+          //                   child: Padding(
+          //                     padding: EdgeInsets.fromLTRB(0, 0, 0, 15),
+          //                     child: Align(
+          //                       alignment: Alignment.centerLeft,
+          //                       child: GFTypography(
+          //                         text: highlight,
+          //                         type: GFTypographyType.typo2,
+          //                         textColor: Colors.grey[600],
+          //                         showDivider: false,
+          //                       ),
+          //                     ),
+          //                   ),
+          //                 ),
+          //                 Padding(
+          //                   padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
+          //                   child: Html(
+          //                     data: """ ${landingpagecontent} """,
+          //                     style: {
+          //                       "p": Style(fontSize: FontSize.xLarge),
+          //                       "li": Style(fontSize: FontSize.xLarge),
+          //                     },
+          //                     customRender: {
+          //                       "abbr": (RenderContext context, Widget child) {
+          //                         return GestureDetector(
+          //                           onTap: () {
+          //                             Fluttertoast.showToast(
+          //                                 msg: context.tree.element?.id ?? '',
+          //                                 toastLength: Toast.LENGTH_LONG,
+          //                                 gravity: ToastGravity.TOP,
+          //                                 timeInSecForIosWeb: 3,
+          //                                 backgroundColor: Colors.brown,
+          //                                 textColor: Colors.white,
+          //                                 fontSize: 16.0);
+          //                           },
+          //                           child: Text(
+          //                             context.tree.element?.text ?? '',
+          //                             style: TextStyle(
+          //                               fontSize: 21, //this is xLarge
+          //                               height: 1.2,
+          //                               color: Colors.black,
+          //                               decoration: TextDecoration.underline,
+          //                             ),
+          //                           ),
+          //                         );
+          //                       },
+          //                     },
+          //                     tagsList: Html.tags..addAll(["abbr"]),
+          //                     onLinkTap:
+          //                         (link, renderContext, map, element) async {
+          //                       if (link != null && link.isNotEmpty) {
+          //                         await launch(link);
+          //                       } else {
+          //                         Fluttertoast.showToast(
+          //                           msg:
+          //                               "Sorry, this link is not working. Please contact the Office of Tribal Relations for more information.",
+          //                           toastLength: Toast.LENGTH_LONG,
+          //                           gravity: ToastGravity.CENTER,
+          //                           timeInSecForIosWeb: 3,
+          //                           backgroundColor: Colors.deepOrange[900],
+          //                           textColor: Colors.white,
+          //                           fontSize: 16.0,
+          //                         );
+          //                       }
+          //                     },
+          //                   ),
+          //                 ),
+          //                 //check if section has data
+          //                 Visibility(
+          //                   visible: issectionvisible,
+          //                   child: Container(
+          //                     child: _buildSectionList(sections, context),
+          //                   ),
+          //                 ),
+          //               ],
+          //             ),
+          //           ),
+          //         ],
+          //       ),
+          //     ),
+          //   ),
+          // ),
+        ]),
+      ));
     });
   }
 }
