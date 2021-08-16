@@ -15,6 +15,7 @@ class OtrHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Office of Tribal Relations (OTR)',
+      theme: new ThemeData(scaffoldBackgroundColor: const Color(0xFFFFFFFF)),
       home: OtrHomeScreen(),
     );
   }
