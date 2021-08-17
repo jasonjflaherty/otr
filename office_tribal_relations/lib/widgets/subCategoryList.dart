@@ -20,7 +20,7 @@ class SubCategoryList extends StatelessWidget {
           slivers: <Widget>[
             SliverAppBar(
               backgroundColor: Colors.white,
-              expandedHeight: MediaQuery.of(context).size.height / 3,
+              expandedHeight: MediaQuery.of(context).size.height / 2.5,
               flexibleSpace: Stack(
                 children: <Widget>[
                   Image.asset(
@@ -30,7 +30,7 @@ class SubCategoryList extends StatelessWidget {
                     semanticLabel: "background image for decoration",
                   ),
                   Container(
-                    padding: const EdgeInsets.all(0),
+                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                     alignment: Alignment.bottomCenter,
                     child: Container(
                       padding: const EdgeInsets.all(10),
@@ -51,7 +51,7 @@ class SubCategoryList extends StatelessWidget {
                       width: MediaQuery.of(context).size.width,
                       //CHCA needs to be all uppercase
                       child: otrdata.data[0].thiscategory.trim() == "chca"
-                          ? Text(
+                          ? SelectableText(
                               otrdata.data[0].thiscategory.trim().toUpperCase(),
                               style: TextStyle(
                                   color: Colors.black,
@@ -59,7 +59,7 @@ class SubCategoryList extends StatelessWidget {
                                   fontWeight: FontWeight.bold),
                               textAlign: TextAlign.center,
                             )
-                          : Text(
+                          : SelectableText(
                               otrdata.data[0].thiscategory.trim().titleCase,
                               style: TextStyle(
                                   color: Colors.black,
@@ -71,6 +71,50 @@ class SubCategoryList extends StatelessWidget {
                   ),
                 ],
               ),
+            ),
+            SliverToBoxAdapter(
+              child: otrdata.categorycontent.isNotEmpty
+                  ? Container(
+                      padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
+                      child: Html(
+                        data: """ ${otrdata.categorycontent} """,
+                        style: {
+                          "p": Style(
+                              fontSize: FontSize.large,
+                              lineHeight: LineHeight.em(1.2)),
+                          "li": Style(
+                              fontSize: FontSize.large,
+                              margin: EdgeInsets.fromLTRB(0, 0, 0, 5),
+                              lineHeight: LineHeight.em(1.2)),
+                        },
+                        customRender: {
+                          "abbr": (RenderContext context, Widget child) {
+                            return GestureDetector(
+                              onTap: () {
+                                Fluttertoast.showToast(
+                                    msg: context.tree.element?.id ?? '',
+                                    toastLength: Toast.LENGTH_LONG,
+                                    gravity: ToastGravity.TOP,
+                                    timeInSecForIosWeb: 3,
+                                    backgroundColor: Colors.brown,
+                                    textColor: Colors.white,
+                                    fontSize: 15.75);
+                              },
+                              child: SelectableText(
+                                context.tree.element?.text ?? '',
+                                style: TextStyle(
+                                  fontSize: 15.75, //this is large
+                                  height: 1.2,
+                                  color: Colors.black,
+                                  decoration: TextDecoration.underline,
+                                ),
+                              ),
+                            );
+                          },
+                        },
+                      ),
+                    )
+                  : Container(height: 0),
             ),
             SliverList(
               delegate: SliverChildBuilderDelegate(
@@ -101,10 +145,9 @@ class SubCategoryList extends StatelessWidget {
                 data: """ ${items.landpagecontent} """,
                 style: {
                   "p": Style(
-                      fontSize: FontSize.xLarge,
-                      lineHeight: LineHeight.em(1.2)),
+                      fontSize: FontSize.large, lineHeight: LineHeight.em(1.2)),
                   "li": Style(
-                      fontSize: FontSize.xLarge,
+                      fontSize: FontSize.large,
                       margin: EdgeInsets.fromLTRB(0, 0, 0, 5),
                       lineHeight: LineHeight.em(1.2)),
                 },
@@ -119,12 +162,12 @@ class SubCategoryList extends StatelessWidget {
                             timeInSecForIosWeb: 3,
                             backgroundColor: Colors.brown,
                             textColor: Colors.white,
-                            fontSize: 16.0);
+                            fontSize: 15.75);
                       },
                       child: Text(
                         context.tree.element?.text ?? '',
                         style: TextStyle(
-                          fontSize: 21, //this is xLarge
+                          fontSize: 15.75, //this is large
                           height: 1.2,
                           color: Colors.black,
                           decoration: TextDecoration.underline,
@@ -133,7 +176,6 @@ class SubCategoryList extends StatelessWidget {
                     );
                   },
                 },
-                tagsList: Html.tags..addAll(["abbr"]),
               ),
             ),
           ],
