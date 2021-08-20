@@ -99,9 +99,9 @@ class CategoryListButtons extends StatelessWidget {
                     fontSize: 18,
                     height: 1.2,
                   ),
-                  trimLength: 175,
+                  trimLines: 5,
                   colorClickableText: Colors.blue,
-                  trimMode: TrimMode.Length,
+                  trimMode: TrimMode.Line,
                   trimCollapsedText: 'Read More',
                   trimExpandedText: 'Show Less',
                   moreStyle: TextStyle(
@@ -151,32 +151,32 @@ class CategoryListButtons extends StatelessWidget {
           child: GFButton(
             fullWidthButton: true,
             padding: EdgeInsets.all(5),
-            child: SelectableText(
+            child: Text(
               '${(values[index].categorysubtitle)}',
               textAlign: TextAlign.center,
             ),
             color: _colors[index],
             onPressed: () {
               //need to check if this category has one or more than one child...
-              if (values[index].data.length > 1) {
-                //more than one so send to subcategories screen to allow user to select secondary selection
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => SubCategoryList(),
-                    settings: RouteSettings(arguments: values[index]),
-                  ),
-                );
-              } else {
-                //there are less than 1 titles here, so just send it to the detailscreen
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailScreen(),
-                    settings: RouteSettings(arguments: values[index].data),
-                  ),
-                );
-              }
+              //if (values[index].data.length > 1) {
+              //more than one so send to subcategories screen to allow user to select secondary selection
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => SubCategoryList(),
+                  settings: RouteSettings(arguments: values[index]),
+                ),
+              );
+              // } else {
+              //   //there are less than 1 titles here, so just send it to the detailscreen
+              //   Navigator.push(
+              //     context,
+              //     MaterialPageRoute(
+              //       builder: (context) => DetailScreen(),
+              //       settings: RouteSettings(arguments: values[index].data),
+              //     ),
+              //   );
+              // }
             },
           ),
         );

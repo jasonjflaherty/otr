@@ -24,7 +24,7 @@ class SubCategoryList extends StatelessWidget {
               flexibleSpace: Stack(
                 children: <Widget>[
                   Image.asset(
-                    "assets/images/${otrdata.data[0].mainimage}",
+                    "assets/images/${otrdata.categoryimage}",
                     fit: BoxFit.fitWidth,
                     width: MediaQuery.of(context).size.width,
                     semanticLabel: "background image for decoration",
@@ -50,9 +50,9 @@ class SubCategoryList extends StatelessWidget {
                       ),
                       width: MediaQuery.of(context).size.width,
                       //CHCA needs to be all uppercase
-                      child: otrdata.data[0].thiscategory.trim() == "chca"
+                      child: otrdata.categorysubtitle.trim() == "chca"
                           ? SelectableText(
-                              otrdata.data[0].thiscategory.trim().toUpperCase(),
+                              otrdata.categorysubtitle.trim().toUpperCase(),
                               style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 25,
@@ -60,7 +60,7 @@ class SubCategoryList extends StatelessWidget {
                               textAlign: TextAlign.center,
                             )
                           : SelectableText(
-                              otrdata.data[0].thiscategory.trim().titleCase,
+                              otrdata.categorysubtitle.trim().titleCase,
                               style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 25,
@@ -119,7 +119,9 @@ class SubCategoryList extends StatelessWidget {
             SliverList(
               delegate: SliverChildBuilderDelegate(
                 (BuildContext context, int index) {
-                  return _buildOTRDataList(otrdata.data[index]);
+                  return otrdata.data.isNotEmpty
+                      ? _buildOTRDataList(otrdata.data[index])
+                      : Text("");
                 },
                 childCount: otrdata.data.length,
               ),
