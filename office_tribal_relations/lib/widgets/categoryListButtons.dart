@@ -96,7 +96,7 @@ class CategoryListButtons extends StatelessWidget {
                   "The U.S. Forest Service has a unique legal and fiduciary trust responsibility to serve Tribal Nations outlined in law, policy, and regulations. Tribal relations is the responsibility of every Forest Service employee. The foundation for excellence in Tribal relations is in place through the Forest Service Manual and Handbook direction, top-level leadership orientation, and the skill and positive attitude of line officers and other personnel throughout the agency. The Forest Service now is challenged to expand its level of excellence, to be recognized by Tribes, other Federal agencies, members of Congress, and the Courts as the best among our Federal peers in fostering and enhancing Federal – Tribal relationships in the spirit of helpfulness and partnership. Tribal relations personnel are available to provide advice and assistance in this endeavor. Striving for outstanding public service is part of our organizational culture, and by increasing the diversity of our workforce, we are better meeting the needs of the people we serve.",
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 18,
+                    fontSize: 15.75,
                     height: 1.2,
                   ),
                   trimLines: 5,
@@ -105,7 +105,7 @@ class CategoryListButtons extends StatelessWidget {
                   trimCollapsedText: 'Read More',
                   trimExpandedText: 'Show Less',
                   moreStyle: TextStyle(
-                      fontSize: 16,
+                      fontSize: 15.75,
                       fontWeight: FontWeight.bold,
                       color: Colors.blue),
                 ),
