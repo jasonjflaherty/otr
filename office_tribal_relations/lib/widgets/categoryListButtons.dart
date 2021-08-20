@@ -112,6 +112,8 @@ class CategoryListButtons extends StatelessWidget {
               ),
             ),
             SliverList(delegate: SliverChildListDelegate([futureBuilder])),
+            //this is just space at the bottom of the button grid
+            SliverToBoxAdapter(child: Container(height: 50))
           ],
         ),
       ),
