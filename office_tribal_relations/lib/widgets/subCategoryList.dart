@@ -40,7 +40,7 @@ class SubCategoryListState extends State<SubCategoryList> {
           slivers: <Widget>[
             SliverAppBar(
               backgroundColor: Colors.white,
-              expandedHeight: MediaQuery.of(context).size.height / 2.5,
+              expandedHeight: MediaQuery.of(context).size.height / 3,
               flexibleSpace: Stack(
                 children: <Widget>[
                   Image.asset(
